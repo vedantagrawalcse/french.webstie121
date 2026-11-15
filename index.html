@@ -17,7 +17,7 @@ nav{position:fixed;z-index:40;top:0;left:0;width:100%;padding:20px 5vw;display:f
 .hero-copy{position:relative;z-index:2;padding:100px 20px 60px;max-width:1100px}.eyebrow{font:10px 'DM Mono';letter-spacing:.34em;text-transform:uppercase;color:var(--gold)}h1{font:clamp(55px,10vw,132px)/.9 'Playfair Display';letter-spacing:-.06em;margin:28px 0 24px;text-shadow:0 10px 50px #000}.hero h1 em{font-weight:500;color:#f3c68f}.hero-copy p{font-size:14px;line-height:1.9;max-width:590px;margin:auto;color:#e0e1e2}.cta{display:inline-flex;align-items:center;gap:18px;margin-top:34px;padding:16px 22px;background:var(--gold);color:#10141a;font:11px 'DM Mono';letter-spacing:.14em;text-transform:uppercase;box-shadow:0 12px 50px #e4a34a35;transition:.3s}.cta:hover{transform:translateY(-5px);box-shadow:0 20px 60px #e4a34a55}.hero-index{position:absolute;z-index:3;bottom:36px;left:5vw;font:10px 'DM Mono';letter-spacing:.2em;color:#d2d4d7}.hero-scroll{position:absolute;z-index:3;bottom:32px;right:5vw;font:10px 'DM Mono';letter-spacing:.2em;color:#d2d4d7}
 .flag{height:4px;background:linear-gradient(90deg,#e99c43 0 33%,#f2f0e9 33% 66%,#6489c4 66%)}
 .chapter{position:relative;min-height:100vh;display:flex;align-items:center;padding:130px 7vw;overflow:hidden;isolation:isolate}.chapter-bg{position:absolute;z-index:-2;inset:-7%;background-position:center;background-size:cover;transform:translate3d(0,var(--parallax,0),0) scale(1.08);transition:transform .15s linear}.chapter:before{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#070b12ed 0%,#070b12bf 48%,#070b1250 100%),linear-gradient(0deg,#080d14 0%,transparent 35%,#080d1460 100%)}.chapter:after{content:"";position:absolute;z-index:-1;inset:0;background:radial-gradient(ellipse at 75% 45%,transparent 0%,#080d1445 70%);pointer-events:none}
-.history .chapter-bg{background-image:url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2200&q=90');background-position:center 48%}
+.history .chapter-bg{background-image:url('https://www.pelago.com/img/products/IN-India/stroll-through-the-french-quarters-of-pondicherry/96456462-4fdd-4889-97f6-e84ff421c893_stroll-through-the-french-quarters-of-pondicherry-xlarge.webp');background-position:center 48%}
 .culture .chapter-bg{background-image:url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=2200&q=90')}
 .defence .chapter-bg{background-image:url('https://images.unsplash.com/photo-1474302770737-173ee21bab63?auto=format&fit=crop&w=2200&q=90');background-position:center 40%}
 .future .chapter-bg{background-image:url('https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=2200&q=90')}
@@ -66,7 +66,7 @@ nav{background:linear-gradient(#171311ed,transparent);border-bottom:1px solid #f
 .flag{background:linear-gradient(90deg,#e99c43 0 33%,#f2f0e9 33% 66%,#6489c4 66%)}
 .chapter:before{background:linear-gradient(90deg,#140e0bea 0%,#140e0bc9 47%,#140e0b48 100%),linear-gradient(0deg,#171311 0%,transparent 35%,#17131160 100%)}
 .chapter:after{background:radial-gradient(ellipse at 75% 45%,transparent 0%,#17131148 70%)}
-.history .chapter-bg{background-image:url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2200&q=90')}
+.history .chapter-bg{background-image:url('https://www.pelago.com/img/products/IN-India/stroll-through-the-french-quarters-of-pondicherry/96456462-4fdd-4889-97f6-e84ff421c893_stroll-through-the-french-quarters-of-pondicherry-xlarge.webp')}
 .culture .chapter-bg{background-image:url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=2200&q=90')}
 .defence .chapter-bg{background-image:url('https://images.unsplash.com/photo-1474302770737-173ee21bab63?auto=format&fit=crop&w=2200&q=90')}
 .future .chapter-bg{background-image:url('https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=2200&q=90')}
@@ -159,12 +159,12 @@ nav{background:linear-gradient(#100d0bf2,#100d0b99 65%,transparent);border-botto
 .deep-quote{border-left-width:3px}
 .chapter-bg{filter:saturate(.76) contrast(1.08)}
 
-.scroll-progress{position:fixed;z-index:100;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#a86d37,#f0c78e);box-shadow:0 0 12px #d2a15f88}
+.scroll-progress{position:fixed!important;z-index:2147483647!important;top:0!important;left:0!important;right:0!important;width:100vw;height:6px;background:#ffffff20;box-shadow:0 1px 10px #0009;pointer-events:none;overflow:hidden}.scroll-progress-fill{display:block;width:100%;height:100%;transform:scaleX(0);transform-origin:left center;background:linear-gradient(90deg,#f28c28 0%,#ff9d38 30%,#fff 52%,#fff 64%,#2855a6 82%,#1d4388 100%);box-shadow:0 0 13px #ffffff66,0 1px 9px #f28c2866;will-change:width;transition:width .08s linear}.scroll-progress-fill:after{content:"";float:right;width:4px;height:100%;background:#fff;box-shadow:0 0 10px #fff,0 0 18px #f28c28}
 
 /* ===== 3D IMMERSIVE LAYER ===== */
 :root{--gold:#f4b35e}
-body{perspective:1400px}
-.hero{isolation:isolate}
+body{perspective:none}
+.hero{isolation:isolate;perspective:1400px}
 .hero-bg{will-change:transform;filter:saturate(.82)}
 .hero-copy{transform-style:preserve-3d;will-change:transform}
 .hero-orbit{position:absolute;z-index:1;left:50%;top:51%;width:min(57vw,660px);aspect-ratio:1;transform:translate(-50%,-50%);pointer-events:none;opacity:.88;filter:drop-shadow(0 35px 70px #0009);transition:transform .25s ease-out}
@@ -422,6 +422,84 @@ body{perspective:1400px}
 @media(max-width:620px){.chapter-scene{top:auto;bottom:3%;right:-12vw;transform:none;width:92vw;height:38vh;opacity:.28}.scene-label,.scene-caption{font-size:7px}.chapter-scene svg{height:100%}}
 @media(prefers-reduced-motion:reduce){.chapter-scene *{animation:none!important}}
 
+
+
+/* ===== OPENING CHAPTER — EDITORIAL CINEMATIC REFINEMENT ===== */
+.hero{
+  min-height: min(940px,100svh); height:100svh; min-height:760px;
+  justify-content:flex-start; text-align:left; background:#100d0b;
+  isolation:isolate;
+}
+.hero-bg{
+  inset:-4% -2% -4% 0;
+  background-image:
+    linear-gradient(90deg,rgba(13,10,8,.97) 0%,rgba(13,10,8,.88) 27%,rgba(13,10,8,.48) 55%,rgba(13,10,8,.34) 100%),
+    linear-gradient(0deg,#100d0b 0%,transparent 24%,rgba(16,13,11,.28) 100%),
+    url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=2600&q=95');
+  background-position:center,center,center 46%;
+  background-size:cover; filter:contrast(1.12) saturate(.72);
+}
+.hero:after{
+  z-index:0; pointer-events:none;
+  background:linear-gradient(90deg,rgba(12,9,7,.36),transparent 65%),
+    radial-gradient(ellipse at 72% 48%,transparent 0%,rgba(8,7,6,.34) 68%,rgba(8,7,6,.78) 100%);
+}
+.hero-copy{
+  width:min(57vw,760px); max-width:760px; margin:0 0 0 7.2vw;
+  padding:145px 0 100px; text-align:left; align-self:center;
+  transform:translateZ(45px); z-index:5;
+}
+.hero-copy .eyebrow{display:flex;align-items:center;gap:13px;font-size:9px;letter-spacing:.25em;color:#e2b77c}
+.hero-kicker-line{display:inline-block;width:38px;height:1px;background:#d3a568;box-shadow:0 0 14px #d3a56880}
+.hero h1{
+  font-size:clamp(62px,8.4vw,122px); line-height:.91; letter-spacing:-.068em;
+  margin:31px 0 25px; max-width:760px; text-shadow:0 14px 60px #000b;
+}
+.hero h1 em{color:#e9c18d;text-shadow:0 4px 34px #d8a96c28}
+.hero-copy p{margin:0;max-width:510px;font-size:14px;line-height:2;color:#e3d9cb;text-wrap:pretty}
+.hero-copy p sup{font-size:9px}
+.hero-copy .cta{margin-top:34px;padding:17px 23px;background:#d6a66b;color:#1a120b;box-shadow:0 12px 42px #0007,0 0 0 1px #f1d3a044 inset}
+.hero-copy .cta:hover{background:#edc28b;transform:translateY(-4px)}
+.hero-proof{display:flex;align-items:center;gap:13px;flex-wrap:wrap;margin-top:42px;color:#d7c8b4;font:8px 'DM Mono';letter-spacing:.2em}
+.hero-proof i{display:block;width:3px;height:3px;border-radius:50%;background:#d6a66b;box-shadow:0 0 8px #d6a66b}
+.hero-orbit{left:76%;top:51%;width:min(61vw,790px);opacity:1;z-index:2;filter:drop-shadow(0 34px 75px #000b)}
+.globe-canvas{width:84%;height:84%;filter:drop-shadow(0 20px 50px #000b)}
+.hero-coordinate{right:4.5vw;top:19%;font-size:8px;line-height:2.1;color:#f0dfc3a8}
+.orbit-label{font-size:9px;color:#f3e7d6}
+.hero-index{left:7.2vw;bottom:31px;color:#d8c8b4;font-size:9px}
+.hero-scroll{right:5vw;bottom:31px;color:#e2c9a8;font-size:9px}
+.hero-scroll:after{content:"";display:inline-block;width:42px;height:1px;background:#d6a66b;margin:0 0 3px 13px;animation:heroLine 2.2s ease-in-out infinite alternate}
+@keyframes heroLine{to{width:72px;opacity:.45}}
+.flag{height:3px;opacity:.9}
+@media(max-width:1100px){
+ .hero-copy{width:54vw;margin-left:5vw}
+ .hero h1{font-size:clamp(58px,8vw,96px)}
+ .hero-orbit{left:75%;width:66vw;opacity:.92}
+ .hero-coordinate{display:none}
+}
+@media(max-width:760px){
+ .hero{min-height:780px;height:100svh;align-items:flex-end}
+ .hero-bg{background-position:center,center,58% center}
+ .hero-copy{width:100%;max-width:650px;margin:0;padding:0 7vw 118px;align-self:flex-end}
+ .hero-copy .eyebrow{font-size:8px;letter-spacing:.17em}
+ .hero h1{font-size:clamp(52px,12vw,82px);margin:21px 0 18px}
+ .hero-copy p{font-size:12px;line-height:1.8;max-width:470px}
+ .hero-copy .cta{margin-top:24px;padding:15px 17px;font-size:9px}
+ .hero-proof{margin-top:24px;gap:9px;font-size:7px}
+ .hero-orbit{left:50%;top:27%;width:min(112vw,620px);opacity:.72;transform:translate(-50%,-50%)}
+ .globe-canvas{width:85%;height:85%}
+ .globe-hint{bottom:3%;font-size:7px}
+ .hero-index{left:7vw;bottom:26px;font-size:7px}
+ .hero-scroll{right:7vw;bottom:26px;font-size:7px}
+}
+@media(max-width:420px){
+ .hero-copy{padding-bottom:108px}
+ .hero h1{font-size:50px}
+ .hero-proof{letter-spacing:.12em}
+ .hero-orbit{top:25%;width:118vw}
+}
+@media(prefers-reduced-motion:reduce){.hero-scroll:after{animation:none}}
+
 </style>
 
 <style id="topic-feature-styles">
@@ -579,16 +657,16 @@ body{perspective:1400px}
 .map-detail p{font-size:13px;line-height:1.9;color:#d2c4b5}
 .map-detail .map-pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
 .map-pills span{border:1px solid #c99a6155;padding:8px 10px;color:#e7c89f;font:8px 'DM Mono'}
-.timeline-lab{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin:30px 0 24px;border-top:1px solid #b78b5b}
-.timeline-lab button{position:relative;text-align:left;padding:22px 10px 10px 0;background:none;border:0;color:#d9cabb}
-.timeline-lab button:before{content:"";position:absolute;top:-6px;left:0;width:11px;height:11px;border-radius:50%;background:#8f6b43;transition:.2s}
-.timeline-lab button.active:before,.timeline-lab button:hover:before{background:#f1c58e;box-shadow:0 0 0 6px #d5a66d22}
-.timeline-lab b{display:block;font:24px 'Playfair Display';color:#d5a66d}
-.timeline-lab span{font:8px 'DM Mono';letter-spacing:.1em;color:#b8a896}
-.timeline-detail{display:grid;grid-template-columns:.4fr 1.6fr;gap:30px;padding:30px;border:1px solid #c99a6144;background:linear-gradient(120deg,#2a1d13,#17110d)}
-.timeline-detail strong{font:clamp(42px,6vw,76px) 'Playfair Display';color:#d5a66d}
-.timeline-detail h3{font:30px 'Playfair Display';margin:0 0 10px}
-.timeline-detail p{font-size:13px;line-height:1.9;color:#d0c3b5;margin:0}
+
+
+
+
+
+
+
+
+
+
 .stat-story{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#c99a6155;border:1px solid #c99a6155}
 .stat-story article{background:#1b140f;padding:26px;min-height:185px}
 .stat-story b{font:clamp(32px,4vw,54px) 'Playfair Display';color:#e3bb86;display:block}
@@ -601,12 +679,8 @@ body{perspective:1400px}
 .speaker-side{border-right:1px solid #c99a6144;padding-right:24px}
 .speaker-side strong{display:block;font:48px 'Playfair Display';color:#d5a66d}
 .speaker-side p{font-size:11px;line-height:1.8;color:#c7b9a8}
-.speaker-timer{font:clamp(40px,6vw,70px) 'DM Mono';color:#f3e6d4;margin:20px 0}
 .speaker-content h3{font:32px 'Playfair Display';margin:0 0 14px}
 .speaker-content p{font-size:13px;line-height:1.9;color:#d4c7b8;white-space:pre-line}
-.speaker-controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
-.speaker-controls button{border:1px solid #c99a6155;background:#2a1d13;color:#e8d5be;padding:10px 13px;font:9px 'DM Mono'}
-.speaker-controls button.primary{background:#d5a66d;color:#140e09}
 .quiz-shell{max-width:900px;border:1px solid #c99a6155;background:linear-gradient(130deg,#251a11,#15100c);padding:clamp(22px,4vw,42px)}
 .quiz-top{display:flex;justify-content:space-between;gap:15px;font:9px 'DM Mono';letter-spacing:.14em;color:#d5a66d}
 .quiz-progress{height:3px;background:#ffffff1a;margin:18px 0 28px}.quiz-progress span{display:block;height:100%;width:0;background:#d5a66d;transition:width .3s}
@@ -620,8 +694,8 @@ body{perspective:1400px}
 .guided-banner{position:fixed;z-index:44;left:20px;bottom:22px;display:none;align-items:center;gap:12px;padding:12px 16px;background:#17110dec;border:1px solid #c99a6155;backdrop-filter:blur(12px);font:9px 'DM Mono';letter-spacing:.1em;color:#e6d3ba}
 .guided-banner.show{display:flex}.guided-banner button{background:#c99a61;border:0;padding:8px 10px;color:#130e09;font:9px 'DM Mono'}
 body.guided-mode section.chapter,body.guided-mode .experience-section{scroll-margin-top:70px}
-@media(max-width:850px){.map-explorer,.speaker-panel{grid-template-columns:1fr}.speaker-side{border-right:0;border-bottom:1px solid #c99a6144;padding:0 0 18px}.timeline-lab{grid-template-columns:repeat(3,1fr);row-gap:12px}.stat-story{grid-template-columns:1fr 1fr}}
-@media(max-width:600px){.experience-section{padding:75px 6vw}.experience-head{display:block}.experience-head p{margin-top:15px}.timeline-detail{grid-template-columns:1fr;gap:10px}.quiz-answers{grid-template-columns:1fr}.experience-dock{right:8px;bottom:8px}.experience-dock .dock-label{display:none}.guided-banner{left:8px;bottom:72px}.stat-story article{padding:18px;min-height:160px}}
+@media(max-width:850px){.map-explorer,.speaker-panel{grid-template-columns:1fr}.speaker-side{border-right:0;border-bottom:1px solid #c99a6144;padding:0 0 18px}.stat-story{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.experience-section{padding:75px 6vw}.experience-head{display:block}.experience-head p{margin-top:15px}.quiz-answers{grid-template-columns:1fr}.experience-dock{right:8px;bottom:8px}.experience-dock .dock-label{display:none}.guided-banner{left:8px;bottom:72px}.stat-story article{padding:18px;min-height:160px}}
 @media(prefers-reduced-motion:reduce){.route{animation:none!important}}
 </style>
 
@@ -646,9 +720,9 @@ body.guided-mode section.chapter,body.guided-mode .experience-section{scroll-mar
 <style id="cinematic-upgrade-styles">
 html{scroll-behavior:smooth}
 body{--chapter-progress:0}
-#chapterProgress{position:fixed;z-index:80;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,#b77a45,#f0d0a0);box-shadow:0 0 12px #d5a66d88;pointer-events:none}
-.chapter-rail{position:fixed;z-index:40;left:18px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:13px;padding:13px 9px;background:#140f0bdc;border:1px solid #c99a6144;backdrop-filter:blur(14px)}
-.chapter-rail a{display:flex;align-items:center;gap:9px;color:#8f8172;text-decoration:none;font:8px 'DM Mono';letter-spacing:.12em;white-space:nowrap;transition:.25s}
+#chapterProgress{display:none}
+.chapter-rail{position:fixed!important;z-index:60!important;left:18px!important;right:auto!important;top:50%!important;bottom:auto!important;width:max-content!important;max-width:calc(100vw - 36px)!important;height:auto!important;min-height:0!important;transform:translateY(-50%)!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;gap:13px!important;padding:13px 9px!important;margin:0!important;background:#140f0bdc;border:1px solid #c99a6144;backdrop-filter:blur(14px);box-sizing:border-box!important;overflow:visible!important}
+.chapter-rail a{width:auto!important;min-width:0;display:flex;align-items:center;gap:9px;color:#8f8172;text-decoration:none;font:8px 'DM Mono';letter-spacing:.12em;white-space:nowrap;transition:.25s}
 .chapter-rail a:before{content:"";width:5px;height:5px;border-radius:50%;background:#74604a;transition:.25s}
 .chapter-rail a.active{color:#f0d6b4}.chapter-rail a.active:before{background:#e3b77f;box-shadow:0 0 0 5px #d5a66d22}
 .chapter-rail span{opacity:0;max-width:0;overflow:hidden;transition:.25s}
@@ -721,16 +795,76 @@ body{--chapter-progress:0}
 .voyage-console{max-width:1500px;margin:auto;display:grid;grid-template-columns:1.25fr .75fr;min-height:480px;border:1px solid #d6a86a55;background:#0e1720;box-shadow:0 30px 90px #0008}.voyage-map{position:relative;min-height:480px;overflow:hidden;background:radial-gradient(ellipse at 50% 55%,#244056,#0b141e 70%)}.map-stars{position:absolute;inset:0;background-image:radial-gradient(#d8e8f4 1px,transparent 1px);background-size:43px 43px;opacity:.18}.voyage-map svg{position:relative;width:100%;height:100%;min-height:480px}.continent{fill:#9caa9d;opacity:.18;stroke:#d9c49d;stroke-width:2}.voyage-route{fill:none;stroke:url(#voyageLine);stroke-width:3;stroke-dasharray:7 11;animation:routeMarch 4s linear infinite}.route-point{fill:#e8bb7e;filter:drop-shadow(0 0 12px #e8bb7e)}.voyage-map text{fill:#e6c89e;font:14px 'DM Mono';letter-spacing:4px}.route-ship{fill:#fff0d7;animation:shipRoute 8s ease-in-out infinite}.map-coord{position:absolute;bottom:18px;left:20px;color:#9eabb7;font:8px 'DM Mono';letter-spacing:.16em}@keyframes routeMarch{to{stroke-dashoffset:-72}}@keyframes shipRoute{0%,100%{transform:translate(260px,150px)}50%{transform:translate(510px,170px)}}
 .voyage-story{padding:clamp(25px,4vw,55px);display:flex;flex-direction:column;justify-content:center}.voyage-year{font:clamp(54px,7vw,88px)/1 'Playfair Display';color:var(--gold)}.voyage-period{font:9px 'DM Mono';letter-spacing:.2em;color:#aeb8c3;margin-top:14px}.voyage-story h3{font:clamp(25px,3vw,38px)/1.1 'Playfair Display';margin:18px 0 12px}.voyage-story p{color:#c4cbd2;font-size:12px;line-height:1.9;min-height:94px}.voyage-range{margin:25px 0 12px}.voyage-range input{width:100%;accent-color:var(--gold)}.range-labels{display:flex;justify-content:space-between;color:#9ca7b0;font:8px 'DM Mono';margin-top:8px}.voyage-controls{display:flex;justify-content:space-between;gap:10px}.voyage-controls button{background:transparent;border:1px solid #d5a66d77;color:#e8cda7;padding:11px 12px;font:8px 'DM Mono';letter-spacing:.1em}
 .culture-world{background:#17110e}.culture-world:before{background:radial-gradient(ellipse at 30% 50%,#5a3321 0,transparent 44%),linear-gradient(120deg,#1c120e,#0b0d11 70%)}.culture-explorer{max-width:1500px;margin:auto;display:grid;grid-template-columns:1.3fr .7fr;gap:18px}.culture-visual{min-height:590px;position:relative;display:flex;flex-direction:column;justify-content:space-between;padding:26px;background:#1a1715 center/cover no-repeat;overflow:hidden;transition:background-image .35s ease}.culture-visual:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#080b10e8,transparent 65%),linear-gradient(90deg,#080b1044,transparent)}.culture-visual>*{position:relative;z-index:1}.culture-visual[data-scene="street"]{background-image:url('https://static.wixstatic.com/media/3729d2_0aa39f91b4974400b198e0c9eb8d8843~mv2.jpg/v1/fill/w_1400%2Ch_950%2Cal_c%2Cq_90/3729d2_0aa39f91b4974400b198e0c9eb8d8843~mv2.jpg')}.culture-visual[data-scene="food"]{background-image:url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1800&q=90')}.culture-visual[data-scene="cinema"]{background-image:url('https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1800&q=90')}.culture-visual[data-scene="language"]{background-image:url('https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1800&q=90')}.culture-image-tag{font:9px 'DM Mono';letter-spacing:.18em;color:#f0c68e}.culture-visual-title{max-width:550px;font:clamp(40px,6vw,76px)/.95 'Playfair Display';letter-spacing:-.04em}.culture-visual-bottom{display:flex;justify-content:space-between;color:#ead4b8;font:8px 'DM Mono';letter-spacing:.15em}.culture-selectors{border:1px solid #c99a6144;background:#100e0d;display:flex;flex-direction:column}.culture-choice{display:grid;grid-template-columns:34px 1fr;gap:4px 12px;text-align:left;padding:20px 22px;background:transparent;color:#eee;border:0;border-bottom:1px solid #ffffff1b}.culture-choice span{grid-row:span 2;color:#d5a66d;font:10px 'DM Mono'}.culture-choice b{font:17px 'Playfair Display';font-weight:500}.culture-choice small{color:#9da4aa;font:9px 'DM Mono';letter-spacing:.05em}.culture-choice.active{background:linear-gradient(90deg,#d5a66d25,transparent);border-left:3px solid #d5a66d}.culture-detail{padding:24px;color:#c7c2bb;font-size:12px;line-height:1.9;margin-top:auto}
-#3d-experience.three-d-exhibit{position:relative;padding:110px 7vw;background:linear-gradient(90deg,#080d13ed,#080d1399),url('https://img.theweek.in/content/dam/week/news/india/images/2022/4/27/rafale-marine.jpeg') center/cover fixed;border-top:1px solid #d2a15f55;border-bottom:1px solid #d2a15f55;overflow:hidden}#3d-experience .three-d-heading{max-width:1400px;margin:0 auto 35px;position:relative;display:flex;justify-content:space-between;align-items:end;gap:30px}#3d-experience .three-d-heading>div:first-child{display:block}#3d-experience .three-d-heading h2{font:clamp(42px,6vw,78px)/.95 'Playfair Display';margin:14px 0}#3d-experience .three-d-heading p{max-width:400px;color:#d4d9dd;font-size:12px;line-height:1.9}.defence-scene-kicker{position:absolute;top:-25px;left:0}.real3d-shell{max-width:1400px;grid-template-columns:minmax(0,1.7fr) minmax(280px,.6fr);gap:14px}.real3d-viewer{background:#101923d9;backdrop-filter:blur(8px)}.real3d-frame-wrap{height:clamp(400px,52vw,690px);background:radial-gradient(ellipse at 50% 45%,#4b5961aa,#0b121bd9 70%);position:relative}.real3d-frame-wrap model-viewer{filter:drop-shadow(0 30px 25px #0009);transition:transform 1.5s cubic-bezier(.2,.8,.2,1)}.real3d-frame-wrap.launching model-viewer{transform:translate(35vw,-16vh) rotate(-7deg) scale(.7)}.carrier-deck-overlay{position:absolute;inset:0;pointer-events:none;opacity:.25;background:linear-gradient(165deg,transparent 57%,#b4c1c8 57.2%,transparent 57.5%),linear-gradient(165deg,transparent 62%,#b4c1c8 62.2%,transparent 62.5%);z-index:1}.carrier-deck-overlay span{position:absolute;bottom:22px;left:22px;font:8px 'DM Mono';letter-spacing:.16em;color:#d8e1e8}.carrier-deck-overlay i{position:absolute;left:10%;right:10%;bottom:19%;height:2px;background:#d6dce1;transform:rotate(-12deg);opacity:.6}.carrier-deck-overlay b{position:absolute;left:49%;bottom:0;width:3px;height:45%;background:#d6dce1;transform:rotate(18deg);opacity:.45}.real3d-viewer-tools{z-index:3;bottom:18px}.real3d-viewer-tools #launchJet{background:#d5a66d;color:#15100b;border-color:#d5a66d}.space-telemetry{position:absolute;z-index:3;right:15px;top:15px;display:flex;gap:12px;align-items:center;background:#07111dcc;padding:10px 12px;border:1px solid #90b5d555;color:#d5e5f4;font:8px 'DM Mono';letter-spacing:.12em}.space-telemetry i{font-style:normal;color:#8ed8b1}
+#3d-experience.three-d-exhibit{position:relative;padding:110px 7vw;background:linear-gradient(90deg,#080d13ed,#080d1399),url('https://img.theweek.in/content/dam/week/news/india/images/2022/4/27/rafale-marine.jpeg') center/cover fixed;border-top:1px solid #d2a15f55;border-bottom:1px solid #d2a15f55;overflow:hidden}#3d-experience .three-d-heading{max-width:1400px;margin:0 auto 35px;position:relative;display:flex;justify-content:space-between;align-items:end;gap:30px}#3d-experience .three-d-heading>div:first-child{display:block}#3d-experience .three-d-heading h2{font:clamp(42px,6vw,78px)/.95 'Playfair Display';margin:14px 0}#3d-experience .three-d-heading p{max-width:400px;color:#d4d9dd;font-size:12px;line-height:1.9}.defence-scene-kicker{position:absolute;top:-25px;left:0}.real3d-shell{max-width:1400px;grid-template-columns:minmax(0,1.7fr) minmax(280px,.6fr);gap:14px}.real3d-viewer{background:#101923d9;backdrop-filter:blur(8px)}.real3d-frame-wrap{height:clamp(400px,52vw,690px);background:radial-gradient(ellipse at 50% 45%,#4b5961aa,#0b121bd9 70%);position:relative}.real3d-frame-wrap model-viewer{filter:drop-shadow(0 30px 25px #0009);transition:transform 1.5s cubic-bezier(.2,.8,.2,1)}.real3d-frame-wrap.launching model-viewer{transform:none}.carrier-deck-overlay{position:absolute;inset:0;pointer-events:none;opacity:.25;background:linear-gradient(165deg,transparent 57%,#b4c1c8 57.2%,transparent 57.5%),linear-gradient(165deg,transparent 62%,#b4c1c8 62.2%,transparent 62.5%);z-index:1}.carrier-deck-overlay span{position:absolute;bottom:22px;left:22px;font:8px 'DM Mono';letter-spacing:.16em;color:#d8e1e8}.carrier-deck-overlay i{position:absolute;left:10%;right:10%;bottom:19%;height:2px;background:#d6dce1;transform:rotate(-12deg);opacity:.6}.carrier-deck-overlay b{position:absolute;left:49%;bottom:0;width:3px;height:45%;background:#d6dce1;transform:rotate(18deg);opacity:.45}.real3d-viewer-tools{z-index:3;bottom:18px}.real3d-viewer-tools #launchJet{background:#d5a66d;color:#15100b;border-color:#d5a66d}.space-telemetry{position:absolute;z-index:3;right:15px;top:15px;display:flex;gap:12px;align-items:center;background:#07111dcc;padding:10px 12px;border:1px solid #90b5d555;color:#d5e5f4;font:8px 'DM Mono';letter-spacing:.12em}.space-telemetry i{font-style:normal;color:#8ed8b1}
 .context-model-section.reverse{background:radial-gradient(ellipse at 70% 50%,#183b55,#080e16 65%);padding-top:110px;padding-bottom:110px}.context-model-section.reverse .context-model-view{height:560px;background:radial-gradient(ellipse at center,#42607a,#08111b 70%);box-shadow:0 30px 100px #0009}.context-model-section.reverse model-viewer{filter:drop-shadow(0 0 25px #9dc7e955)}
 @media(max-width:900px){.immersive-heading{display:block}.immersive-heading>p{margin-top:20px}.voyage-console,.culture-explorer{grid-template-columns:1fr}.voyage-map{min-height:350px}.voyage-map svg{min-height:350px}.culture-visual{min-height:450px}.real3d-shell{grid-template-columns:1fr}#3d-experience .three-d-heading{display:block}#3d-experience .three-d-heading p{margin-top:15px}}
 @media(max-width:600px){.immersive-panel{padding:75px 5vw}.culture-visual{min-height:360px}.culture-choice{padding:16px}.voyage-story{padding:24px}.voyage-map{min-height:280px}.voyage-map svg{min-height:280px}.real3d-frame-wrap{height:380px}.space-telemetry{font-size:6px;gap:5px;padding:7px}}
 @media(prefers-reduced-motion:reduce){.voyage-route,.route-ship{animation:none!important}.real3d-frame-wrap.launching model-viewer{transform:none}}
 </style>
 
+
+<style id="intro-editorial-upgrade">
+/* INTRODUCTION — editorial documentary treatment */
+#introduction.intro-context{
+  position:relative; isolation:isolate; overflow:hidden;
+  padding:clamp(76px,9vw,138px) clamp(22px,6vw,92px) clamp(70px,8vw,112px);
+  background:
+    radial-gradient(ellipse at 12% 18%, rgba(191,132,67,.16), transparent 34%),
+    radial-gradient(ellipse at 88% 76%, rgba(53,91,139,.19), transparent 38%),
+    linear-gradient(135deg,#11100f 0%,#191715 48%,#10151b 100%);
+  border-top:1px solid rgba(220,183,132,.18);
+}
+#introduction.intro-context:before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.22;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:72px 72px;mask-image:linear-gradient(to bottom,black,transparent 90%);
+}
+#introduction .intro-inner{max-width:1380px;margin:0 auto;position:relative}
+#introduction .intro-eyebrow{display:flex;align-items:center;gap:14px;color:#d7a66c;letter-spacing:.22em;font-size:10px;font-weight:700}
+#introduction .intro-eyebrow:before{content:"";width:34px;height:1px;background:#d7a66c}
+#introduction .intro-heading{display:grid;grid-template-columns:110px minmax(0,1fr);gap:20px;align-items:start;margin:34px 0 56px}
+#introduction .intro-index{font-family:Georgia,serif;font-size:clamp(76px,10vw,144px);line-height:.78;color:rgba(220,185,139,.17);letter-spacing:-.09em}
+#introduction .intro-heading h2{max-width:1000px;margin:0;color:#f2ece3;font-family:Georgia,'Times New Roman',serif;font-size:clamp(38px,5.2vw,76px);line-height:1.02;letter-spacing:-.045em;font-weight:500}
+#introduction .intro-heading h2 em{color:#d8ad78;font-weight:400}
+#introduction .intro-lead{max-width:850px;margin:24px 0 0;color:#c2bbb1;font-size:clamp(15px,1.35vw,19px);line-height:1.85}
+#introduction .intro-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid rgba(220,190,151,.3);border-bottom:1px solid rgba(220,190,151,.3)}
+#introduction .intro-columns article{position:relative;padding:30px 30px 36px 0;min-height:300px}
+#introduction .intro-columns article+article{padding-left:30px;border-left:1px solid rgba(220,190,151,.2)}
+#introduction .intro-columns article:before{content:"";position:absolute;top:-1px;left:0;width:48px;height:2px;background:#d7a66c;transform:scaleX(0);transform-origin:left;transition:transform .45s ease}
+#introduction .intro-columns article:hover:before{transform:scaleX(1)}
+#introduction .intro-columns article>span{display:block;color:#d7a66c;font-size:10px;letter-spacing:.17em;font-weight:700;line-height:1.6}
+#introduction .intro-columns h3{margin:22px 0 14px;color:#f0e9df;font:500 clamp(23px,2.1vw,31px)/1.12 Georgia,'Times New Roman',serif;max-width:340px}
+#introduction .intro-columns p{margin:0;color:#bcb6ad;font-size:14px;line-height:1.9;max-width:440px}
+#introduction .intro-now{display:grid;grid-template-columns:minmax(180px,.65fr) minmax(0,2fr);gap:34px;margin:54px 0 0;padding:32px 34px;background:linear-gradient(110deg,rgba(198,145,83,.13),rgba(255,255,255,.025));border:1px solid rgba(214,171,117,.28);position:relative}
+#introduction .intro-now:after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(#e99b43,#f1e9db,#527db2)}
+#introduction .intro-now-label{color:#d7a66c;font-size:10px;letter-spacing:.2em;font-weight:700;line-height:1.8}
+#introduction .intro-now p{margin:0 0 14px;color:#c9c1b7;font-size:14px;line-height:1.9}
+#introduction .intro-now p em{color:#f1dfc8}
+#introduction .intro-now .intro-final-line{margin:18px 0 0;padding-top:16px;border-top:1px solid rgba(220,190,151,.2);color:#f0e8dc;font-family:Georgia,serif;font-size:clamp(18px,1.8vw,24px);line-height:1.5}
+#introduction .intro-route{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin-top:34px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1)}
+#introduction .intro-route b{margin-right:auto;color:#8f8981;font-size:9px;letter-spacing:.2em}
+#introduction .intro-route span{color:#e8dfd3;font-size:11px;letter-spacing:.08em}
+#introduction .intro-route i{color:#d7a66c;font-style:normal}
+@media(max-width:850px){
+ #introduction .intro-heading{grid-template-columns:65px 1fr;gap:12px;margin-bottom:40px}
+ #introduction .intro-columns{grid-template-columns:1fr}
+ #introduction .intro-columns article{min-height:0;padding:26px 0 28px}
+ #introduction .intro-columns article+article{padding-left:0;border-left:0;border-top:1px solid rgba(220,190,151,.2)}
+ #introduction .intro-now{grid-template-columns:1fr;gap:12px;margin-top:34px;padding:25px}
+}
+@media(max-width:520px){
+ #introduction .intro-heading{grid-template-columns:1fr}
+ #introduction .intro-index{font-size:54px}
+ #introduction .intro-heading h2{font-size:38px}
+ #introduction .intro-route{gap:9px}
+ #introduction .intro-route b{width:100%;margin-bottom:4px}
+}
+@media(prefers-reduced-motion:reduce){#introduction .intro-columns article:before{transition:none}}
+</style>
+
 </head>
-<body><div class="scroll-progress" id="scrollProgress"></div>
-<div id="chapterProgress" aria-hidden="true"></div>
+<body><div class="scroll-progress" id="scrollProgress" aria-hidden="true"><span class="scroll-progress-fill" id="scrollProgressFill"></span></div>
+
 <nav class="chapter-rail" aria-label="Navigation des chapitres">
   <a href="#histoire" data-rail="histoire" class="active"><span>01 · HISTOIRE</span></a>
   <a href="#culture" data-rail="culture"><span>02 · CULTURE</span></a>
@@ -752,7 +886,7 @@ body{--chapter-progress:0}
   <span class="orbit-label label-india">INDE <i>●</i></span>
   <span class="orbit-label label-france">FRANCE <i>●</i></span>
 </div>
-<div class="hero-coordinate" aria-hidden="true">48°51′N&nbsp; 2°21′E<br><span>21°N&nbsp; 78°E</span></div><div class="hero-copy reveal"><div class="eyebrow">Un dialogue entre deux civilisations · 1947—2047</div><h1>Deux mondes.<br><em>Une même ambition.</em></h1><p>Un voyage immersif au cœur des liens entre l'Inde et la France — de leur histoire partagée aux défis qu'elles souhaitent relever ensemble.</p><a class="cta" href="#histoire">Entrer dans l'expérience <span>↗</span></a></div><div class="hero-index">01 — 04 &nbsp; / &nbsp; UNE RELATION EN MOUVEMENT</div><div class="hero-scroll">DÉFILER ↓</div></header><div class="flag"></div>
+<div class="hero-coordinate" aria-hidden="true">48°51′N&nbsp; 2°21′E<br><span>21°N&nbsp; 78°E</span></div><div class="hero-copy reveal"><div class="eyebrow"><span class="hero-kicker-line"></span> UN DIALOGUE ENTRE DEUX CIVILISATIONS · 1947—2047</div><h1>Deux mondes.<br><em>Une même ambition.</em></h1><p>De l’océan Indien aux grandes décisions du XXI<sup>e</sup> siècle, découvrez comment deux nations ont transformé leur histoire en partenariat.</p><a class="cta" href="#introduction">Entrer dans l'expérience <span>↗</span></a><div class="hero-proof"><span>HISTOIRE</span><i></i><span>CULTURE</span><i></i><span>STRATÉGIE</span><i></i><span>AVENIR</span></div></div><div class="hero-index">01 — 04 &nbsp; / &nbsp; UNE RELATION EN MOUVEMENT</div><div class="hero-scroll">DÉFILER ↓</div></header><div class="flag"></div>
 
 <section class="intro-context" id="introduction">
   <div class="intro-inner">
@@ -781,42 +915,103 @@ body{--chapter-progress:0}
         <p>Voici le chapitre le moins connu : en Syrie, des troupes indiennes combattent les forces françaises de Vichy, alliées au régime collaborateur. Dans cette même campagne, elles opèrent aussi aux côtés des Français libres contre Vichy. L’histoire est donc plus complexe qu’un simple face-à-face entre deux pays.</p>
       </article>
     </div>
-    <div class="intro-now">
-      <div class="intro-now-label">ET AUJOURD’HUI, À CHENNAI…</div>
+    <div class="quote-scroll-track" id="quote-scroll-track">
+    <div class="intro-now quote-cinematic" id="quote-entry">
+      <div class="intro-now-label">UN LIEN QUI NOUS RELIE · DE 1789 À AUJOURD’HUI</div>
       <p>Des étudiants indiens apprennent le français — parfois avec un objectif très simple : gagner quelques points à l’examen. <em>Mais pourquoi cette langue, cette histoire et ce pays sont-ils encore présents dans notre quotidien ?</em> Parce que le lien a changé : de la rivalité et des ambitions impériales, il est devenu un partenariat entre deux États indépendants, dans la défense, l’espace, la culture, l’éducation et bien d’autres domaines.</p>
       <p class="intro-final-line">Alors, de la Révolution française à une salle de classe à Chennai, voici comment l’Inde et la France ont construit une relation que l’on ne peut pas résumer à un simple cours de langue.</p>
     </div>
-    <div class="intro-route">
-      <b>POUR COMPRENDRE CE LIEN</b>
-      <span>01 Histoire</span><i>→</i><span>02 Culture</span><i>→</i><span>03 Défense</span><i>→</i><span>04 Avenir</span>
-    </div>
-  </div>
+    </div><!-- /quote-scroll-track -->
+</div>
 </section>
 <section class="experience-section alt" id="map-explorer">
   <div class="experience-head">
     <div><div class="chapter-no">ATLAS INTERACTIF · AVANT LE RÉCIT</div><h2>Une relation qui <em>traverse les frontières.</em></h2></div>
-    <p>Explorez les lieux et les domaines qui donnent une dimension concrète au partenariat. Sélectionnez un point sur la carte pour découvrir son rôle.</p>
+    <p>Explorez les lieux et les domaines qui donnent une dimension concrète au partenariat. Sélectionnez une ville sur la carte ou dans le sélecteur pour découvrir son rôle.</p>
   </div>
   <div class="map-explorer">
-    <div class="map-stage">
-      <svg viewBox="0 0 900 470" role="img" aria-label="Carte schématique des liens entre la France et l'Inde">
-        <defs><radialGradient id="mapGlow"><stop stop-color="#d5a66d" stop-opacity=".5"/><stop offset="1" stop-color="#d5a66d" stop-opacity="0"/></radialGradient></defs>
-        <ellipse cx="250" cy="180" rx="150" ry="120" fill="url(#mapGlow)"/><ellipse cx="650" cy="290" rx="180" ry="140" fill="url(#mapGlow)"/>
-        <path d="M90 180 C190 60 310 80 390 150 S560 250 650 300 S780 330 840 260" fill="none" stroke="#c99a6130" stroke-width="1" stroke-dasharray="3 9"/>
-        <path class="route" d="M250 170 Q420 30 650 290"/>
-        <path d="M155 150l18 -25 24 8 12 25 -18 20 -25 -5z M215 210l18 -30 28 4 18 30 -12 28 -30 -6z M610 230l24 -28 34 8 14 34 -20 44 -28 28 -17 -36z" fill="#d6c1a3" opacity=".17" stroke="#d6c1a3" stroke-opacity=".35"/>
-        <g class="map-node active" data-map="paris" tabindex="0" role="button" aria-label="Paris"><circle cx="250" cy="170" r="7"/><text x="265" y="158">PARIS</text></g>
-        <g class="map-node" data-map="pondicherry" tabindex="0" role="button" aria-label="Pondichéry"><circle cx="650" cy="290" r="7"/><text x="665" y="282">PONDICHÉRY</text></g>
-        <g class="map-node" data-map="newdelhi" tabindex="0" role="button" aria-label="New Delhi"><circle cx="620" cy="215" r="7"/><text x="635" y="207">NEW DELHI</text></g>
-        <g class="map-node" data-map="chennai" tabindex="0" role="button" aria-label="Chennai"><circle cx="675" cy="330" r="7"/><text x="690" y="348">CHENNAI</text></g>
-        <g class="map-node" data-map="toulouse" tabindex="0" role="button" aria-label="Toulouse"><circle cx="220" cy="215" r="7"/><text x="130" y="238">TOULOUSE</text></g>
-      </svg>
-    </div>
-    <aside class="map-detail" aria-live="polite">
-      <small id="map-kicker">FRANCE · CAPITALE</small><h3 id="map-title">Paris</h3>
-      <p id="map-copy">Centre politique et diplomatique français. Les visites officielles, les accords bilatéraux et les échanges institutionnels structurent une grande partie du dialogue entre les deux pays.</p>
-      <div class="map-pills" id="map-pills"><span>DIPLOMATIE</span><span>CULTURE</span></div>
-    </aside>
+<div class="atlas-map-shell">
+ <div class="atlas-map-topline"><span>CARTE DES CONNEXIONS</span><span>EUROPE · MÉDITERRANÉE · OCÉAN INDIEN · ASIE DU SUD</span><span>ÉCHELLE SCHÉMATIQUE</span></div>
+ <div class="atlas-map-viewport">
+ <svg class="atlas-map" viewBox="0 0 1100 620" role="img" aria-label="Carte géographique de l'Europe, de la Méditerranée et de l'Asie du Sud avec les villes liées au partenariat franco-indien">
+ <defs>
+  <linearGradient id="atlasOcean" x2="1" y2="1"><stop stop-color="#172633"/><stop offset=".52" stop-color="#10202c"/><stop offset="1" stop-color="#0b1721"/></linearGradient>
+  <linearGradient id="atlasLand" x2=".8" y2="1"><stop stop-color="#b9a88e"/><stop offset=".48" stop-color="#81745f"/><stop offset="1" stop-color="#4f5149"/></linearGradient>
+  <linearGradient id="atlasHighlight" x2="1" y2="1"><stop stop-color="#e7c18b"/><stop offset="1" stop-color="#8c6742"/></linearGradient>
+  <radialGradient id="atlasSeaGlow"><stop stop-color="#b98754" stop-opacity=".23"/><stop offset="1" stop-color="#b98754" stop-opacity="0"/></radialGradient>
+  <pattern id="atlasGrid" width="55" height="55" patternUnits="userSpaceOnUse"><path d="M55 0H0V55" fill="none" stroke="#b8c8ce" stroke-opacity=".08" stroke-width=".7"/></pattern>
+  <filter id="atlasNoise"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="2" seed="8"/><feColorMatrix values=".18 0 0 0 .25 .18 0 0 0 .3 .18 0 0 0 .35 0 0 0 .16 0"/></filter>
+  <filter id="atlasGlow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="atlasClip"><rect width="1100" height="620" rx="3"/></clipPath>
+ </defs>
+ <g clip-path="url(#atlasClip)">
+  <rect width="1100" height="620" fill="url(#atlasOcean)"/>
+  <rect width="1100" height="620" fill="url(#atlasGrid)"/>
+  <ellipse cx="640" cy="420" rx="500" ry="290" fill="url(#atlasSeaGlow)"/>
+  <rect width="1100" height="620" filter="url(#atlasNoise)" opacity=".28"/>
+  <!-- broad continental silhouettes for geographic context -->
+  <path class="atlas-continent" d="M0 0H1100V82L1060 100 1010 96 985 124 950 115 930 145 895 135 860 160 830 148 810 174 785 165 760 195 740 190 715 215 690 205 665 224 645 210 620 230 590 215 560 230 540 208 515 213 490 190 465 190 438 162 410 160 385 130 360 124 342 90 310 83 280 60 248 54 220 28 180 35 150 15 110 28 70 10Z" opacity=".25"/>
+  <path class="atlas-continent" d="M0 205L40 190 75 200 105 225 138 220 170 244 205 250 230 280 255 294 270 330 250 360 230 375 210 410 175 420 150 455 120 470 92 505 55 500 25 530 0 525Z" opacity=".34"/>
+  <path class="atlas-continent" d="M310 240L350 225 380 235 405 260 430 275 445 305 430 330 410 355 395 385 370 400 350 380 335 350 320 325 300 300Z" opacity=".38"/>
+  <path class="atlas-continent" d="M485 240L520 215 555 220 585 245 620 250 645 275 670 290 700 310 720 345 745 370 760 405 790 430 820 460 805 490 775 480 750 455 725 445 700 420 675 410 655 385 630 375 610 350 580 335 555 310 530 295 500 270Z" opacity=".36"/>
+  <path class="atlas-continent" d="M840 270L880 250 920 260 950 280 980 290 1015 320 1040 350 1080 365 1100 390V620H1030L1000 585 970 560 950 520 920 495 900 460 875 435 860 400 830 370 820 330Z" opacity=".3"/>
+  <!-- fine relief contours -->
+  <g class="atlas-relief" fill="none">
+   <path d="M-20 295C100 240 160 285 250 255S420 240 500 280 680 320 780 285 990 300 1130 250"/>
+   <path d="M-20 315C100 260 160 305 250 275S420 260 500 300 680 340 780 305 990 320 1130 270"/>
+   <path d="M-20 335C100 280 160 325 250 295S420 280 500 320 680 360 780 325 990 340 1130 290"/>
+   <path d="M-20 475C130 430 210 455 310 420S510 405 600 445 810 475 930 435 1050 455 1130 420"/>
+   <path d="M-20 495C130 450 210 475 310 440S510 425 600 465 810 495 930 455 1050 475 1130 440"/>
+  </g>
+  <!-- detailed metropolitan France and Indian subcontinent outlines -->
+  <path class="atlas-country" d="M194.2,100.5 L198.5,103.0 L211.8,104.7 L207.1,111.3 L206.0,118.1 L203.4,119.7 L199.3,118.8 L199.6,121.2 L192.9,126.6 L192.7,131.0 L197.1,129.4 L200.2,133.6 L199.8,136.3 L202.6,139.9 L199.4,142.8 L201.8,150.2 L206.7,151.4 L205.7,155.6 L197.4,160.9 L179.3,158.3 L165.9,161.4 L164.9,167.2 L154.3,168.4 L143.9,164.1 L140.6,166.2 L123.8,161.9 L120.1,158.1 L124.9,152.4 L126.6,133.4 L117.1,123.4 L110.4,118.6 L96.3,114.9 L95.4,108.0 L107.2,105.9 L122.6,108.4 L119.8,97.5 L128.4,101.6 L149.8,94.1 L152.5,86.3 L160.5,84.4 L161.9,87.8 L166.1,87.9 L170.4,91.8 L176.8,96.2 L181.5,95.5 L189.5,99.9 L191.6,100.7 Z"/>
+  <path class="atlas-country india-country" d="M1029.7,302.8 L1030.3,306.4 L1027.1,308.1 L1027.9,314.0 L1021.4,312.3 L1009.4,318.9 L1009.8,324.3 L1004.7,332.3 L1004.2,336.9 L1000.2,344.8 L993.0,342.6 L992.7,352.5 L990.5,355.8 L991.6,359.8 L987.0,362.1 L982.2,346.9 L979.6,347.0 L978.2,353.0 L973.1,348.2 L976.0,342.7 L980.1,342.1 L984.3,334.0 L979.0,332.4 L970.5,332.6 L961.8,331.3 L960.9,324.6 L956.6,324.2 L949.3,320.0 L946.1,326.5 L952.7,331.6 L947.0,335.1 L944.9,338.6 L950.6,341.2 L949.0,346.9 L952.2,354.1 L953.6,361.9 L952.3,365.4 L946.1,365.3 L934.8,367.2 L935.3,374.5 L930.4,380.1 L917.2,386.5 L907.0,397.8 L900.1,403.8 L890.9,410.0 L890.9,414.4 L886.3,416.7 L878.1,420.2 L873.8,420.6 L871.1,427.9 L872.9,440.3 L873.5,448.2 L869.5,457.3 L869.5,473.5 L864.8,474.0 L860.7,481.2 L863.4,484.4 L855.1,487.1 L851.9,493.6 L848.3,496.3 L839.6,487.4 L835.4,474.1 L831.9,464.4 L828.7,459.9 L823.7,450.8 L821.5,438.9 L819.9,432.9 L811.5,419.8 L807.8,401.3 L805.0,389.1 L805.0,377.5 L803.3,368.6 L790.0,374.3 L783.5,373.1 L771.5,361.6 L775.9,358.2 L773.2,354.4 L762.5,346.3 L768.5,340.0 L788.7,340.0 L786.9,331.7 L781.7,327.0 L780.7,319.6 L774.7,315.3 L784.9,305.3 L795.5,306.1 L805.0,296.1 L810.8,286.3 L819.7,276.8 L819.6,270.0 L827.4,264.5 L820.0,259.8 L816.7,253.3 L813.5,244.9 L818.0,240.8 L832.0,243.2 L842.1,241.8 L851.0,233.8 L860.8,244.9 L859.9,252.7 L863.6,257.6 L863.3,262.5 L856.7,261.2 L859.3,271.7 L868.3,277.8 L881.0,284.4 L875.2,288.7 L871.7,297.7 L880.5,301.2 L889.2,305.9 L901.1,311.3 L913.7,312.6 L919.0,317.3 L926.0,318.3 L937.1,320.5 L944.7,320.4 L945.7,316.6 L944.5,310.5 L945.3,306.4 L950.9,304.4 L951.6,311.9 L951.9,313.8 L960.1,317.4 L965.9,315.9 L973.7,316.6 L981.1,316.3 L981.8,310.5 L978.1,307.4 L985.4,306.2 L993.8,299.1 L1004.4,293.0 L1012.0,295.4 L1018.6,291.4 L1022.9,297.3 L1019.8,301.3 Z"/>
+  <!-- surrounding coast accents / island arcs -->
+  <path class="atlas-coast" d="M240 160l18 12 12 24-8 20-16 8-8-22z M270 210l12 14 8 28-14 15-10-24z M740 370l18 18 10 35-12 20-18-30z"/>
+  <path class="atlas-route route-paris-delhi" d="M159.1,106.3 Q502.2,107.8 845.2,299.4"/>
+  <path class="atlas-route route-paris-pond" d="M159.1,106.3 Q514.0,132.4 869.0,458.5"/>
+  <path class="atlas-route route-toulouse-chen" d="M150.7,156.4 Q512.0,237.0 873.3,447.5"/>
+  <path class="atlas-route route-delhi-chen" d="M845.2,299.4 Q859.3,358.4 873.3,447.5"/>
+  <g class="route-pulse"><circle cx="159.1" cy="106.3" r="3"/><circle cx="845.2" cy="299.4" r="3"/><circle cx="869.0" cy="458.5" r="3"/></g>
+  <g class="atlas-node " data-map="paris" tabindex="0" role="button" aria-label="paris">
+      <circle class="node-halo" cx="159.1" cy="106.3" r="17"/><circle class="node-core" cx="159.1" cy="106.3" r="5.5"/>
+      <path class="node-stem" d="M159.1,106.3 L148.1,92.0"/>
+      <text x="139.1" y="80.3" text-anchor="end">PARIS</text></g>
+  <g class="atlas-node " data-map="toulouse" tabindex="0" role="button" aria-label="toulouse">
+      <circle class="node-halo" cx="150.7" cy="156.4" r="17"/><circle class="node-core" cx="150.7" cy="156.4" r="5.5"/>
+      <path class="node-stem" d="M150.7,156.4 L140.8,171.8"/>
+      <text x="132.7" y="184.4" text-anchor="end">TOULOUSE</text></g>
+  <g class="atlas-node " data-map="newdelhi" tabindex="0" role="button" aria-label="newdelhi">
+      <circle class="node-halo" cx="845.2" cy="299.4" r="17"/><circle class="node-core" cx="845.2" cy="299.4" r="5.5"/>
+      <path class="node-stem" d="M845.2,299.4 L858.4,291.1"/>
+      <text x="869.2" y="284.4" text-anchor="start">NEWDELHI</text></g>
+  <g class="atlas-node " data-map="chennai" tabindex="0" role="button" aria-label="chennai">
+      <circle class="node-halo" cx="873.3" cy="447.5" r="17"/><circle class="node-core" cx="873.3" cy="447.5" r="5.5"/>
+      <path class="node-stem" d="M873.3,447.5 L885.4,459.6"/>
+      <text x="895.3" y="469.5" text-anchor="start">CHENNAI</text></g>
+  <g class="atlas-node " data-map="pondicherry" tabindex="0" role="button" aria-label="pondicherry">
+      <circle class="node-halo" cx="869.0" cy="458.5" r="17"/><circle class="node-core" cx="869.0" cy="458.5" r="5.5"/>
+      <path class="node-stem" d="M869.0,458.5 L859.1,480.5"/>
+      <text x="851.0" y="498.5" text-anchor="end">PONDICHERRY</text></g>
+  <text class="map-region-label" x="475" y="365">MER MÉDITERRANÉE</text>
+  <text class="map-region-label" x="585" y="520">OCÉAN INDIEN</text>
+  <text class="map-region-label" x="860" y="170">ASIE DU SUD</text>
+  <text class="map-region-label" x="150" y="300">EUROPE</text>
+  <g class="atlas-compass" transform="translate(1030 70)"><circle r="25"/><path d="M0 -17L5 0 0 17 -5 0Z"/><text y="-34" text-anchor="middle">N</text></g>
+  <g class="atlas-scale" transform="translate(34 570)"><path d="M0 0H120M0 -5V5M60 -4V4M120 -5V5"/><text x="0" y="-12">REPÈRE CARTOGRAPHIQUE</text></g>
+ </g>
+ </svg>
+ <div class="atlas-map-caption"><span><i></i> LIEUX CLÉS</span><span><i class="route-key"></i> AXES DE COOPÉRATION</span><span>DONNÉES GÉOGRAPHIQUES · NATURAL EARTH</span></div>
+ </div>
+ <div class="atlas-controls"><span>CHOISIR UN LIEU</span><button type="button" data-map="paris" class="active">PARIS</button><button type="button" data-map="toulouse">TOULOUSE</button><button type="button" data-map="newdelhi">NEW DELHI</button><button type="button" data-map="chennai">CHENNAI</button><button type="button" data-map="pondicherry">PONDICHÉRY</button></div>
+</div>
+<aside class="map-detail" aria-live="polite">
+ <div class="detail-index">DOSSIER GÉOGRAPHIQUE <span id="map-index">01 / 05</span></div>
+ <small id="map-kicker">FRANCE · CAPITALE</small><h3 id="map-title">Paris</h3>
+ <p id="map-copy">Centre politique et diplomatique français. Les visites officielles, les accords bilatéraux et les échanges institutionnels structurent une grande partie du dialogue entre les deux pays.</p>
+ <div class="map-pills" id="map-pills"><span>DIPLOMATIE</span><span>CULTURE</span></div>
+ <div class="detail-coordinate" id="map-coordinate">48°51′ N · 2°21′ E</div>
+</aside>
   </div>
 </section>
 
@@ -854,31 +1049,151 @@ body{--chapter-progress:0}
 </div>
 </section>
 
+
+<section class="pondy-world" id="pondichery-immersif" aria-labelledby="pondy-title">
+  <div class="pondy-backdrop" id="pondyBackdrop" role="img" aria-label="Ambiance urbaine de Pondichéry"></div>
+  <div class="pondy-vignette"></div>
+  <div class="pondy-topline"><span>02 / CARNET DE VOYAGE</span><span>PUDUCHERRY · 11°56′ N / 79°50′ E</span></div>
+  <div class="pondy-main">
+    <div class="pondy-intro">
+      <div class="pondy-kicker">UNE VILLE · PLUSIEURS MÉMOIRES</div>
+      <h2 id="pondy-title">Pondichéry,<br><em>à hauteur de rue.</em></h2>
+      <p>Pas un décor figé dans le passé. Une ville indienne vivante, où l’héritage français se lit dans l’architecture, tandis que les cultures tamoule et indienne façonnent le quotidien.</p>
+    </div>
+    <div class="pondy-explorer">
+      <div class="pondy-scene-caption"><span id="pondy-scene-number">01 — 03</span><span id="pondy-scene-label">WHITE TOWN · FAÇADES & AVENUES</span></div>
+      <div class="pondy-photo-credit" id="pondyPhotoCredit">PHOTO · PELAGO</div>
+      <button class="pondy-hotspot" id="pondyHotspot" type="button" aria-label="Découvrir un détail historique" aria-expanded="false" aria-controls="pondyFact"><span></span></button>
+      <aside class="pondy-fact" id="pondyFact" hidden aria-live="polite">
+        <button class="pondy-fact-close" id="pondyFactClose" type="button" aria-label="Fermer">×</button>
+        <div class="pondy-fact-kicker">DÉTAIL À DÉCOUVRIR</div>
+        <h4 id="pondyFactTitle">Une ville planifiée</h4>
+        <p id="pondyFactText">Pondichéry porte encore les traces d'une organisation urbaine façonnée par plusieurs histoires.</p>
+      </aside>
+      <div class="pondy-info" aria-live="polite">
+        <div class="pondy-info-kicker" id="pondyInfoKicker">LIRE LE PAYSAGE</div>
+        <h3 id="pondyInfoTitle">Les façades racontent.</h3>
+        <p id="pondyInfoText">Dans le quartier français, certaines rues en damier, les façades aux tons pastel et les anciennes demeures témoignent de l’histoire urbaine de la période coloniale. Elles font aujourd’hui partie d’une ville indienne.</p>
+      </div>
+      <div class="pondy-controls" role="group" aria-label="Explorer les quartiers de Pondichéry">
+        <button type="button" class="pondy-stop active" data-pondy="0"><b>01</b><span>WHITE TOWN</span><small>Façades & avenues</small></button>
+        <button type="button" class="pondy-stop" data-pondy="1"><b>02</b><span>QUARTIER TAMOUL</span><small>Maisons & thinnais</small></button>
+        <button type="button" class="pondy-stop" data-pondy="2"><b>03</b><span>FRONT DE MER</span><small>La ville tournée vers la mer</small></button>
+      </div>
+    </div>
+  </div>
+  <div class="pondy-bottom"><span>EXPLORATION INTERACTIVE</span><span>CHOISISSEZ UN QUARTIER POUR CHANGER DE POINT DE VUE ↗</span></div>
+</section>
+
 <section class="immersive-panel voyage-panel" id="voyage-interactif">
  <div class="immersive-heading"><div><span class="scene-kicker">01 / ARCHIVES VIVANTES</span><h2>Suivez la route.<br><em>Remontez le temps.</em></h2></div><p>Déplacez le curseur : la carte et le récit changent ensemble. Cette chronologie distingue les débuts du commerce, la période coloniale et le transfert des établissements français.</p></div>
  <div class="voyage-console">
-  <div class="voyage-map"><div class="map-stars"></div><svg viewBox="0 0 900 520" aria-label="Carte schématique de la route maritime entre la France et l'Inde"><defs><linearGradient id="voyageLine"><stop stop-color="#d9a15d"/><stop offset="1" stop-color="#8bb8d8"/></linearGradient></defs><path class="continent europe" d="M140 105l75-35 62 18 29 50-31 45-74 8-61-34z"/><path class="continent india" d="M605 205l70-18 72 42-11 66-43 60-35 95-29-28-13-82-39-70z"/><path class="voyage-route" d="M260 150 C390 65 480 80 535 190 S640 280 680 280"/><circle class="route-point france-point" cx="260" cy="150" r="9"/><circle class="route-point india-point" cx="680" cy="280" r="9"/><g class="route-ship"><path d="M-22 0h44l-9 13h-27z M0 -3v-35l18 35z"/></g><text x="230" y="120">FRANCE</text><text x="690" y="260">INDE</text><text x="405" y="410">OCÉAN INDIEN</text></svg><div class="map-coord">ROUTE SCHÉMATIQUE · NON À L’ÉCHELLE</div></div>
+  <div class="voyage-map historical-atlas" data-era="0">
+   <div class="atlas-topline"><span>ATLAS HISTORIQUE · INDE</span><span>XVIIe — XXe SIÈCLE</span></div>
+   <div class="map-stars"></div>
+   <svg viewBox="0 0 900 520" role="img" aria-label="Carte stylisée de l'Inde montrant les cinq anciens établissements français">
+    <defs>
+     <linearGradient id="atlasLand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d5c6a8" stop-opacity=".23"/><stop offset="1" stop-color="#78918c" stop-opacity=".12"/></linearGradient>
+     <linearGradient id="voyageLine"><stop stop-color="#d9a15d"/><stop offset="1" stop-color="#8bb8d8"/></linearGradient>
+     <filter id="atlasGlow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+     <pattern id="atlasHatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8L8 0" stroke="#d9bd8d" stroke-opacity=".09" stroke-width="1"/></pattern>
+    </defs>
+    <g class="atlas-graticule">
+     <path d="M100 90H820M100 180H820M100 270H820M100 360H820M100 450H820M180 55V470M300 55V470M420 55V470M540 55V470M660 55V470M780 55V470"/>
+    </g>
+    <g class="atlas-land">
+     <path class="atlas-mainland" d="M337 78
+      L365 67 391 77 412 91 438 91 462 105 485 109 505 124
+      526 132 538 151 557 160 570 178 590 188 600 207
+      616 219 625 237 613 252 592 261 580 277 570 296
+      560 317 548 337 540 358 528 380 517 402 503 423
+      488 445 473 465 460 480 447 463 438 443 427 422
+      415 400 403 379 390 358 377 337 365 317 351 298
+      337 279 324 260 312 241 301 222 291 204 285 186
+      292 169 307 153 317 135 324 115 329 96 Z"/>
+     <path class="atlas-gujarat" d="M292 184 L271 194 258 215 271 232 289 237 306 225 301 207Z"/>
+     <path class="atlas-northeast" d="M601 194 L624 184 646 181 665 170 688 171 710 161 733 168 750 181 739 196 718 200 701 214 677 216 659 228 638 224 621 235 608 220Z"/>
+     <path class="atlas-sri" d="M482 485 Q501 500 496 520 Q483 526 474 506Z"/>
+     <path class="atlas-coast" d="M337 78 L365 67 391 77 412 91 438 91 462 105 485 109 505 124 526 132 538 151 557 160 570 178 590 188 600 207 616 219 625 237 613 252 592 261 580 277 570 296 560 317 548 337 540 358 528 380 517 402 503 423 488 445 473 465 460 480 447 463 438 443 427 422 415 400 403 379 390 358 377 337 365 317 351 298 337 279 324 260 312 241 301 222 291 204 285 186"/>
+    </g>
+    <path class="atlas-route-halo" d="M145 126 C250 70 345 88 397 157 S465 270 493 372"/>
+    <path id="voyageRoutePath" class="voyage-route" pathLength="100" d="M145 126 C250 70 345 88 397 157 S465 270 493 372"/>
+    <circle class="route-point france-point" cx="145" cy="126" r="6"/>
+    <text class="atlas-map-label" x="145" y="105">EUROPE</text>
+    <text class="atlas-map-label atlas-ocean" x="290" y="425">OCÉAN INDIEN</text>
+    <text class="atlas-country-label" x="390" y="250">INDE</text>
+    <text class="atlas-region-label" x="695" y="135">BENGALE</text>
+    <circle id="voyageIndiaPulse" class="voyage-destination-pulse" cx="493" cy="372" r="22"/>
+    <circle id="voyageSeringapatam" class="voyage-event-pin" cx="420" cy="315" r="7"/>
+    <g class="route-ship" id="voyageShip" transform="translate(145 126)"><path d="M-13 0h26l-5 8h-16z M0 -2v-20l11 20z"/></g>
+    <g class="settlement-pin active" data-settlement="pondichery" role="button" tabindex="0" aria-label="Pondichéry, établissement français à partir de 1674" transform="translate(493 372)">
+      <circle class="pin-halo" r="18"/><circle class="pin-core" r="5"/><text x="15" y="-12">PONDICHÉRY</text>
+    </g>
+    <g class="settlement-pin" data-settlement="karaikal" role="button" tabindex="0" aria-label="Karaikal, établissement français" transform="translate(484 396)">
+      <circle class="pin-halo" r="14"/><circle class="pin-core" r="4"/><text x="15" y="17">KARAÏKAL</text>
+    </g>
+    <g class="settlement-pin" data-settlement="mahe" role="button" tabindex="0" aria-label="Mahé, établissement français sur la côte du Malabar" transform="translate(350 354)">
+      <circle class="pin-halo" r="14"/><circle class="pin-core" r="4"/><text x="-70" y="-13">MAHÉ</text>
+    </g>
+    <g class="settlement-pin" data-settlement="yanam" role="button" tabindex="0" aria-label="Yanaon, établissement français sur la côte du Coromandel" transform="translate(566 292)">
+      <circle class="pin-halo" r="14"/><circle class="pin-core" r="4"/><text x="14" y="-10">YANAM</text>
+    </g>
+    <g class="settlement-pin" data-settlement="chandernagore" role="button" tabindex="0" aria-label="Chandernagor, ancien établissement français au Bengale" transform="translate(695 199)">
+      <circle class="pin-halo" r="14"/><circle class="pin-core" r="4"/><text x="-115" y="-14">CHANDERNAGOR</text>
+    </g>
+   </svg>
+   <div class="atlas-location-card" aria-live="polite">
+    <div class="atlas-card-top"><span id="atlasLocationType">ÉTABLISSEMENT PRINCIPAL</span><span id="atlasLocationPeriod">1674 — 1954</span></div>
+    <h4 id="atlasLocationName">Pondichéry</h4>
+    <p id="atlasLocationText">Centre majeur de la présence française en Inde. Le comptoir s’organise à partir de 1674 et devient le principal établissement français du sous-continent.</p>
+   </div>
+   <div class="atlas-legend"><span><i class="legend-dot"></i> ÉTABLISSEMENTS FRANÇAIS</span><span><i class="legend-line"></i> ROUTE MARITIME SCHÉMATIQUE</span></div>
+   <div class="map-coord">CARTE DE REPÉRAGE · POSITIONS APPROXIMATIVES · NON À L’ÉCHELLE</div>
+  </div>
   <div class="voyage-story"><div class="voyage-year" id="voyageYear">1664</div><div class="voyage-period" id="voyagePeriod">LES PREMIERS ÉCHANGES</div><h3 id="voyageTitle">Une compagnie prend la mer</h3><p id="voyageCopy">La Compagnie française des Indes orientales est créée en 1664. Le commerce ouvre une présence française durable dans l’océan Indien, mais les échanges s’inscrivent déjà dans des réseaux et des pouvoirs locaux.</p><div class="voyage-range"><input id="voyageRange" type="range" min="0" max="4" step="1" value="0" aria-label="Parcourir les dates historiques"><div class="range-labels"><span>1664</span><span>1674</span><span>1799</span><span>1954</span><span>1962</span></div></div><div class="voyage-controls"><button id="voyagePrev" type="button">← PRÉCÉDENT</button><button id="voyageNext" type="button">ÉTAPE SUIVANTE →</button></div></div>
  </div>
 </section>
 
-<section class="experience-section" id="timeline-lab">
-  <div class="experience-head">
-    <div><div class="chapter-no">CHAPITRE 01 · REPÈRES HISTORIQUES</div><h2>Six dates. <em>Un siècle de transformations.</em></h2></div>
-    <p>Ne vous contentez pas de lire une chronologie : choisissez une date et observez comment la nature de la relation a évolué.</p>
+<section class="archive-gallery" id="archives-vivantes" aria-labelledby="archive-title">
+  <div class="archive-heading">
+    <div>
+      <span class="archive-kicker">COLLECTION DOCUMENTAIRE · 1664—1900</span>
+      <h2 id="archive-title">Entrer dans <em>les archives.</em></h2>
+    </div>
+    <p>Trois regards d’époque pour comprendre comment la présence française s’est inscrite dans les paysages, les échanges et la mémoire de Pondichéry.</p>
   </div>
-  <div class="timeline-lab" role="group" aria-label="Choisir une date">
-    <button class="active" data-year="1664"><b>1664</b><span>LES ORIGINES</span></button>
-    <button data-year="1674"><b>1674</b><span>PONDICHÉRY</span></button>
-    <button data-year="1941"><b>1941</b><span>LA GUERRE</span></button>
-    <button data-year="1954"><b>1954</b><span>TRANSFERT</span></button>
-    <button data-year="1998"><b>1998</b><span>STRATÉGIE</span></button>
-    <button data-year="2023"><b>2023</b><span>HORIZON 2047</span></button>
+  <div class="archive-feature">
+    <figure class="archive-main">
+      <a href="https://commons.wikimedia.org/wiki/File:Vue_des_magasins_de_la_Compagnie_des_Indes_%C3%A0_Pondich%C3%A9ry.jpg" target="_blank" rel="noopener">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vue_des_magasins_de_la_Compagnie_des_Indes_%C3%A0_Pondich%C3%A9ry.jpg" alt="Gravure colorée du XVIIIe siècle représentant les magasins de la Compagnie des Indes, l'Amirauté et la maison du gouverneur à Pondichéry" loading="lazy">
+        <span class="archive-open">CONSULTER L’ŒUVRE ↗</span>
+      </a>
+      <figcaption><span>PIÈCE 01 · COMMERCE & POUVOIR</span><b>Les magasins de la Compagnie des Indes</b><small>Gravure en couleurs · XVIIIᵉ siècle · Musée de la Compagnie des Indes</small></figcaption>
+    </figure>
+    <div class="archive-side">
+      <figure class="archive-card">
+        <a href="https://commons.wikimedia.org/wiki/File:Pondicherry1843.jpg" target="_blank" rel="noopener">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pondicherry1843.jpg" alt="Vue de Pondichéry en 1843, illustration historique d'Adolphe Delessert" loading="lazy">
+          <span class="archive-open">VOIR LA SOURCE ↗</span>
+        </a>
+        <figcaption><span>PIÈCE 02 · VILLE & PAYSAGE</span><b>Pondichéry, vue de 1843</b><small>Illustration publiée en 1843 · Adolphe Delessert</small></figcaption>
+      </figure>
+      <figure class="archive-card">
+        <a href="https://commons.wikimedia.org/wiki/File:Puducherry_Cathedral_1860.jpg" target="_blank" rel="noopener">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Puducherry_Cathedral_1860.jpg" alt="Photographie ancienne de la cathédrale de l'Immaculée-Conception à Pondichéry, prise vers 1860" loading="lazy">
+          <span class="archive-open">VOIR LA SOURCE ↗</span>
+        </a>
+        <figcaption><span>PIÈCE 03 · PHOTOGRAPHIE</span><b>La cathédrale vers 1860</b><small>Photographie attribuée à Charles Moyne · vers 1860</small></figcaption>
+      </figure>
+    </div>
   </div>
-  <div class="timeline-detail" aria-live="polite">
-    <strong id="timeline-year">1664</strong><div><h3 id="timeline-title">La Compagnie française des Indes orientales</h3><p id="timeline-copy">La création de la Compagnie française des Indes orientales marque le début d'une présence commerciale française organisée dans l'océan Indien. Elle s'inscrit dans un monde déjà structuré par les réseaux marchands et les pouvoirs politiques locaux.</p></div>
+  <div class="archive-foot">
+    <span>REGARDER · COMPARER · CONTEXTUALISER</span>
+    <p>Ces documents montrent des lieux et des représentations de leur époque. Ils ne racontent pas, à eux seuls, l’expérience de toutes les populations qui y vivaient.</p>
+    <a href="#sources">RETROUVER LES RÉFÉRENCES ↗</a>
   </div>
 </section>
+
 <section class="explore"><div class="section-title reveal"><div><div class="chapter-no">ARCHIVES & MÉMOIRE</div><h2>Les dates qui ont changé l'histoire.</h2></div><p>Survolez les repères pour ressentir la profondeur de cette histoire. Chaque date marque une étape dans le passage d'une présence coloniale à une relation entre États souverains.</p></div><div class="objects reveal">
 <article class="object" data-item="1664"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=85"><div class="object-copy"><small>LES DÉBUTS</small><h3>1664</h3><p>Fondation de la Compagnie française des Indes orientales.</p><b>EXPLORER ↗</b></div></article>
 <article class="object" data-item="1674"><img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=700&q=85"><div class="object-copy"><small>UN HÉRITAGE</small><h3>1674</h3><p>Pondichéry devient un établissement français.</p><b>EXPLORER ↗</b></div></article>
@@ -1005,12 +1320,12 @@ body{--chapter-progress:0}
 </div>
 </section>
 <section class="three-d-exhibit" id="3d-experience">
-  <div class="three-d-heading"><div class="defence-scene-kicker">03 / PONT D’ENVOL · AVIATION NAVALE</div>
+  <div class="three-d-heading"><div class="defence-scene-kicker">03 / HANGAR NUMÉRIQUE · AVIATION NAVALE</div>
     <div>
       <div class="chapter-no">OBJETS EN TROIS DIMENSIONS · EXPOSITION INTERACTIVE</div>
-      <h2>La défense en <em>trois dimensions.</em></h2>
+      <h2>Au cœur du <em>Rafale M.</em></h2>
     </div>
-    <p>Explorez le Rafale M fourni pour cette présentation et une maquette générique de sous-marin. Les modèles illustrent les équipements et les domaines de coopération sans confondre une maquette générique avec un matériel précis.</p>
+    <p>Entrez dans un hangar numérique. Faites pivoter le Rafale M, changez de point de vue et sélectionnez ses grandes surfaces pour comprendre le rôle de chaque élément. Le modèle reste celui fourni pour cette présentation.</p>
   </div>
   <div class="real3d-shell">
     <div class="real3d-viewer">
@@ -1027,14 +1342,36 @@ body{--chapter-progress:0}
           <div slot="poster" class="real3d-poster"><span>CHARGEMENT DU MODÈLE 3D…</span></div>
           <div slot="error" class="real3d-error">Ce modèle n’a pas pu être chargé depuis son serveur. Vérifiez la connexion, puis réessayez.</div>
         </model-viewer>
-        <div class="real3d-viewer-tools"><button id="real3d-reset" type="button">RÉINITIALISER LA VUE</button><button id="launchJet" type="button">SIMULER LE DÉCOLLAGE ↗</button><span>GLISSER · ZOOMER · EXPLORER</span></div>
+        <div class="aircraft-inspection" aria-label="Points d’inspection du Rafale M">
+          <div class="inspection-caption"><span>INSPECTION VISUELLE</span><i>CHOISIR UN ÉLÉMENT</i></div>
+          <button class="aircraft-hotspot active" type="button" data-part="cockpit" style="--x:53%;--y:34%" aria-label="Inspecter le cockpit"><span>01</span></button>
+          <button class="aircraft-hotspot" type="button" data-part="wings" style="--x:48%;--y:56%" aria-label="Inspecter les ailes"><span>02</span></button>
+          <button class="aircraft-hotspot" type="button" data-part="engines" style="--x:39%;--y:65%" aria-label="Inspecter les moteurs"><span>03</span></button>
+          <button class="aircraft-hotspot" type="button" data-part="naval" style="--x:68%;--y:47%" aria-label="Inspecter les équipements navals"><span>04</span></button>
+          <div class="inspection-hint">SÉLECTIONNEZ UN REPÈRE POUR LIRE SA FICHE</div>
+        </div>
+        <div class="real3d-viewer-tools" aria-label="Commandes du modèle 3D">
+          <div class="real3d-camera-presets" role="group" aria-label="Angles de caméra">
+            <button type="button" data-camera="side" class="active">PROFIL</button>
+            <button type="button" data-camera="front">AVANT</button>
+            <button type="button" data-camera="top">DESSUS</button>
+            <button type="button" data-camera="rear">ARRIÈRE</button>
+          </div>
+          <div class="real3d-actions">
+            <button id="real3d-rotate" type="button" aria-pressed="true">⏸ PAUSE ROTATION</button>
+            <button id="real3d-reset" type="button">RÉINITIALISER</button>
+            <button id="real3d-fullscreen" type="button">PLEIN ÉCRAN ⛶</button>
+            <button id="launchJet" type="button">SÉQUENCE CINÉMATIQUE ↗</button>
+          </div>
+          <span class="real3d-hint">GLISSER · ZOOMER · CHANGER D’ANGLE</span>
+        </div>
       </div>
       <div class="real3d-bottomline"><span>MODÈLE 3D DIRECT · SANS IFRAME</span><a id="real3d-source" href="https://sketchfab.com/3d-models/dassault-rafale-m-fighter-jet-free-0abf2465adb04bc8bc638688fa54ce21" target="_blank" rel="noopener">SOURCE DU MODÈLE ↗</a></div>
     </div>
     <aside class="real3d-details">
-      <div class="real3d-kicker" id="real3d-kicker">01 — DÉFENSE & AÉRONAUTIQUE</div>
+      <div class="real3d-kicker" id="real3d-kicker">FICHE TECHNIQUE · 01 / 04</div>
       <h3 id="real3d-title">Le Dassault Rafale M</h3>
-      <p id="real3d-copy">Ce modèle 3D est le Dassault Rafale M fourni pour cette présentation. Le Rafale M est la version navale conçue pour opérer depuis un porte-avions. L’Inde a signé en avril 2025 un accord portant sur 26 Rafale Marine.</p>
+      <p id="real3d-copy">Le Rafale M est la version navale du Rafale, conçue pour opérer depuis un porte-avions. Sélectionnez les repères du visualiseur pour découvrir les fonctions des différentes parties. Le modèle 3D illustre l’appareil ; les repères sont des annotations pédagogiques.</p>
       <div class="real3d-facts" id="real3d-facts"><span>RAFALE M</span><span>AVIATION NAVALE</span><span>MODÈLE FOURNI</span></div>
       <div class="real3d-picker" role="group" aria-label="Choisir un équipement de défense">
         <button class="real3d-choice active" data-real3d="jet" type="button"><span>01</span><b>Dassault Rafale M</b><small>Modèle fourni · aéronautique navale</small><i>↗</i></button>
@@ -1083,6 +1420,44 @@ body{--chapter-progress:0}
   </div>
   <div class="people-note"><b>Pourquoi c’est important ?</b><p>Les échanges humains créent des réseaux durables. Un étudiant qui se forme dans l’autre pays, un chercheur qui partage un laboratoire ou un professionnel qui travaille à l’étranger peut devenir un lien vivant entre les deux sociétés.</p></div>
 </div>
+
+<div class="space-mission-console" id="space-mission-console">
+  <div class="space-console-heading">
+    <div>
+      <div class="feature-kicker">MISSION CONTROL · CNES × ISRO</div>
+      <h3>Observer notre planète <em>ensemble.</em></h3>
+      <p>Une visualisation interactive des grands domaines de coopération spatiale. Les trajectoires et le satellite sont schématiques : ils ne représentent pas une mission réelle.</p>
+    </div>
+    <div class="space-live-tag"><i></i> SIMULATION INTERACTIVE</div>
+  </div>
+  <div class="space-console-grid">
+    <div class="space-orbit-stage" id="spaceOrbitStage">
+      <div class="space-stage-stars"></div>
+      <div class="space-orbit orbit-one"></div>
+      <div class="space-orbit orbit-two"></div>
+      <div class="space-earth-globe"><div class="space-earth-grid"></div><span>TERRE</span></div>
+      <div class="space-satellite-art" id="spaceSatelliteArt" aria-hidden="true">
+        <div class="sat-panel sat-panel-left"></div><div class="sat-core"><i></i></div><div class="sat-panel sat-panel-right"></div><div class="sat-antenna"></div>
+      </div>
+      <div class="space-signal signal-a"></div><div class="space-signal signal-b"></div>
+      <div class="space-stage-coordinates">ORBITE BASSE · VISUALISATION CONCEPTUELLE</div>
+      <div class="space-stage-label" id="spaceStageLabel">OBSERVER LES TERRITOIRES</div>
+    </div>
+    <div class="space-console-controls">
+      <div class="space-console-index">SÉLECTIONNER UN DOMAINE <span id="spaceMissionIndex">01 / 03</span></div>
+      <button class="space-mission-tab active" data-mission="earth"><span>01</span><b>Observer la Terre</b><small>Territoires · océans · ressources</small><i>↗</i></button>
+      <button class="space-mission-tab" data-mission="climate"><span>02</span><b>Comprendre le climat</b><small>Atmosphère · océans · évolution</small><i>↗</i></button>
+      <button class="space-mission-tab" data-mission="science"><span>03</span><b>Faire avancer la science</b><small>Recherche · instruments · exploration</small><i>↗</i></button>
+      <div class="space-mission-detail" aria-live="polite">
+        <div class="space-detail-kicker" id="spaceDetailKicker">DONNÉES & OBSERVATION</div>
+        <h4 id="spaceDetailTitle">Voir la Terre autrement.</h4>
+        <p id="spaceDetailText">Les données satellitaires aident à observer les changements des territoires, des océans et des ressources. Elles peuvent soutenir la recherche et éclairer les décisions publiques.</p>
+      </div>
+    </div>
+  </div>
+  <div class="space-console-footer"><span>PARTENAIRES : CENTRE NATIONAL D’ÉTUDES SPATIALES · INDIAN SPACE RESEARCH ORGANISATION</span><span>LE SATELLITE EST UN MODÈLE PÉDAGOGIQUE</span></div>
+</div>
+
 </section>
 
 <section class="context-model-section reverse" id="space-3d-exhibit">
@@ -1366,8 +1741,32 @@ document.querySelectorAll('.object').forEach(el=>{el.addEventListener('mousemove
 
 </script>
 <script>
-const progress=document.getElementById('scrollProgress');
-addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%'},{passive:true});
+(() => {
+  const bar = document.getElementById('scrollProgressFill');
+  const track = document.getElementById('scrollProgress');
+  if (!bar || !track) return;
+  let scheduled = false;
+  const update = () => {
+    // Read from both scrolling roots: this covers Chromium, Firefox and Safari.
+    const root = document.scrollingElement || document.documentElement;
+    const top = Math.max(root.scrollTop || 0, document.documentElement.scrollTop || 0, document.body.scrollTop || 0, window.pageYOffset || 0);
+    const height = Math.max(root.scrollHeight || 0, document.documentElement.scrollHeight || 0, document.body.scrollHeight || 0);
+    const max = Math.max(0, height - window.innerHeight);
+    const progress = max > 0 ? Math.min(1, Math.max(0, top / max)) : 0;
+    bar.style.transform = `scaleX(${progress})`;
+    bar.setAttribute('aria-valuenow', String(Math.round(progress * 100)));
+    scheduled = false;
+  };
+  const requestUpdate = () => {
+    if (!scheduled) { scheduled = true; requestAnimationFrame(update); }
+  };
+  window.addEventListener('scroll', requestUpdate, { passive: true });
+  document.addEventListener('scroll', requestUpdate, { passive: true });
+  window.addEventListener('resize', requestUpdate, { passive: true });
+  window.addEventListener('load', requestUpdate, { once: true });
+  if ('ResizeObserver' in window) new ResizeObserver(requestUpdate).observe(document.body);
+  update();
+})();
 </script>
 
 <script>
@@ -1716,42 +2115,47 @@ addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-i
 
 
 <script id="next-experience-interactions">
-(() => {
+document.addEventListener('DOMContentLoaded', () => {
   const $ = (id) => document.getElementById(id);
   const mapData = {
-    paris:{k:'FRANCE · CAPITALE',t:'Paris',p:'Centre politique et diplomatique français. Les visites officielles, les accords bilatéraux et les échanges institutionnels structurent une grande partie du dialogue entre les deux pays.',tags:['DIPLOMATIE','CULTURE']},
-    pondicherry:{k:'INDE · TERRITOIRE DE MÉMOIRE',t:'Pondichéry',p:'Ancien établissement français devenu un territoire de l’Union indienne. Son patrimoine urbain témoigne d’une histoire franco-indienne, mais la ville reste profondément ancrée dans ses cultures tamoule et indienne.',tags:['PATRIMOINE','HISTOIRE']},
-    newdelhi:{k:'INDE · CAPITALE',t:'New Delhi',p:'Centre des institutions indiennes et des décisions de politique étrangère. C’est un point essentiel du dialogue stratégique, diplomatique et économique avec la France.',tags:['DIPLOMATIE','STRATÉGIE']},
-    chennai:{k:'INDE · ÉDUCATION & INDUSTRIE',t:'Chennai',p:'Un grand centre urbain et industriel du sud de l’Inde. La présence d’établissements d’enseignement du français et les liens économiques régionaux rendent cette ville particulièrement pertinente pour les étudiants.',tags:['ÉDUCATION','INDUSTRIE']},
-    toulouse:{k:'FRANCE · AÉRONAUTIQUE & ESPACE',t:'Toulouse',p:'Ville majeure de l’aéronautique et du spatial en France. Elle permet d’évoquer les écosystèmes industriels et scientifiques qui nourrissent les coopérations technologiques.',tags:['AÉRONAUTIQUE','ESPACE']}
+    paris:{k:'FRANCE · CAPITALE',t:'Paris',p:'Centre politique et diplomatique français. Les visites officielles, les accords bilatéraux et les échanges institutionnels structurent une grande partie du dialogue entre les deux pays.',tags:['DIPLOMATIE','CULTURE'],coord:'48°51′ N · 2°21′ E'},
+    pondicherry:{k:'INDE · TERRITOIRE DE MÉMOIRE',t:'Pondichéry',p:'Ancien établissement français devenu un territoire de l’Union indienne. Son patrimoine urbain témoigne d’une histoire franco-indienne, mais la ville reste profondément ancrée dans ses cultures tamoule et indienne.',tags:['PATRIMOINE','HISTOIRE'],coord:'11°56′ N · 79°50′ E'},
+    newdelhi:{k:'INDE · CAPITALE',t:'New Delhi',p:'Centre des institutions indiennes et des décisions de politique étrangère. C’est un point essentiel du dialogue stratégique, diplomatique et économique avec la France.',tags:['DIPLOMATIE','STRATÉGIE'],coord:'28°36′ N · 77°12′ E'},
+    chennai:{k:'INDE · ÉDUCATION & INDUSTRIE',t:'Chennai',p:'Un grand centre urbain et industriel du sud de l’Inde. La présence d’établissements d’enseignement du français et les liens économiques régionaux rendent cette ville particulièrement pertinente pour les étudiants.',tags:['ÉDUCATION','INDUSTRIE'],coord:'13°05′ N · 80°17′ E'},
+    toulouse:{k:'FRANCE · AÉRONAUTIQUE & ESPACE',t:'Toulouse',p:'Ville majeure de l’aéronautique et du spatial en France. Elle permet d’évoquer les écosystèmes industriels et scientifiques qui nourrissent les coopérations technologiques.',tags:['AÉRONAUTIQUE','ESPACE'],coord:'43°36′ N · 1°26′ E'}
   };
   document.querySelectorAll('[data-map]').forEach(n=>{
-    const activate=()=>{const d=mapData[n.dataset.map];if(!d)return;document.querySelectorAll('[data-map]').forEach(x=>x.classList.toggle('active',x===n));$('map-kicker').textContent=d.k;$('map-title').textContent=d.t;$('map-copy').textContent=d.p;$('map-pills').innerHTML=d.tags.map(x=>`<span>${x}</span>`).join('');};
+    const activate=()=>{const d=mapData[n.dataset.map];if(!d)return;document.querySelectorAll('[data-map]').forEach(x=>x.classList.toggle('active',x.dataset.map===n.dataset.map));$('map-kicker').textContent=d.k;$('map-title').textContent=d.t;$('map-copy').textContent=d.p;$('map-pills').innerHTML=d.tags.map(x=>`<span>${x}</span>`).join('');$('map-coordinate').textContent=d.coord;$('map-index').textContent=String(Object.keys(mapData).indexOf(n.dataset.map)+1).padStart(2,'0')+' / 05';};
     n.addEventListener('click',activate);n.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});
   });
-  const timeline = {
-    1664:['La Compagnie française des Indes orientales','La création de la Compagnie française des Indes orientales marque le début d’une présence commerciale française organisée dans l’océan Indien. Elle s’inscrit dans un monde déjà structuré par les réseaux marchands et les pouvoirs politiques locaux.'],
-    1674:['Pondichéry devient un établissement français','L’installation française à Pondichéry donne à la présence commerciale un ancrage territorial durable. La ville devient un centre administratif et commercial important, au milieu des rivalités européennes et des réalités politiques indiennes.'],
-    1941:['La campagne de Syrie','Pendant la Seconde Guerre mondiale, des troupes indiennes combattent les forces de Vichy en Syrie. La campagne est complexe : des soldats indiens affrontent les forces françaises de Vichy, tandis que les Français libres combattent eux aussi Vichy.'],
-    1954:['Le transfert de facto des établissements','Le transfert de facto des établissements français intervient en 1954. Le transfert de jure est ratifié en 1962. Cette transition met fin à l’administration française des établissements en Inde.'],
-    1998:['Un partenariat stratégique','L’Inde et la France établissent un partenariat stratégique. La coopération s’étend à la défense, à la sécurité, au nucléaire civil, à l’espace et aux grands enjeux internationaux.'],
-    2023:['Horizon 2047 : une ambition renouvelée','La feuille de route Horizon 2047, adoptée lors de la visite du Premier ministre indien en France en 2023, fixe une ambition de long terme dans la défense, l’innovation, l’énergie, l’éducation et les échanges entre sociétés.']
-  };
-  document.querySelectorAll('[data-year]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-year]').forEach(x=>x.classList.toggle('active',x===b));const d=timeline[b.dataset.year];$('timeline-year').textContent=b.dataset.year;$('timeline-title').textContent=d[0];$('timeline-copy').textContent=d[1];}));
   const speakers=[
     {topic:'Les origines et la transformation de la relation bilatérale.',k:'CHAPITRE 01 · LES ORIGINES',t:'De la présence coloniale au partenariat',n:'Présentez d’abord les origines commerciales de la présence française en Inde. Expliquez pourquoi Pondichéry est un lieu central de cette histoire, sans réduire l’histoire du sous-continent à une rivalité entre puissances européennes.\\n\\nÉvoquez les moments complexes : Tipu Sultan et ses liens avec la France révolutionnaire, les ambitions de Napoléon qui ne se concrétisent pas, puis la campagne de Syrie en 1941.\\n\\nTerminez avec le transfert des établissements français et le partenariat stratégique de 1998. Le fil conducteur : la relation est passée d’une histoire coloniale à une coopération entre États souverains.'},
     {topic:'Les échanges culturels, les langues, les arts et la gastronomie.',k:'CHAPITRE 02 · CULTURE & SOCIÉTÉ',t:'Deux cultures qui dialoguent',n:'Commencez par Pondichéry, où l’architecture française coexiste avec une identité tamoule vivante. Insistez sur le fait que le patrimoine n’est pas seulement un décor : il raconte les échanges, les tensions et les adaptations.\\n\\nÉlargissez ensuite à la langue française, à l’Alliance Française, aux universités, au cinéma, à la littérature, à la gastronomie et aux arts. Donnez un exemple concret pour chaque domaine plutôt que d’énumérer des mots.\\n\\nConcluez : le dialogue culturel ne signifie pas que les deux cultures deviennent identiques ; il crée des espaces où elles peuvent se comprendre et s’influencer.'},
     {topic:'Le partenariat militaire, industriel et stratégique.',k:'CHAPITRE 03 · DÉFENSE & TECHNOLOGIE',t:'Une confiance stratégique concrète',n:'Présentez d’abord la logique du partenariat de défense : autonomie stratégique, sécurité maritime, formation et coopération industrielle.\\n\\nExpliquez le Rafale et le Rafale Marine, en distinguant bien les appareils destinés à l’armée de l’air et les 26 appareils navals concernés par l’accord de 2025. Présentez ensuite le programme P-75 : six sous-marins Scorpène construits en Inde avec un appui technologique français.\\n\\nTerminez par les exercices conjoints Shakti, Varuna et Garuda, respectivement dans les domaines terrestre, naval et aérien.'},
     {topic:'L’économie, l’innovation, l’éducation et les priorités futures.',k:'CHAPITRE 04 · L’AVENIR',t:'Construire le partenariat de demain',n:'Montrez que la relation ne se limite pas à la défense. Parlez du commerce, des investissements, des technologies, de l’espace, de l’énergie propre et de la coopération dans l’Indo-Pacifique.\\n\\nPrésentez l’objectif français d’accueillir 30 000 étudiants indiens d’ici 2030 comme un objectif annoncé, pas comme un résultat déjà atteint. Évoquez aussi les échanges universitaires et la mobilité des jeunes professionnels.\\n\\nConcluez avec Horizon 2047 : une vision à long terme qui doit se traduire en projets concrets, mesurables et bénéfiques aux deux sociétés.'}
   ];
-  let speaker=0,remaining=300,timer=null;
-  const renderSpeaker=()=>{const d=speakers[speaker];$('speaker-number').textContent=`0${speaker+1} / 04`;$('speaker-topic').textContent=d.topic;$('speaker-kicker').textContent=d.k;$('speaker-title').textContent=d.t;$('speaker-notes').textContent=d.n;document.querySelectorAll('[data-speaker]').forEach(b=>b.classList.toggle('active',Number(b.dataset.speaker)===speaker));remaining=300;renderTime();};
-  const renderTime=()=>{$('speaker-timer').textContent=`${String(Math.floor(remaining/60)).padStart(2,'0')}:${String(remaining%60).padStart(2,'0')}`;};
-  const stopTimer=()=>{if(timer){clearInterval(timer);timer=null;}};
-  document.querySelectorAll('[data-speaker]').forEach(b=>b.addEventListener('click',()=>{stopTimer();speaker=Number(b.dataset.speaker);renderSpeaker();}));
-  $('timer-start').addEventListener('click',()=>{if(timer)return;timer=setInterval(()=>{if(remaining>0){remaining--;renderTime();}else{stopTimer();$('speaker-timer').textContent='TEMPS ÉCOULÉ';}},1000);});
-  $('timer-pause').addEventListener('click',stopTimer);$('timer-reset').addEventListener('click',()=>{stopTimer();remaining=300;renderTime();});
-  $('speakerOpen').addEventListener('click',()=>$('presentation-mode').scrollIntoView({behavior:'smooth'}));
+  let speaker=0;
+  const renderSpeaker=()=>{
+    const d=speakers[speaker];
+    $('speaker-number').textContent=`0${speaker+1} / 04`;
+    $('speaker-topic').textContent=d.topic;
+    $('speaker-kicker').textContent=d.k;
+    $('speaker-title').textContent=d.t;
+    $('speaker-notes').textContent=d.n;
+    document.querySelectorAll('[data-speaker]').forEach(b=>{
+      const active=Number(b.dataset.speaker)===speaker;
+      b.classList.toggle('active',active);
+      b.setAttribute('aria-pressed',String(active));
+    });
+  };
+  document.querySelectorAll('[data-speaker]').forEach(b=>b.addEventListener('click',()=>{
+    const next=Number(b.dataset.speaker);
+    if(Number.isInteger(next)&&next>=0&&next<speakers.length){speaker=next;renderSpeaker();}
+  }));
+  $('speakerOpen').addEventListener('click',()=>{
+    $('presentation-mode').scrollIntoView({behavior:'smooth',block:'start'});
+    window.setTimeout(()=>{const launch=$('presenterFullscreen');if(launch)launch.click();},450);
+  });
   renderSpeaker();
   const questions=[
     ['En quelle année le partenariat stratégique a-t-il été établi ?',['1989','1998','2005','2015'],1,'Le partenariat stratégique entre l’Inde et la France date de 1998.'],
@@ -1766,16 +2170,35 @@ addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-i
   $('quiz-restart').addEventListener('click',()=>{qi=0;score=0;drawQuestion();});
   drawQuestion();
   const chapters=['histoire','culture','defense','avenir'];let guidedIndex=0;
-  $('freeMode').addEventListener('click',()=>{document.body.classList.remove('guided-mode');$('freeMode').classList.add('active');$('guidedMode').classList.remove('active');$('guidedBanner').classList.remove('show');});
-  $('guidedMode').addEventListener('click',()=>{document.body.classList.add('guided-mode');$('guidedMode').classList.add('active');$('freeMode').classList.remove('active');guidedIndex=0;$('guidedBanner').classList.add('show');$('guidedLabel').textContent='CHAPITRE 01 / 04';document.getElementById(chapters[0]).scrollIntoView({behavior:'smooth'});});
-  $('guidedNext').addEventListener('click',()=>{guidedIndex=Math.min(guidedIndex+1,chapters.length-1);$('guidedLabel').textContent=`CHAPITRE 0${guidedIndex+1} / 04`;document.getElementById(chapters[guidedIndex]).scrollIntoView({behavior:'smooth'});if(guidedIndex===chapters.length-1)$('guidedNext').textContent='FIN ✓';else $('guidedNext').textContent='SUIVANT →';});
-})();
+  const setMode=(mode)=>{
+    const guided=mode==='guided';
+    document.body.classList.toggle('guided-mode',guided);
+    $('freeMode').classList.toggle('active',!guided);
+    $('guidedMode').classList.toggle('active',guided);
+    $('freeMode').setAttribute('aria-pressed',String(!guided));
+    $('guidedMode').setAttribute('aria-pressed',String(guided));
+    $('guidedBanner').classList.toggle('show',guided);
+  };
+  $('freeMode').addEventListener('click',()=>setMode('free'));
+  $('guidedMode').addEventListener('click',()=>{
+    guidedIndex=0;setMode('guided');
+    $('guidedLabel').textContent='CHAPITRE 01 / 04';
+    $('guidedNext').textContent='SUIVANT →';
+    document.getElementById(chapters[guidedIndex]).scrollIntoView({behavior:'smooth',block:'start'});
+  });
+  $('guidedNext').addEventListener('click',()=>{
+    guidedIndex=guidedIndex>=chapters.length-1?0:guidedIndex+1;
+    $('guidedLabel').textContent=`CHAPITRE 0${guidedIndex+1} / 04`;
+    $('guidedNext').textContent=guidedIndex===chapters.length-1?'RETOUR AU DÉBUT ↺':'SUIVANT →';
+    document.getElementById(chapters[guidedIndex]).scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
 </script>
 
 <section class="experience-section" id="presentation-mode">
   <div class="experience-head">
     <div><div class="chapter-no">OUTIL POUR LES QUATRE INTERVENANTS</div><h2>Quatre voix. <em>Une seule histoire.</em></h2></div>
-    <p>Un espace pour organiser le passage entre les quatre intervenants. Le chronomètre est indicatif : adaptez le temps à votre prise de parole réelle.</p>
+    <p>Un espace pour organiser le passage entre les quatre intervenants et afficher les notes de chaque chapitre pendant la présentation.</p>
   </div>
   <div class="presenter-actions">
     <button class="primary" id="presenterFullscreen" type="button">PLEIN ÉCRAN ↗</button>
@@ -1789,7 +2212,7 @@ addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-i
     <button data-speaker="0">01 · HISTOIRE</button><button data-speaker="1">02 · CULTURE</button><button data-speaker="2">03 · DÉFENSE</button><button data-speaker="3">04 · AVENIR</button>
   </div>
   <div class="speaker-panel">
-    <aside class="speaker-side"><div class="mini-kicker">INTERVENANT EN COURS</div><strong id="speaker-number">01 / 04</strong><p id="speaker-topic">Les origines et la transformation de la relation bilatérale.</p><div class="speaker-timer" id="speaker-timer">05:00</div><div class="speaker-controls"><button class="primary" id="timer-start">DÉMARRER</button><button id="timer-pause">PAUSE</button><button id="timer-reset">RÉINITIALISER</button></div></aside>
+    <aside class="speaker-side"><div class="mini-kicker">INTERVENANT EN COURS</div><strong id="speaker-number">01 / 04</strong><p id="speaker-topic">Les origines et la transformation de la relation bilatérale.</p></aside>
     <div class="speaker-content"><div class="mini-kicker" id="speaker-kicker">CHAPITRE 01 · LES ORIGINES</div><h3 id="speaker-title">De la présence coloniale au partenariat</h3><p id="speaker-notes">Présentez d’abord les origines commerciales de la présence française en Inde. Expliquez ensuite pourquoi Pondichéry est un lieu central de cette histoire, sans réduire l’histoire du sous-continent à une rivalité entre puissances européennes.\n\nTerminez en montrant le changement majeur : après le transfert des établissements français, la relation évolue vers une coopération entre États indépendants. Le partenariat stratégique de 1998 marque une étape décisive.</p></div>
   </div>
 </section>
@@ -1831,9 +2254,6 @@ addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-i
     }),{rootMargin:'-35% 0px -45% 0px'});
     chapterNodes.forEach(el=>chapterObserver.observe(el));
   }
-  const progress=$('chapterProgress');
-  const updateProgress=()=>{const max=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(max>0?window.scrollY/max*100:0)+'%';};
-  window.addEventListener('scroll',updateProgress,{passive:true});updateProgress();
 
   // Defence briefing tabs.
   const brief={
@@ -1912,7 +2332,45 @@ addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-i
   ['1962','TRANSFERT DE DROIT','La cession est ratifiée','La ratification du traité de cession par la France en 1962 achève le transfert juridique. La relation peut désormais se construire entre deux États souverains.']
  ];
  const range=document.getElementById('voyageRange');
- if(range){const update=()=>{let e=events[+range.value];['voyageYear','voyagePeriod','voyageTitle','voyageCopy'].forEach((id,i)=>document.getElementById(id).textContent=e[i]);};range.addEventListener('input',update);document.getElementById('voyagePrev').addEventListener('click',()=>{range.value=Math.max(0,+range.value-1);update()});document.getElementById('voyageNext').addEventListener('click',()=>{range.value=Math.min(4,+range.value+1);update()});}
+ if(range){
+  const route=document.getElementById('voyageRoutePath');
+  const ship=document.getElementById('voyageShip');
+  const indiaPulse=document.getElementById('voyageIndiaPulse');
+  const sultanPin=document.getElementById('voyageSeringapatam');
+  const map=document.querySelector('.voyage-map');
+  const mapLabel=document.querySelector('.voyage-map .map-coord');
+  const routeLength=route && route.getTotalLength ? route.getTotalLength() : 1;
+  const stages=[
+   {progress:.12,label:'1664 · DÉPART DES ÉCHANGES',showRoute:true},
+   {progress:.92,label:'1674 · PONDICHÉRY',showRoute:true},
+   {progress:1,label:'1799 · SERINGAPATAM',showRoute:true},
+   {progress:1,label:'1954 · TRANSFERT DE FAIT',showRoute:false},
+   {progress:1,label:'1962 · TRANSFERT DE DROIT',showRoute:false}
+  ];
+  const update=()=>{
+   const index=+range.value, e=events[index], stage=stages[index];
+   ['voyageYear','voyagePeriod','voyageTitle','voyageCopy'].forEach((id,i)=>document.getElementById(id).textContent=e[i]);
+   if(route){
+    route.style.strokeDasharray=routeLength;
+    route.style.strokeDashoffset=routeLength*(1-stage.progress);
+    route.style.opacity=stage.showRoute?'1':'.24';
+   }
+   if(ship){
+    const point=route && route.getPointAtLength ? route.getPointAtLength(routeLength*stage.progress) : {x:260,y:150};
+    ship.setAttribute('transform',`translate(${point.x} ${point.y})`);
+    ship.style.opacity=index<=2?'1':'.0';
+   }
+   if(indiaPulse)indiaPulse.style.opacity=index===1||index>=3?'1':'.12';
+   if(sultanPin)sultanPin.style.opacity=index===2?'1':'.12';
+   if(mapLabel)mapLabel.textContent=stage.label+' · CARTE SCHÉMATIQUE';
+   if(map)map.dataset.era=String(index);
+   range.setAttribute('aria-valuetext',e[0]+' — '+e[1]);
+  };
+  range.addEventListener('input',update);
+  document.getElementById('voyagePrev').addEventListener('click',()=>{range.value=Math.max(0,+range.value-1);update()});
+  document.getElementById('voyageNext').addEventListener('click',()=>{range.value=Math.min(4,+range.value+1);update()});
+  update();
+ }
  const cultureData={
   street:['PONDICHÉRY · WHITE TOWN','Une rue, deux héritages.','À Puducherry, les rues en damier, les façades colorées et les maisons tamoules racontent des histoires différentes dans une même ville. Le patrimoine est vivant : il appartient d’abord à celles et ceux qui y habitent.'],
   food:['À TABLE · TRADITIONS','Les goûts voyagent aussi.','La cuisine raconte les rencontres sans effacer les origines. Les habitudes françaises et les traditions culinaires du Tamil Nadu coexistent dans les boulangeries, les cafés et les tables de Puducherry.'],
@@ -1926,4 +2384,1173 @@ addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-i
 })();
 </script>
 
+
+<style id="cinematic-quote-entry">
+/* A full-screen cinematic pause: the page visually falls to black as this passage enters view. */
+#quote-entry.quote-cinematic{
+  --quote-gold:#d6a568;
+  position:relative;isolation:isolate;
+  width:100vw;max-width:none;
+  margin:clamp(55px,8vw,100px) calc(50% - 50vw) 0;
+  min-height:100svh;
+  box-sizing:border-box;
+  padding:clamp(90px,13vh,150px) clamp(24px,10vw,160px);
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+  gap:clamp(24px,4vh,44px);
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse at 50% 46%,rgba(174,125,69,.13),transparent 32%),
+    radial-gradient(ellipse at 50% 110%,rgba(39,69,103,.18),transparent 48%),
+    #030405;
+  border:0;
+  box-shadow:0 0 0 100vmax #030405;
+  clip-path:inset(0);
+  transition:background 1.1s ease;
+}
+#quote-entry.quote-cinematic:before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  opacity:.34;
+  background:
+    linear-gradient(90deg,transparent 0%,rgba(255,255,255,.035) 50%,transparent 100%),
+    repeating-linear-gradient(0deg,rgba(255,255,255,.018) 0 1px,transparent 1px 4px);
+  mask-image:radial-gradient(ellipse at center,#000 0%,transparent 78%);
+}
+#quote-entry.quote-cinematic:after{
+  content:"";position:absolute;left:50%;top:50%;width:min(70vw,850px);aspect-ratio:1;
+  transform:translate(-50%,-50%);z-index:-1;border-radius:50%;
+  border:1px solid rgba(214,165,104,.10);
+  box-shadow:0 0 90px rgba(214,165,104,.08),inset 0 0 90px rgba(214,165,104,.035);
+  animation:quote-orbit 24s linear infinite;
+}
+#quote-entry .intro-now-label{
+  width:min(100%,900px);text-align:center;
+  color:#d5a46c;font:600 10px 'DM Mono',monospace;
+  letter-spacing:.32em;text-transform:uppercase;
+}
+#quote-entry .intro-now-label:before,#quote-entry .intro-now-label:after{
+  content:"";display:inline-block;vertical-align:middle;width:clamp(24px,5vw,72px);
+  height:1px;margin:0 16px;background:linear-gradient(90deg,transparent,#b88a56);
+}
+#quote-entry .intro-now-label:after{transform:rotate(180deg)}
+#quote-entry .intro-now p{
+  width:min(100%,1040px);margin:0;text-align:center;
+  color:#c8c2b9;font-size:clamp(15px,1.45vw,19px);line-height:1.95;
+}
+#quote-entry .intro-now p:first-of-type{max-width:850px}
+#quote-entry .intro-now p em{color:#e7c28f;font-style:normal}
+#quote-entry .intro-now .intro-final-line{
+  position:relative;width:min(100%,1120px);margin:8px 0 0;padding:clamp(28px,4vw,52px) 0 0;
+  border:0;text-align:center;
+  color:#f6efe5;font-family:'Playfair Display',Georgia,serif;
+  font-size:clamp(30px,4.6vw,66px);font-weight:500;line-height:1.22;
+  letter-spacing:-.035em;text-wrap:balance;
+  text-shadow:0 0 18px rgba(230,190,135,.10);
+}
+#quote-entry .intro-final-line:before{
+  content:"";position:absolute;top:0;left:50%;width:clamp(70px,12vw,150px);height:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,#d5a46c,transparent);
+  box-shadow:0 0 18px rgba(213,164,108,.7);
+}
+#quote-entry .intro-final-line .quote-highlight{color:#dfb477;text-shadow:0 0 24px rgba(223,180,119,.26)}
+#quote-entry .quote-scroll-cue{
+  display:flex;align-items:center;gap:12px;margin-top:clamp(24px,5vh,58px);
+  color:rgba(232,222,207,.52);font:9px 'DM Mono',monospace;letter-spacing:.24em;text-transform:uppercase;
+}
+#quote-entry .quote-scroll-cue:after{
+  content:"";width:38px;height:1px;background:linear-gradient(90deg,#d5a46c,transparent);
+  animation:quote-cue 1.8s ease-in-out infinite;
+}
+#quote-entry .quote-grain{
+  position:absolute;inset:0;pointer-events:none;z-index:-1;opacity:.14;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.23'/%3E%3C/svg%3E");
+}
+#quote-entry.quote-cinematic .quote-reveal{
+  opacity:0;transform:translateY(24px);filter:blur(8px);
+  transition:opacity 1s ease,transform 1.15s cubic-bezier(.2,.75,.2,1),filter 1.15s ease;
+}
+#quote-entry.quote-cinematic.is-visible .quote-reveal{opacity:1;transform:none;filter:none}
+#quote-entry.quote-cinematic.is-visible .quote-reveal.delay-1{transition-delay:.18s}
+#quote-entry.quote-cinematic.is-visible .quote-reveal.delay-2{transition-delay:.38s}
+@keyframes quote-orbit{to{transform:translate(-50%,-50%) rotate(360deg)}}
+@keyframes quote-cue{0%,100%{transform:scaleX(.55);opacity:.45;transform-origin:left}50%{transform:scaleX(1);opacity:1;transform-origin:left}}
+@media(max-width:650px){
+ #quote-entry.quote-cinematic{min-height:90svh;padding:90px 24px;margin-top:55px}
+ #quote-entry .intro-now-label{letter-spacing:.18em;font-size:9px}
+ #quote-entry .intro-now-label:before,#quote-entry .intro-now-label:after{margin:0 7px;width:18px}
+ #quote-entry .intro-now p{font-size:14px;line-height:1.8}
+ #quote-entry .intro-now .intro-final-line{font-size:34px}
+}
+@media(prefers-reduced-motion:reduce){
+ #quote-entry:after{animation:none}
+ #quote-entry .quote-reveal{transition:none;opacity:1;transform:none;filter:none}
+}
+</style>
+<script id="cinematic-quote-entry-script">
+(()=>{
+ const init=()=>{
+  const stage=document.getElementById('quote-entry');
+  const track=document.getElementById('quote-scroll-track');
+  if(!stage||!track||stage.dataset.quoteFinalInit)return;
+  stage.dataset.quoteFinalInit='1';
+  const label=stage.querySelector('.intro-now-label');
+  const paras=[...stage.querySelectorAll('p')];
+  const lead=paras.find(p=>!p.classList.contains('intro-final-line'));
+  const quote=stage.querySelector('.intro-final-line');
+  [label,lead,quote].filter(Boolean).forEach(el=>el.classList.add('quote-reveal'));
+  if(quote){
+   const raw=quote.textContent.trim().replace(/\s+/g,' ');
+   quote.textContent='';
+   raw.split(' ').forEach((word,i)=>{
+    const span=document.createElement('span');
+    span.className='quote-word';
+    span.textContent=word;
+    span.style.setProperty('--word-delay',Math.min(i*48,1500)+'ms');
+    if(/^(Révolution|française|Chennai)[,.:;!?]?$/.test(word))span.classList.add('quote-highlight');
+    quote.appendChild(span);
+    if(i<raw.split(' ').length-1)quote.appendChild(document.createTextNode(' '));
+   });
+  }
+  if(!stage.querySelector('.quote-grain')){
+   const grain=document.createElement('span');grain.className='quote-grain';grain.setAttribute('aria-hidden','true');stage.appendChild(grain);
+  }
+  if(!stage.querySelector('.quote-scroll-cue')){
+   const cue=document.createElement('div');cue.className='quote-scroll-cue';cue.textContent='CONTINUER LE VOYAGE';stage.appendChild(cue);
+  }
+  let started=false;
+  const start=()=>{if(started)return;started=true;stage.classList.add('is-visible','is-playing');};
+  const io=new IntersectionObserver(entries=>{
+   if(entries.some(e=>e.isIntersecting))start();
+  },{threshold:.18});
+  io.observe(stage);
+  // In case the section is already in view when the file loads.
+  const r=stage.getBoundingClientRect();
+  if(r.top<innerHeight*.85&&r.bottom>64)start();
+ };
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});
+ else init();
+})();
+</script>
+
+
+<style id="cinematic-quote-visibility-fix">
+/* Corrected visual hierarchy: no oversized orb, solid black documentary interlude. */
+#quote-entry.quote-cinematic{
+  width:100vw!important;max-width:none!important;min-height:100svh!important;
+  margin:clamp(42px,6vh,72px) calc(50% - 50vw) 0!important;
+  padding:clamp(78px,11vh,130px) clamp(24px,8vw,120px)!important;
+  display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;
+  gap:clamp(24px,3.5vh,40px)!important;box-sizing:border-box!important;
+  overflow:hidden!important;isolation:isolate!important;
+  background:#030405!important;border:0!important;box-shadow:none!important;clip-path:none!important;
+}
+#quote-entry.quote-cinematic:before{
+  content:""!important;display:block!important;position:absolute!important;inset:0!important;z-index:0!important;pointer-events:none!important;
+  opacity:.24!important;background:
+   radial-gradient(ellipse at 50% 52%,rgba(174,125,69,.12),transparent 52%),
+   repeating-linear-gradient(0deg,rgba(255,255,255,.018) 0 1px,transparent 1px 4px)!important;
+  mask-image:none!important;
+}
+#quote-entry.quote-cinematic:after{display:none!important;content:none!important}
+#quote-entry.quote-cinematic>*{position:relative;z-index:1}
+#quote-entry .intro-now-label{
+  width:min(100%,900px)!important;margin:0!important;text-align:center!important;
+  color:#d7ad79!important;font:600 10px 'DM Mono',monospace!important;letter-spacing:.28em!important;
+}
+#quote-entry .intro-now-label:before,#quote-entry .intro-now-label:after{
+  content:""!important;display:inline-block!important;width:clamp(22px,4vw,58px)!important;height:1px!important;
+  vertical-align:middle!important;margin:0 14px!important;background:linear-gradient(90deg,transparent,#c99b64)!important;
+}
+#quote-entry .intro-now-label:after{transform:rotate(180deg)!important}
+#quote-entry .intro-now p:not(.intro-final-line){
+  width:min(100%,790px)!important;max-width:790px!important;margin:0 auto!important;
+  color:#c9c5bf!important;text-align:center!important;font-size:clamp(15px,1.35vw,18px)!important;line-height:1.95!important;
+}
+#quote-entry .intro-now p em{color:#e6bd87!important}
+#quote-entry .intro-now .intro-final-line{
+  width:min(100%,1060px)!important;max-width:1060px!important;margin:8px auto 0!important;padding:32px 0 0!important;
+  border:0!important;text-align:center!important;color:#f4eee5!important;
+  font-family:'Playfair Display',Georgia,serif!important;font-size:clamp(30px,4.1vw,62px)!important;
+  font-weight:500!important;line-height:1.25!important;letter-spacing:-.035em!important;
+  text-wrap:balance!important;text-shadow:0 2px 22px rgba(0,0,0,.55)!important;
+}
+#quote-entry .intro-final-line:before{content:""!important;position:absolute!important;top:0!important;left:50%!important;
+  width:112px!important;height:1px!important;transform:translateX(-50%)!important;
+  background:linear-gradient(90deg,transparent,#d7ad79,transparent)!important;box-shadow:0 0 14px rgba(215,173,121,.5)!important}
+#quote-entry .intro-final-line .quote-highlight{color:#e5b979!important;text-shadow:0 0 18px rgba(229,185,121,.18)!important}
+#quote-entry .quote-scroll-cue{z-index:1!important;color:rgba(235,226,213,.58)!important}
+#quote-entry .quote-grain{z-index:0!important;opacity:.08!important}
+@media(max-width:650px){
+ #quote-entry.quote-cinematic{min-height:92svh!important;padding:76px 24px!important;margin-top:38px!important}
+ #quote-entry .intro-now-label{font-size:9px!important;letter-spacing:.16em!important}
+ #quote-entry .intro-now-label:before,#quote-entry .intro-now-label:after{width:15px!important;margin:0 6px!important}
+ #quote-entry .intro-now .intro-final-line{font-size:34px!important;line-height:1.22!important;padding-top:25px!important}
+}
+</style>
+
+
+
+<style id="quote-sticky-window-final">
+/* One reliable pinned scene. The content is never hidden waiting for an observer. */
+#quote-scroll-track{
+  position:relative!important;
+  width:100vw!important;
+  height:155svh!important;
+  margin:clamp(45px,7vw,82px) calc(50% - 50vw) 0!important;
+  isolation:isolate;
+}
+#quote-entry.quote-cinematic{
+  position:sticky!important;
+  top:64px!important;
+  width:100%!important;
+  height:calc(100svh - 64px)!important;
+  min-height:540px!important;
+  max-width:none!important;
+  margin:0!important;
+  padding:clamp(34px,7vh,82px) clamp(22px,8vw,120px)!important;
+  box-sizing:border-box!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  gap:clamp(18px,3vh,32px)!important;
+  overflow:hidden!important;
+  border:0!important;
+  clip-path:none!important;
+  box-shadow:none!important;
+  background:
+    radial-gradient(ellipse at 50% 52%,rgba(183,128,69,.13),transparent 34%),
+    radial-gradient(ellipse at 50% 100%,rgba(35,64,94,.14),transparent 50%),
+    #030405!important;
+  z-index:2;
+}
+#quote-entry:before{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+  opacity:.22;
+  background:repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0 1px,transparent 1px 4px);
+  mask-image:radial-gradient(ellipse at center,#000,transparent 85%);
+}
+#quote-entry:after{
+  content:"";position:absolute;left:50%;top:50%;width:min(58vw,680px);aspect-ratio:1;
+  transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;z-index:0;
+  border:1px solid rgba(211,164,105,.14);
+  box-shadow:0 0 100px rgba(211,164,105,.055),inset 0 0 80px rgba(211,164,105,.025);
+}
+#quote-entry>*{position:relative;z-index:1}
+#quote-entry .intro-now-label{
+  display:block!important;opacity:1!important;transform:none!important;filter:none!important;
+  margin:0 auto!important;text-align:center!important;
+  color:#d8aa70!important;font:600 10px 'DM Mono',monospace!important;
+  letter-spacing:.28em!important;
+}
+#quote-entry p:not(.intro-final-line){
+  display:block!important;opacity:1!important;transform:none!important;filter:none!important;
+  width:min(100%,860px)!important;max-width:860px!important;margin:0!important;
+  color:#bdb8b0!important;text-align:center!important;
+  font-size:clamp(14px,1.25vw,17px)!important;line-height:1.9!important;
+}
+#quote-entry .intro-final-line{
+  display:block!important;width:min(100%,1120px)!important;max-width:1120px!important;
+  margin:10px auto 0!important;padding:30px 0 0!important;
+  border:0!important;text-align:center!important;
+  color:#f4eee5!important;font-family:'Playfair Display',Georgia,serif!important;
+  font-size:clamp(30px,4.2vw,60px)!important;line-height:1.23!important;
+  letter-spacing:-.035em!important;text-wrap:balance;
+}
+#quote-entry .intro-final-line:before{
+  content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:110px;height:1px;background:linear-gradient(90deg,transparent,#d6a66c,transparent);
+  box-shadow:0 0 16px rgba(214,166,108,.65);
+}
+#quote-entry .quote-word{
+  display:inline-block;white-space:pre;opacity:0;
+  transform:translate3d(0,48px,0) scale(.82) rotateX(-24deg);
+  filter:blur(7px);transform-origin:50% 100%;will-change:transform,opacity,filter;
+}
+#quote-entry.is-playing .quote-word{
+  animation:quote-word-arrive .72s cubic-bezier(.16,1.18,.3,1) forwards;
+  animation-delay:var(--word-delay,0ms);
+}
+#quote-entry .quote-highlight{color:#dfb477!important;text-shadow:0 0 22px rgba(223,180,119,.22)}
+#quote-entry .quote-scroll-cue{
+  display:flex;align-items:center;gap:12px;margin-top:8px;
+  color:rgba(232,222,207,.56);font:9px 'DM Mono',monospace;letter-spacing:.24em;
+}
+#quote-entry .quote-scroll-cue:after{
+  content:"";width:38px;height:1px;background:linear-gradient(90deg,#d5a46c,transparent);
+}
+#quote-entry .quote-flare{
+  position:absolute!important;z-index:0!important;top:-20%;bottom:-20%;left:-35%;
+  width:20%;pointer-events:none;opacity:0;
+  background:linear-gradient(90deg,transparent,rgba(221,174,116,.12),transparent);
+  transform:skewX(-18deg);
+}
+#quote-entry.is-playing .quote-flare{opacity:1;animation:quote-light-pass 2.2s .1s ease-out both}
+@keyframes quote-word-arrive{
+  0%{opacity:0;transform:translate3d(0,48px,0) scale(.82) rotateX(-24deg);filter:blur(7px)}
+  72%{opacity:1;transform:translate3d(0,-5px,0) scale(1.035) rotateX(2deg);filter:blur(0)}
+  100%{opacity:1;transform:translate3d(0,0,0) scale(1) rotateX(0);filter:blur(0)}
+}
+@keyframes quote-light-pass{0%{left:-35%;opacity:0}15%{opacity:1}100%{left:120%;opacity:0}}
+@media(max-width:650px){
+ #quote-scroll-track{height:135svh!important;margin-top:42px!important}
+ #quote-entry.quote-cinematic{top:58px!important;height:calc(100svh - 58px)!important;min-height:500px!important;padding:28px 20px!important}
+ #quote-entry .intro-final-line{font-size:clamp(27px,8vw,38px)!important}
+ #quote-entry .intro-now-label{font-size:9px!important;letter-spacing:.16em!important}
+}
+@media(prefers-reduced-motion:reduce){
+ #quote-entry .quote-word{opacity:1;transform:none;filter:none}
+ #quote-entry.is-playing .quote-word{animation:none}
+ #quote-entry.is-playing .quote-flare{animation:none}
+}
+</style>
+<script id="quote-sticky-controller-final">
+/* Animation and visibility are handled by cinematic-quote-entry-script. */
+</script>
+
+
+<style id="quote-final-visibility-fix">
+#quote-entry .intro-final-line{font-size:clamp(27px,3.55vw,52px)!important;line-height:1.25!important;max-width:1050px!important}
+#quote-entry .quote-word{opacity:1;filter:none;transform:none;white-space:normal}
+#quote-entry.is-playing .quote-word{opacity:0;animation:quote-word-arrive .72s cubic-bezier(.16,1.18,.3,1) forwards}
+#quote-entry .intro-now-label,#quote-entry p:not(.intro-final-line){opacity:1!important;filter:none!important;transform:none!important}
+#quote-entry .quote-highlight{color:#dfb477!important}
+#quote-entry.quote-cinematic{min-height:0!important}
+@media(max-height:700px){#quote-entry.quote-cinematic{padding-top:24px!important;padding-bottom:24px!important;gap:14px!important}#quote-entry .intro-final-line{font-size:clamp(24px,3vw,42px)!important}}
+</style>
+
+
+<style id="quote-next-section-transition">
+#introduction .intro-route{
+  position:relative!important;
+  margin-top:0!important;
+  padding:22px clamp(20px,5vw,70px)!important;
+  min-height:76px;
+  display:flex!important;
+  align-items:center!important;
+  flex-wrap:wrap;
+  gap:12px!important;
+  background:linear-gradient(90deg,rgba(10,9,8,.96),rgba(10,16,24,.94))!important;
+  border-top:1px solid rgba(211,164,105,.22)!important;
+  border-bottom:1px solid rgba(211,164,105,.14)!important;
+}
+#introduction .intro-route b{margin-right:auto!important}
+#introduction .intro-route span,#introduction .intro-route i{position:relative;z-index:1}
+#quote-scroll-track{margin-bottom:0!important}
+@media(max-width:650px){
+ #introduction .intro-route{padding:18px 20px!important;gap:8px!important}
+}
+</style>
+
+
+<style id="quote-visibility-and-spacing-hard-fix">
+#quote-scroll-track{
+  height:112svh!important;
+  min-height:0!important;
+  margin-top:36px!important;
+  margin-bottom:0!important;
+}
+#quote-entry.quote-cinematic{
+  top:64px!important;
+  height:calc(100svh - 64px)!important;
+  min-height:0!important;
+  padding:clamp(30px,6vh,68px) clamp(24px,8vw,120px)!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  overflow:hidden!important;
+}
+#quote-entry .quote-reveal,
+#quote-entry.is-visible .quote-reveal{
+  opacity:1!important;
+  visibility:visible!important;
+  filter:none!important;
+  transform:none!important;
+}
+#quote-entry .intro-now-label,
+#quote-entry p:not(.intro-final-line){
+  opacity:1!important;
+  visibility:visible!important;
+  color:#c9c1b7!important;
+}
+#quote-entry .intro-final-line{
+  display:block!important;
+  opacity:1!important;
+  visibility:visible!important;
+  width:min(100%,1080px)!important;
+  max-width:1080px!important;
+  margin:26px 0 0!important;
+  padding:30px 0 0!important;
+  font-size:clamp(30px,4vw,58px)!important;
+  line-height:1.18!important;
+  text-align:center!important;
+  color:#f5eee5!important;
+}
+#quote-entry .quote-word{
+  display:inline-block!important;
+  opacity:1!important;
+  visibility:visible!important;
+  filter:none!important;
+  transform:none!important;
+}
+#quote-entry.is-playing .quote-word{
+  animation:quote-word-arrive .72s cubic-bezier(.16,1.18,.3,1) both!important;
+  animation-delay:var(--word-delay,0ms)!important;
+}
+#quote-entry .quote-scroll-cue{
+  opacity:1!important;
+  visibility:visible!important;
+  margin-top:26px!important;
+}
+#introduction .intro-route{
+  margin-top:0!important;
+}
+@media(max-height:700px){
+ #quote-scroll-track{height:108svh!important}
+ #quote-entry.quote-cinematic{padding-top:18px!important;padding-bottom:18px!important}
+ #quote-entry .intro-final-line{font-size:clamp(25px,3.2vw,42px)!important;margin-top:16px!important;padding-top:18px!important}
+ #quote-entry .quote-scroll-cue{margin-top:12px!important}
+}
+@media(max-width:650px){
+ #quote-scroll-track{height:110svh!important}
+ #quote-entry.quote-cinematic{padding:24px 20px!important}
+ #quote-entry .intro-final-line{font-size:clamp(27px,7.4vw,38px)!important}
+}
+</style>
+
+
+<style id="premium-atlas-styles">
+#map-explorer{padding-top:110px;padding-bottom:115px;background:radial-gradient(ellipse at 70% 38%,#1d2931 0,#151b20 42%,#100d0b 100%)}
+#map-explorer .experience-head{margin-bottom:32px}
+#map-explorer .map-explorer{display:grid;grid-template-columns:minmax(0,1.72fr) minmax(270px,.72fr);gap:16px;align-items:stretch}
+#map-explorer .atlas-map-shell{min-width:0;position:relative;background:#101d28;border:1px solid rgba(214,177,127,.34);box-shadow:0 24px 80px #0008,inset 0 0 55px #0007;overflow:hidden}
+.atlas-map-topline{height:42px;display:flex;justify-content:space-between;align-items:center;padding:0 17px;background:#111820;border-bottom:1px solid #d2ad7a30;color:#bba98f;font:8px 'DM Mono';letter-spacing:.16em}
+.atlas-map-viewport{position:relative;overflow:hidden}
+.atlas-map{display:block;width:100%;height:auto;min-height:430px}
+.atlas-continent{fill:#716e62;stroke:#b5a78d;stroke-opacity:.25;stroke-width:1.2}
+.atlas-country{fill:url(#atlasLand);stroke:#e1c69c;stroke-width:1.6;stroke-linejoin:round;filter:drop-shadow(0 4px 8px #0009)}
+.atlas-country.india-country{fill:url(#atlasHighlight);stroke:#f0d2a3;stroke-width:2}
+.atlas-coast{fill:#9d8b70;stroke:#d4c1a1;stroke-opacity:.35;stroke-width:1}
+.atlas-relief{stroke:#b3c2c5;stroke-opacity:.1;stroke-width:1.1;stroke-dasharray:2 8}
+.atlas-route{fill:none;stroke:#e4b77b;stroke-width:1.8;stroke-dasharray:5 9;opacity:.78;stroke-linecap:round;animation:atlasRouteFlow 22s linear infinite}
+.atlas-route.route-paris-pond{stroke:#f0d4a9;stroke-width:2.5;opacity:.95}
+.atlas-route.route-delhi-chen{stroke:#88b7c6;stroke-dasharray:2 7;opacity:.6}
+@keyframes atlasRouteFlow{to{stroke-dashoffset:-280}}
+.route-pulse circle{fill:#f4d5a4;filter:url(#atlasGlow);animation:atlasBeacon 2.8s ease-in-out infinite}
+@keyframes atlasBeacon{50%{opacity:.4;r:5}}
+.atlas-node{cursor:pointer;outline:none}
+.atlas-node .node-halo{fill:#d6a86f;fill-opacity:.1;stroke:#e6c28f;stroke-opacity:.6;stroke-width:1;transition:.3s}
+.atlas-node .node-core{fill:#f1d2a2;stroke:#fff1d9;stroke-width:1.5;filter:drop-shadow(0 0 5px #e6b777)}
+.atlas-node .node-stem{stroke:#dfc49c;stroke-width:.8;stroke-opacity:.7}
+.atlas-node text{fill:#f6e9d6;font:700 11px 'DM Mono';letter-spacing:1.7px;paint-order:stroke;stroke:#12202a;stroke-width:4px;stroke-linejoin:round}
+.atlas-node:hover .node-halo,.atlas-node.active .node-halo{fill-opacity:.28;stroke:#f6d7a9;stroke-width:1.7}
+.atlas-node.active .node-core{fill:#fff4df;r:7.5}
+.atlas-node:focus-visible .node-halo{stroke:#fff;stroke-width:3}
+.map-region-label{fill:#9cabb0;fill-opacity:.58;font:10px 'DM Mono';letter-spacing:3px}
+.atlas-compass circle{fill:#0b151d;fill-opacity:.65;stroke:#bfa47d;stroke-opacity:.55}
+.atlas-compass path{fill:#e3c18e}
+.atlas-compass text{fill:#e3c18e;font:9px 'DM Mono'}
+.atlas-scale path{stroke:#d7c19c;stroke-width:1}
+.atlas-scale text{fill:#b4a58e;font:8px 'DM Mono';letter-spacing:1.2px}
+.atlas-map-caption{height:40px;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:0 16px;background:#0d171f;border-top:1px solid #d2ad7a25;color:#9f9a8d;font:8px 'DM Mono';letter-spacing:.12em}
+.atlas-map-caption span{display:flex;align-items:center;gap:7px}
+.atlas-map-caption i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e0b77e;box-shadow:0 0 8px #e0b77e88}
+.atlas-map-caption i.route-key{width:18px;height:2px;border-radius:0;background:#d9b27e}
+.atlas-controls{display:flex;align-items:center;flex-wrap:wrap;gap:6px;padding:12px 14px;background:#101820;border-top:1px solid #d2ad7a22}
+.atlas-controls>span{font:8px 'DM Mono';letter-spacing:.16em;color:#b89a70;margin:0 12px 0 3px}
+.atlas-controls button{border:1px solid #c7a77a44;background:transparent;color:#d7c9b7;padding:9px 11px;font:8px 'DM Mono';letter-spacing:.12em;cursor:pointer;transition:.25s}
+.atlas-controls button:hover,.atlas-controls button.active{background:#d2a66f;color:#17120d;border-color:#d2a66f}
+#map-explorer .map-detail{position:relative;min-height:0;padding:30px 27px;background:linear-gradient(155deg,#262016,#17130f 70%);border:1px solid #d2a66f55;box-shadow:0 20px 55px #0006;overflow:hidden}
+#map-explorer .map-detail:before{content:"";position:absolute;inset:0 auto 0 0;width:2px;background:linear-gradient(transparent,#d6a66c,transparent)}
+#map-explorer .map-detail:after{content:"";position:absolute;width:220px;height:220px;right:-130px;top:-130px;border:1px solid #d2a66f28;border-radius:50%;box-shadow:0 0 0 22px #d2a66f08,0 0 0 45px #d2a66f06}
+.detail-index{display:flex;justify-content:space-between;gap:12px;margin-bottom:50px;color:#9e8d76;font:8px 'DM Mono';letter-spacing:.15em}
+.detail-index span{color:#d5aa73}
+#map-explorer .map-detail small{font:9px 'DM Mono';letter-spacing:.19em;color:#d5a66d}
+#map-explorer .map-detail h3{font:clamp(34px,3vw,48px)/1.05 'Playfair Display';color:#f0e6d8;margin:15px 0 20px}
+#map-explorer .map-detail p{font-size:13px;line-height:1.9;color:#cbbfae;max-width:420px}
+#map-explorer .map-detail .map-pills{display:flex;gap:7px;flex-wrap:wrap;margin-top:22px}
+#map-explorer .map-pills span{border:1px solid #c99a6155;padding:8px 10px;color:#e7c89f;font:8px 'DM Mono';letter-spacing:.12em;background:#d5a66d0b}
+.detail-coordinate{margin-top:auto;padding-top:32px;color:#9b8d79;font:9px 'DM Mono';letter-spacing:.13em}
+@media(max-width:950px){#map-explorer .map-explorer{grid-template-columns:1fr}#map-explorer .map-detail{min-height:290px!important}.detail-index{margin-bottom:25px}}
+@media(max-width:650px){#map-explorer{padding:70px 5vw}.atlas-map-topline{font-size:7px;padding:0 9px}.atlas-map-topline span:nth-child(2){display:none}.atlas-map{min-height:300px}.atlas-map-caption{font-size:7px;padding:0 8px}.atlas-map-caption span:last-child{display:none}.atlas-controls>span{width:100%;margin-bottom:4px}.atlas-controls button{flex:1;padding:9px 5px;font-size:7px}#map-explorer .map-detail{padding:24px 20px}}
+</style>
+
+
+<style id="atlas-layout-repair">
+#map-explorer{display:block!important;grid-template-columns:none!important;width:100%;}
+#map-explorer>.experience-head{display:flex;justify-content:space-between;align-items:end;gap:36px;width:100%;}
+#map-explorer>.experience-head>div{min-width:0;flex:1;}
+#map-explorer>.experience-head>p{max-width:440px;margin:0;flex:0 1 440px;}
+#map-explorer>.map-explorer{width:100%;grid-column:auto;display:grid!important;grid-template-columns:minmax(0,1.72fr) minmax(270px,.72fr)!important;align-items:stretch;gap:18px;}
+#map-explorer .atlas-map-shell{width:100%;min-width:0;}
+#map-explorer .atlas-map-viewport{width:100%;}
+#map-explorer .atlas-map{width:100%;height:auto;min-height:0;aspect-ratio:1100/620;}
+#map-explorer .map-detail{width:100%;min-width:0;}
+@media(max-width:950px){#map-explorer>.experience-head{display:block;}#map-explorer>.experience-head>p{margin-top:18px;}#map-explorer>.map-explorer{grid-template-columns:minmax(0,1fr)!important;}}
+</style>
+
+
+<!-- CINEMATIC CHAPTER ARRIVALS: one full-screen title sequence per chapter -->
+<style id="cinematic-chapter-arrivals">
+  #chapter-arrival{
+    position:fixed;inset:0;z-index:9999;display:grid;place-items:center;
+    padding:28px;background:#050607;color:#f4eee4;pointer-events:none;
+    opacity:0;visibility:hidden;overflow:hidden;isolation:isolate;
+  }
+  #chapter-arrival::before{
+    content:"";position:absolute;inset:-30%;z-index:-2;opacity:0;
+    background:radial-gradient(ellipse at 50% 52%,rgba(196,145,83,.18),transparent 42%),
+      radial-gradient(ellipse at 18% 85%,rgba(255,153,67,.09),transparent 30%),
+      radial-gradient(ellipse at 82% 12%,rgba(81,137,190,.10),transparent 32%);
+    transform:scale(.72);filter:blur(12px);
+  }
+  #chapter-arrival::after{
+    content:"";position:absolute;left:0;right:0;top:50%;height:1px;z-index:-1;
+    background:linear-gradient(90deg,transparent,rgba(222,178,121,.8),#fff0d8,rgba(222,178,121,.8),transparent);
+    transform:scaleX(0);transform-origin:center;box-shadow:0 0 24px rgba(226,181,120,.65);
+  }
+  #chapter-arrival .arrival-frame{width:min(1100px,92vw);text-align:center;position:relative}
+  #chapter-arrival .arrival-kicker{font:10px 'DM Mono',monospace;letter-spacing:.38em;color:#cba16c;opacity:0;transform:translateY(14px)}
+  #chapter-arrival .arrival-number{font:clamp(70px,15vw,180px)/.8 'Playfair Display',Georgia,serif;color:rgba(255,255,255,.055);position:absolute;left:50%;top:50%;transform:translate(-50%,-44%) scale(.86);white-space:nowrap;opacity:0}
+  #chapter-arrival .arrival-title{font:clamp(38px,7.5vw,100px)/.98 'Playfair Display',Georgia,serif;letter-spacing:-.045em;margin:26px 0 18px;position:relative;z-index:1;opacity:0;transform:translateY(34px) scale(.97);filter:blur(9px)}
+  #chapter-arrival .arrival-title em{font-weight:500;color:#d9ad75}
+  #chapter-arrival .arrival-rule{width:0;height:2px;margin:0 auto 19px;background:linear-gradient(90deg,#bd8950,#fff0d8,#bd8950);box-shadow:0 0 18px #d6a76b88}
+  #chapter-arrival .arrival-sub{font:9px 'DM Mono',monospace;letter-spacing:.24em;color:#b7aa99;opacity:0;transform:translateY(12px)}
+  #chapter-arrival.is-live{opacity:1;visibility:visible;animation:arrival-screen-in .35s ease both,arrival-screen-out .7s ease 4.8s both}
+  #chapter-arrival.is-live::before{animation:arrival-glow 5.2s ease both}
+  #chapter-arrival.is-live::after{animation:arrival-scan 2.6s cubic-bezier(.2,.7,.2,1) .16s both}
+  #chapter-arrival.is-live .arrival-kicker{animation:arrival-up .55s .18s cubic-bezier(.2,.8,.2,1) both}
+  #chapter-arrival.is-live .arrival-number{animation:arrival-number-in .95s .22s cubic-bezier(.16,1,.3,1) both}
+  #chapter-arrival.is-live .arrival-title{animation:arrival-title-in .85s .42s cubic-bezier(.16,1,.3,1) both}
+  #chapter-arrival.is-live .arrival-rule{animation:arrival-rule-in .7s .88s cubic-bezier(.2,.8,.2,1) both}
+  #chapter-arrival.is-live .arrival-sub{animation:arrival-up .6s 1.02s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes arrival-screen-in{from{opacity:0}to{opacity:1}}
+  @keyframes arrival-screen-out{to{opacity:0;visibility:hidden}}
+  @keyframes arrival-glow{0%{opacity:0;transform:scale(.72)}35%{opacity:1}100%{opacity:.72;transform:scale(1.12)}}
+  @keyframes arrival-scan{0%{transform:scaleX(0)}48%{transform:scaleX(1)}100%{transform:scaleX(.35);opacity:0}}
+  @keyframes arrival-up{to{opacity:1;transform:translateY(0)}}
+  @keyframes arrival-number-in{to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+  @keyframes arrival-title-in{to{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}
+  @keyframes arrival-rule-in{to{width:min(180px,34vw)}}
+  @media(max-width:620px){#chapter-arrival .arrival-kicker{font-size:8px;letter-spacing:.22em}#chapter-arrival .arrival-sub{font-size:7px;letter-spacing:.14em}#chapter-arrival .arrival-title{max-width:94vw;margin-left:auto;margin-right:auto}}
+  @media(prefers-reduced-motion:reduce){#chapter-arrival{display:none!important}}
+</style>
+<div id="chapter-arrival" aria-hidden="true">
+  <div class="arrival-frame">
+    <div class="arrival-kicker" id="arrival-kicker">INDE × FRANCE · UNE RELATION EN MOUVEMENT</div>
+    <div class="arrival-number" id="arrival-number">01</div>
+    <h2 class="arrival-title" id="arrival-title">Tout commence par <em>une rencontre.</em></h2>
+    <div class="arrival-rule"></div>
+    <div class="arrival-sub" id="arrival-sub">CHAPITRE 01 · LES ORIGINES</div>
+  </div>
+</div>
+<script id="cinematic-chapter-arrivals-script">
+(()=>{
+ const init=()=>{
+  const overlay=document.getElementById('chapter-arrival');
+  if(!overlay || !('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const chapters=[
+   {id:'histoire',n:'01',title:'Tout commence par <em>une rencontre.</em>',sub:'CHAPITRE 01 · LES ORIGINES'},
+   {id:'culture',n:'02',title:'Deux cultures. <em>Mille façons de vivre.</em>',sub:'CHAPITRE 02 · CULTURE & GASTRONOMIE'},
+   {id:'defense',n:'03',title:'La confiance prend <em>son envol.</em>',sub:'CHAPITRE 03 · DÉFENSE & TECHNOLOGIE'},
+   {id:'avenir',n:'04',title:'Le futur se <em>construit.</em>',sub:'CHAPITRE 04 · ÉCONOMIE & AVENIR'}
+  ];
+  const seen=new Set(), kicker=document.getElementById('arrival-kicker'),
+   number=document.getElementById('arrival-number'), title=document.getElementById('arrival-title'),
+   sub=document.getElementById('arrival-sub');
+  let busy=false,releaseTimer=null,queued=null;
+  function play(chapter){
+   if(seen.has(chapter.id))return;
+   if(busy){queued=chapter;return;}
+   seen.add(chapter.id);busy=true;
+   kicker.textContent='INDE × FRANCE · UNE RELATION EN MOUVEMENT';
+   number.textContent=chapter.n;title.innerHTML=chapter.title;sub.textContent=chapter.sub;
+   overlay.classList.remove('is-live');void overlay.offsetWidth;overlay.classList.add('is-live');
+   clearTimeout(releaseTimer);
+   releaseTimer=setTimeout(()=>{
+    overlay.classList.remove('is-live');busy=false;
+    if(queued){const next=queued;queued=null;setTimeout(()=>play(next),250);}
+   },5500);
+  }
+  const observer=new IntersectionObserver(entries=>{
+   entries.forEach(entry=>{
+    if(!entry.isIntersecting)return;
+    const chapter=chapters.find(item=>item.id===entry.target.id);
+    if(chapter && entry.intersectionRatio>=.18)play(chapter);
+   });
+  },{threshold:[0,.08,.18,.28],rootMargin:'-8% 0px -8% 0px'});
+  chapters.forEach(item=>{const el=document.getElementById(item.id);if(el)observer.observe(el);});
+ };
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();
+</script>
+
+
+<style id="historical-map-animation-upgrade">
+#voyage-interactif .voyage-route{stroke-dasharray:100;stroke-dashoffset:88;transition:stroke-dashoffset 1.15s cubic-bezier(.2,.75,.2,1),opacity .45s ease;animation:none}
+#voyage-interactif .route-ship{animation:none;transition:transform 1.15s cubic-bezier(.2,.75,.2,1),opacity .35s ease;filter:drop-shadow(0 0 10px #fff0d7)}
+#voyage-interactif .voyage-destination-pulse{fill:none;stroke:#e8bb7e;stroke-width:2;opacity:.12;transition:opacity .4s ease;animation:historicalPulse 2.2s ease-out infinite}
+#voyage-interactif .voyage-event-pin{fill:#e8bb7e;stroke:#fff0d7;stroke-width:2;opacity:.12;transition:opacity .4s ease;filter:drop-shadow(0 0 9px #e8bb7e)}
+#voyage-interactif .voyage-map[data-era="2"] .india-point{fill:#f1d2a5}
+#voyage-interactif .voyage-map[data-era="3"] .india-point,#voyage-interactif .voyage-map[data-era="4"] .india-point{animation:historicalPulse 2s ease-out infinite}
+#voyage-interactif .map-coord{transition:opacity .25s ease;color:#e8cda7}
+#voyage-interactif .voyage-range input{cursor:ew-resize}
+@keyframes historicalPulse{0%{transform:scale(.72);opacity:.9}100%{transform:scale(1.65);opacity:0}}
+@media(prefers-reduced-motion:reduce){#voyage-interactif .voyage-destination-pulse,#voyage-interactif .voyage-map[data-era="3"] .india-point,#voyage-interactif .voyage-map[data-era="4"] .india-point{animation:none}}
+</style>
+
+<style id="rafale-inspection-controls">
+#3d-experience .real3d-viewer-tools{display:flex;flex-direction:column;align-items:stretch;gap:9px;bottom:12px}
+#3d-experience .real3d-camera-presets,#3d-experience .real3d-actions{display:flex;gap:6px;flex-wrap:wrap;pointer-events:auto}
+#3d-experience .real3d-camera-presets button,#3d-experience .real3d-actions button{font:8px 'DM Mono';letter-spacing:.09em;padding:9px 11px;background:#07111de8;border:1px solid #9fb3c355;color:#dce6ed;cursor:pointer;backdrop-filter:blur(8px);transition:background .2s,border-color .2s,color .2s}
+#3d-experience .real3d-camera-presets button.active,#3d-experience .real3d-camera-presets button:hover,#3d-experience .real3d-actions button:hover{background:#d5a66d;color:#15100b;border-color:#d5a66d}
+#3d-experience .real3d-actions #launchJet{margin-left:auto;background:#d5a66d;color:#15100b;border-color:#d5a66d}
+#3d-experience .real3d-hint{align-self:flex-end;color:#dce6ed;font:8px 'DM Mono';letter-spacing:.1em;text-shadow:0 1px 5px #000}
+#3d-experience .real3d-frame-wrap model-viewer{--poster-color:transparent}
+@media(max-width:650px){#3d-experience .real3d-actions #launchJet{margin-left:0}#3d-experience .real3d-viewer-tools{left:9px;right:9px;bottom:9px}#3d-experience .real3d-camera-presets button,#3d-experience .real3d-actions button{padding:8px 9px;font-size:7px}}
+</style>
+
+<script id="rafale-inspection-interactions">
+(() => {
+  const viewer=document.getElementById('real3d-model');
+  const frame=document.querySelector('#3d-experience .real3d-frame-wrap');
+  if(!viewer||!frame)return;
+  const presets={
+    side:'0deg 78deg 2.6m',
+    front:'90deg 78deg 2.6m',
+    top:'0deg 12deg 2.9m',
+    rear:'180deg 78deg 2.6m'
+  };
+  const presetButtons=[...document.querySelectorAll('#3d-experience [data-camera]')];
+  presetButtons.forEach(button=>button.addEventListener('click',()=>{
+    const key=button.dataset.camera;
+    viewer.cameraOrbit=presets[key];
+    viewer.fieldOfView='35deg';
+    presetButtons.forEach(b=>b.classList.toggle('active',b===button));
+  }));
+  const rotate=document.getElementById('real3d-rotate');
+  if(rotate){
+    rotate.addEventListener('click',()=>{
+      viewer.autoRotate=!viewer.autoRotate;
+      rotate.textContent=viewer.autoRotate?'⏸ PAUSE ROTATION':'▶ REPRENDRE ROTATION';
+      rotate.setAttribute('aria-pressed',String(viewer.autoRotate));
+    });
+  }
+  const reset=document.getElementById('real3d-reset');
+  if(reset)reset.addEventListener('click',()=>{
+    viewer.cameraOrbit='0deg 75deg 2.6m';
+    viewer.fieldOfView='auto';
+    viewer.autoRotate=true;
+    if(rotate){rotate.textContent='⏸ PAUSE ROTATION';rotate.setAttribute('aria-pressed','true');}
+    presetButtons.forEach(b=>b.classList.toggle('active',b.dataset.camera==='side'));
+  });
+  const fullscreen=document.getElementById('real3d-fullscreen');
+  if(fullscreen)fullscreen.addEventListener('click',async()=>{
+    try{
+      if(!document.fullscreenElement){await frame.requestFullscreen();fullscreen.textContent='QUITTER PLEIN ÉCRAN ✕';}
+      else{await document.exitFullscreen();fullscreen.textContent='PLEIN ÉCRAN ⛶';}
+    }catch(e){fullscreen.textContent='PLEIN ÉCRAN INDISPONIBLE';}
+  });
+  document.addEventListener('fullscreenchange',()=>{
+    if(fullscreen&& !document.fullscreenElement)fullscreen.textContent='PLEIN ÉCRAN ⛶';
+  });
+  const cinematic=document.getElementById('launchJet');
+  if(cinematic){
+    cinematic.addEventListener('click',()=>{
+      viewer.autoRotate=false;
+      viewer.cameraOrbit='-35deg 68deg 1.85m';
+      viewer.fieldOfView='28deg';
+      cinematic.textContent='VUE CINÉMATIQUE ACTIVE';
+      cinematic.disabled=true;
+      setTimeout(()=>{
+        viewer.cameraOrbit='0deg 75deg 2.6m';
+        viewer.fieldOfView='auto';
+        viewer.autoRotate=true;
+        cinematic.textContent='SÉQUENCE CINÉMATIQUE ↗';
+        cinematic.disabled=false;
+        if(rotate){rotate.textContent='⏸ PAUSE ROTATION';rotate.setAttribute('aria-pressed','true');}
+      },2600);
+    });
+  }
+})();
+</script>
+
+
+<style id="pondichery-immersive-style">
+.pondy-world{position:relative;min-height:850px;min-height:100svh;overflow:hidden;background:#141b20;isolation:isolate;padding:110px 7vw 70px;display:flex;flex-direction:column;justify-content:space-between}
+.pondy-backdrop{position:absolute;z-index:-3;inset:0;background-image:url('https://www.pelago.com/img/products/IN-India/stroll-through-the-french-quarters-of-pondicherry/96456462-4fdd-4889-97f6-e84ff421c893_stroll-through-the-french-quarters-of-pondicherry-xlarge.webp');background-position:center 48%;background-size:cover;transform:scale(1.04);transition:background-image .5s,transform 1.2s}
+.pondy-vignette{position:absolute;z-index:-2;inset:0;background:linear-gradient(90deg,#0a1118f2 0%,#0a1118d9 38%,#0a11188a 68%,#0a111840 100%),linear-gradient(0deg,#080d14 0%,transparent 28%,#080d1460 100%)}
+.pondy-topline,.pondy-bottom{display:flex;justify-content:space-between;gap:20px;color:#e7d9c7;font:9px 'DM Mono';letter-spacing:.18em}
+.pondy-main{display:grid;grid-template-columns:minmax(270px,.82fr) minmax(430px,1.18fr);gap:6vw;align-items:center;max-width:1500px;width:100%;margin:65px auto}
+.pondy-intro{max-width:510px}.pondy-kicker,.pondy-info-kicker{font:10px 'DM Mono';letter-spacing:.24em;color:#d7a76d}
+.pondy-intro h2{font:clamp(48px,6vw,86px)/.98 'Playfair Display';letter-spacing:-.045em;margin:22px 0}
+.pondy-intro h2 em{color:#e8bd88;font-weight:500}
+.pondy-intro>p{max-width:440px;color:#e0e2e3;font-size:14px;line-height:2}
+.pondy-explorer{position:relative;min-height:520px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;background:linear-gradient(180deg,#0a111800 0%,#0a111820 38%,#0a1118ed 100%);border:1px solid #ffffff55;box-shadow:0 28px 90px #0008;overflow:hidden}
+.pondy-scene-caption{position:absolute;top:22px;left:24px;right:24px;display:flex;justify-content:space-between;gap:12px;color:#fff;font:9px 'DM Mono';letter-spacing:.15em;text-shadow:0 2px 12px #000}
+.pondy-hotspot{position:absolute;top:38%;left:54%;width:34px;height:34px;border:1px solid #f2c38c;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 8px #f2c38c20,0 0 30px #f2c38c88;animation:pondyPing 2.4s infinite}
+.pondy-hotspot span{width:7px;height:7px;border-radius:50%;background:#f2c38c}
+@keyframes pondyPing{50%{box-shadow:0 0 0 16px #f2c38c05,0 0 40px #f2c38caa}}
+.pondy-info{max-width:600px;margin-top:160px}
+.pondy-info h3{font:clamp(29px,3.2vw,43px) 'Playfair Display';margin:9px 0}
+.pondy-info p{max-width:570px;color:#e0e4e7;font-size:12px;line-height:1.85;margin:0}
+.pondy-controls{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:25px}
+.pondy-stop{min-height:78px;text-align:left;padding:12px;background:#0b131dcc;border:1px solid #ffffff45;color:#e9e9e7;display:flex;flex-direction:column;gap:5px;transition:.25s}
+.pondy-stop b{font:9px 'DM Mono';color:#d9a76b}.pondy-stop span{font:10px 'DM Mono';letter-spacing:.08em}.pondy-stop small{font-size:9px;color:#bfc6cb}
+.pondy-stop.active,.pondy-stop:hover{border-color:#e3b77f;background:#d7a76d;color:#17130f}.pondy-stop.active b,.pondy-stop:hover b,.pondy-stop.active small,.pondy-stop:hover small{color:#3c2a18}
+.pondy-bottom{padding-top:18px;border-top:1px solid #ffffff40}
+@media(max-width:900px){.pondy-main{grid-template-columns:1fr;gap:35px;margin:45px auto}.pondy-intro{max-width:680px}.pondy-explorer{min-height:490px}}
+@media(max-width:600px){.pondy-world{padding:95px 6vw 35px;min-height:auto}.pondy-topline,.pondy-bottom{font-size:7px;letter-spacing:.1em}.pondy-topline span:last-child,.pondy-bottom span:last-child{max-width:48%;text-align:right}.pondy-explorer{padding:18px;min-height:520px}.pondy-scene-caption{left:18px;right:18px;font-size:7px}.pondy-info{margin-top:160px}.pondy-controls{grid-template-columns:1fr;gap:6px}.pondy-stop{min-height:59px;padding:9px 12px}.pondy-hotspot{top:30%;left:65%}}
+@media(prefers-reduced-motion:reduce){.pondy-hotspot{animation:none}.pondy-backdrop{transition:none}}
+</style>
+
+
+<script id="pondichery-immersive-script">
+(() => {
+ const backdrop=document.getElementById('pondyBackdrop');
+ const buttons=[...document.querySelectorAll('.pondy-stop')];
+ const hotspot=document.getElementById('pondyHotspot');
+ const fact=document.getElementById('pondyFact');
+ const factTitle=document.getElementById('pondyFactTitle');
+ const factText=document.getElementById('pondyFactText');
+ const closeFact=document.getElementById('pondyFactClose');
+ if(!backdrop||!buttons.length||!hotspot||!fact)return;
+ const scenes=[
+  {image:"https://www.pelago.com/img/products/IN-India/stroll-through-the-french-quarters-of-pondicherry/96456462-4fdd-4889-97f6-e84ff421c893_stroll-through-the-french-quarters-of-pondicherry-xlarge.webp",credit:"PHOTO · PELAGO",label:"WHITE TOWN · FAÇADES & AVENUES",kicker:"LIRE LE PAYSAGE",title:"Les façades racontent.",text:"Dans le quartier français, certaines rues en damier, les façades aux tons pastel et les anciennes demeures témoignent de l’histoire urbaine de la période coloniale. Elles font aujourd’hui partie d’une ville indienne.",x:"54%",y:"38%",position:"center 48%",factTitle:"Le plan en damier",factText:"Le quartier français conserve un tracé régulier de rues qui reflète les choix d’aménagement de l’ancienne ville coloniale. Ce plan coexiste avec les quartiers tamouls : la ville ne se résume donc pas à une seule tradition architecturale."},
+  {image:"https://upload.wikimedia.org/wikipedia/commons/e/ec/Puducherry_Tamil_house.jpg",credit:"PHOTO · WIKIMEDIA COMMONS",label:"QUARTIER TAMOUL · MAISONS & THINNAIS",kicker:"REGARDER AU-DELÀ DES FAÇADES",title:"Une autre mémoire de la ville.",text:"Les maisons tamoules, leurs cours intérieures et leurs thinnais — ces espaces de seuil où l’on peut s’asseoir et accueillir — rappellent que l’identité de Puducherry ne se résume jamais à son passé français.",x:"62%",y:"43%",position:"center 48%",factTitle:"À quoi sert le thinnai ?",factText:"Le thinnai est une plateforme couverte, souvent située près de l’entrée d’une maison traditionnelle tamoule. On peut s’y asseoir, accueillir des visiteurs et échanger avec les passants : c’est un espace de transition entre la maison et la rue."},
+  {image:"https://cdn.wrytin.com/images/wrytup/r/1024/promenade-beach-jztdsjwa.jpeg",credit:"PHOTO · WRYTIN",label:"FRONT DE MER · LA VILLE ET L’OCÉAN",kicker:"SITUER LA VILLE",title:"Une ville tournée vers la mer.",text:"Le littoral rappelle la place de la mer dans l’histoire de Pondichéry : routes commerciales, circulations humaines et échanges. Aujourd’hui, le front de mer est aussi un espace public de promenade et de vie locale.",x:"48%",y:"35%",position:"center 54%",factTitle:"La promenade du front de mer",factText:"Le front de mer, souvent appelé Rock Beach, est l’un des espaces publics emblématiques de Puducherry. La promenade est fermée à la circulation automobile sur une partie du littoral à certaines heures, ce qui en fait un lieu de marche et de rencontre."}
+ ];
+ scenes.forEach(scene=>{const img=new Image();img.src=scene.image;});
+ const setScene=(index)=>{
+  const s=scenes[index];
+  backdrop.style.backgroundImage=`url("${s.image}")`;
+  backdrop.style.backgroundPosition=s.position;
+  document.getElementById('pondy-scene-number').textContent=`0${index+1} — 03`;
+  document.getElementById('pondy-scene-label').textContent=s.label;
+  document.getElementById('pondyInfoKicker').textContent=s.kicker;
+  document.getElementById('pondyInfoTitle').textContent=s.title;
+  document.getElementById('pondyInfoText').textContent=s.text;
+  document.getElementById('pondyPhotoCredit').textContent=s.credit;
+  factTitle.textContent=s.factTitle;
+  factText.textContent=s.factText;
+  hotspot.style.left=s.x;hotspot.style.top=s.y;
+  hotspot.setAttribute('aria-label',`Découvrir : ${s.factTitle}`);
+  buttons.forEach((b,i)=>{b.classList.toggle('active',i===index);b.setAttribute('aria-pressed',String(i===index));});
+ };
+ const toggleFact=()=>{
+  const open=fact.hidden;
+  fact.hidden=!open;
+  hotspot.setAttribute('aria-expanded',String(open));
+ };
+ hotspot.addEventListener('click',toggleFact);
+ closeFact.addEventListener('click',()=>{
+  fact.hidden=true;hotspot.setAttribute('aria-expanded','false');hotspot.focus();
+ });
+ buttons.forEach(button=>button.addEventListener('click',()=>setScene(Number(button.dataset.pondy))));
+ document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&!fact.hidden){fact.hidden=true;hotspot.setAttribute('aria-expanded','false');}
+ });
+ setScene(0);
+})();
+</script>
+
+<style id="pondy-photo-fix">
+.pondy-backdrop{background-size:cover;background-position:center 48%;transition:background-image .2s ease,background-position .7s ease,transform 1.2s ease}
+.pondy-vignette{background:linear-gradient(90deg,#09111beF 0%,#09111bd9 33%,#09111b78 66%,#09111b30 100%),linear-gradient(0deg,#080d14f0 0%,#080d1440 35%,#080d1450 100%)}
+.pondy-explorer{background:linear-gradient(180deg,#09111b18 0%,#09111b22 34%,#09111bed 100%);backdrop-filter:blur(1px)}
+.pondy-photo-credit{position:absolute;right:24px;bottom:118px;color:#d7c9b7;font:8px 'DM Mono';letter-spacing:.12em;opacity:.8;text-shadow:0 1px 6px #000}
+@media(max-width:600px){.pondy-photo-credit{right:18px;bottom:285px;font-size:7px}}
+</style>
+
+<style id="pondy-hotspot-clickable-style">
+.pondy-hotspot{z-index:4;cursor:pointer;padding:0;background:#10192355;color:inherit;appearance:none}
+.pondy-hotspot:focus-visible{outline:2px solid #fff;outline-offset:5px}
+.pondy-hotspot[aria-expanded="true"]{background:#d7a76d;box-shadow:0 0 0 10px #f2c38c24,0 0 38px #f2c38cbb}
+.pondy-hotspot[aria-expanded="true"] span{background:#17202a}
+.pondy-fact{position:absolute;z-index:5;left:clamp(18px,5%,56px);top:clamp(70px,18%,115px);width:min(330px,calc(100% - 36px));padding:22px 24px 20px;background:#0a131fee;border:1px solid #d7a76d99;box-shadow:0 18px 50px #0009;backdrop-filter:blur(14px);color:#f1e8dc}
+.pondy-fact[hidden]{display:none}
+.pondy-fact-kicker{font:8px 'DM Mono';letter-spacing:.2em;color:#d7a76d;margin-bottom:10px}
+.pondy-fact h4{font:24px 'Playfair Display';margin:0 24px 9px 0}
+.pondy-fact p{font-size:11px;line-height:1.8;color:#d7dde1;margin:0}
+.pondy-fact-close{position:absolute;right:10px;top:8px;border:0;background:transparent;color:#f1e8dc;font-size:22px;cursor:pointer}
+@media(max-width:600px){.pondy-fact{top:74px;left:18px;width:calc(100% - 36px);padding:18px}.pondy-fact h4{font-size:21px}}
+</style>
+
+
+<style id="space-mission-console-styles">
+.space-mission-console{position:relative;z-index:2;max-width:1180px;margin:50px auto 0;padding:clamp(22px,4vw,48px);border:1px solid #d5a66d45;background:linear-gradient(135deg,#0b1420f2,#111018f5);box-shadow:0 28px 90px #0005}
+.space-console-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:26px}
+.space-console-heading h3{font:clamp(28px,4vw,48px)/1.08 'Playfair Display';margin:10px 0}
+.space-console-heading h3 em{color:#e6b77e}
+.space-console-heading p{max-width:620px;color:#c1c7cd;font-size:12px;line-height:1.8;margin:0}
+.space-live-tag{white-space:nowrap;color:#d9b17d;font:8px 'DM Mono';letter-spacing:.14em;border:1px solid #d5a66d55;padding:10px 12px}
+.space-live-tag i{display:inline-block;width:6px;height:6px;background:#d9b17d;border-radius:50%;margin-right:8px;box-shadow:0 0 12px #d9b17d}
+.space-console-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}
+.space-orbit-stage{min-height:370px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 54%,#17304b 0%,#0b1726 48%,#070d17 100%);border:1px solid #8aa3bd33}
+.space-stage-stars{position:absolute;inset:0;opacity:.45;background-image:radial-gradient(1px 1px at 12% 20%,#fff 98%,transparent),radial-gradient(1px 1px at 82% 18%,#fff 98%,transparent),radial-gradient(1px 1px at 70% 78%,#fff 98%,transparent),radial-gradient(2px 2px at 25% 72%,#fff 98%,transparent),radial-gradient(1px 1px at 55% 12%,#fff 98%,transparent),radial-gradient(1px 1px at 91% 52%,#fff 98%,transparent);background-size:100% 100%}
+.space-earth-globe{position:absolute;width:190px;height:190px;left:50%;top:53%;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 32% 28%,#8cc4d4 0%,#397a9c 27%,#16436c 58%,#071a34 78%);box-shadow:inset -24px -12px 35px #020916,0 0 55px #4a9acb55}
+.space-earth-globe:before{content:"";position:absolute;inset:15% 20%;border-radius:46% 54% 40% 60%;background:#8cae86;clip-path:polygon(18% 0,68% 5%,90% 32%,70% 48%,83% 70%,51% 100%,35% 69%,5% 53%,19% 28%);opacity:.85}
+.space-earth-grid{position:absolute;inset:0;border-radius:50%;border:1px solid #c5e8ef55;background:repeating-linear-gradient(0deg,transparent 0 28px,#b9e4f022 29px 30px),repeating-linear-gradient(90deg,transparent 0 28px,#b9e4f022 29px 30px)}
+.space-earth-globe span{position:absolute;bottom:28px;left:0;right:0;text-align:center;font:8px 'DM Mono';letter-spacing:.25em;color:#e2f3fa}
+.space-orbit{position:absolute;left:50%;top:53%;width:76%;height:62%;border:1px solid #e3b87d66;border-radius:50%;transform:translate(-50%,-50%) rotate(-22deg)}
+.space-orbit.orbit-two{width:90%;height:46%;border-color:#8cc4d455;transform:translate(-50%,-50%) rotate(28deg)}
+.space-satellite-art{position:absolute;left:50%;top:53%;width:105px;height:42px;transform:translate(-50%,-50%);z-index:3;animation:space-satellite-orbit 14s linear infinite}
+.sat-core{position:absolute;left:39px;top:8px;width:27px;height:26px;background:linear-gradient(135deg,#e6e4dc,#7c8794);border:1px solid #fff;box-shadow:0 0 18px #b8d5e8aa}
+.sat-core i{position:absolute;width:8px;height:8px;border-radius:50%;background:#e7b879;left:9px;top:8px}
+.sat-panel{position:absolute;top:10px;width:34px;height:22px;background:repeating-linear-gradient(90deg,#315d88 0 5px,#89a9c6 6px 7px);border:1px solid #9eb8d0}
+.sat-panel-left{left:0}.sat-panel-right{right:0}
+.sat-antenna{position:absolute;left:50px;top:-3px;width:2px;height:12px;background:#d8b27d}
+@keyframes space-satellite-orbit{0%{transform:translate(-50%,-50%) rotate(0deg) translateX(145px) rotate(0deg)}100%{transform:translate(-50%,-50%) rotate(360deg) translateX(145px) rotate(-360deg)}}
+.space-signal{position:absolute;left:50%;top:53%;width:250px;height:250px;transform:translate(-50%,-50%);border:1px solid #8bc4dd66;border-radius:50%;animation:space-ping 3.6s ease-out infinite}
+.space-signal.signal-b{animation-delay:1.8s}
+@keyframes space-ping{0%{opacity:.65;scale:.35}100%{opacity:0;scale:1.4}}
+.space-stage-coordinates,.space-stage-label{position:absolute;left:18px;bottom:16px;color:#b9c8d5;font:8px 'DM Mono';letter-spacing:.12em}
+.space-stage-label{left:auto;right:18px;color:#e7bd87}
+.space-console-controls{padding:8px 0;display:flex;flex-direction:column;gap:8px}
+.space-console-index{display:flex;justify-content:space-between;color:#d8b27d;font:8px 'DM Mono';letter-spacing:.13em;margin:0 0 6px}
+.space-mission-tab{position:relative;display:grid;grid-template-columns:30px 1fr 20px;align-items:center;text-align:left;gap:4px 10px;padding:12px 14px;background:#ffffff08;border:1px solid #ffffff20;color:#e9e3d9}
+.space-mission-tab>span{grid-row:span 2;color:#d8b27d;font:9px 'DM Mono'}
+.space-mission-tab b{font-size:11px;font-weight:700}
+.space-mission-tab small{grid-column:2;color:#aeb9c4;font-size:9px}
+.space-mission-tab i{grid-column:3;grid-row:1/3;color:#d8b27d;font-style:normal}
+.space-mission-tab.active{background:#d5a66d;color:#17110b;border-color:#f0c58d}
+.space-mission-tab.active>span,.space-mission-tab.active small,.space-mission-tab.active i{color:#352313}
+.space-mission-detail{margin-top:auto;padding:18px 18px 16px;border-left:2px solid #d5a66d;background:#ffffff08}
+.space-detail-kicker{font:8px 'DM Mono';letter-spacing:.15em;color:#d8b27d}
+.space-mission-detail h4{font:23px 'Playfair Display';margin:8px 0}
+.space-mission-detail p{font-size:10px;line-height:1.8;color:#c3cbd2;margin:0}
+.space-console-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:18px;padding-top:14px;border-top:1px solid #ffffff20;color:#8393a2;font:7px 'DM Mono';letter-spacing:.1em}
+@media(max-width:760px){.space-console-heading{align-items:flex-start;flex-direction:column}.space-console-grid{grid-template-columns:1fr}.space-orbit-stage{min-height:300px}.space-console-footer{line-height:1.7}}
+@media(prefers-reduced-motion:reduce){.space-satellite-art,.space-signal{animation:none!important}}
+</style>
+
+<script id="space-mission-console-script">
+(()=>{
+ const data={
+  earth:{index:"01 / 03",label:"OBSERVER LES TERRITOIRES",kicker:"DONNÉES & OBSERVATION",title:"Voir la Terre autrement.",text:"Les données satellitaires aident à observer les changements des territoires, des océans et des ressources. Elles peuvent soutenir la recherche et éclairer les décisions publiques."},
+  climate:{index:"02 / 03",label:"SUIVRE LES SYSTÈMES CLIMATIQUES",kicker:"CLIMAT & ENVIRONNEMENT",title:"Comprendre les changements.",text:"L’observation depuis l’espace permet de suivre certains phénomènes atmosphériques et océaniques sur la durée. Ces observations contribuent aux travaux scientifiques sur le climat et l’environnement."},
+  science:{index:"03 / 03",label:"FAIRE AVANCER LA RECHERCHE",kicker:"SCIENCE & INSTRUMENTS",title:"Partager les savoir-faire.",text:"La coopération spatiale associe des compétences scientifiques, des instruments et des équipes. Les échanges entre le CNES et l’ISRO s’inscrivent dans une relation construite sur plusieurs décennies."}
+ };
+ const root=document.getElementById('space-mission-console');if(!root)return;
+ root.querySelectorAll('[data-mission]').forEach(btn=>btn.addEventListener('click',()=>{
+  const d=data[btn.dataset.mission];if(!d)return;
+  root.querySelectorAll('[data-mission]').forEach(x=>x.classList.toggle('active',x===btn));
+  root.querySelector('#spaceMissionIndex').textContent=d.index;
+  root.querySelector('#spaceStageLabel').textContent=d.label;
+  root.querySelector('#spaceDetailKicker').textContent=d.kicker;
+  root.querySelector('#spaceDetailTitle').textContent=d.title;
+  root.querySelector('#spaceDetailText').textContent=d.text;
+  root.querySelector('#spaceOrbitStage').dataset.mode=btn.dataset.mission;
+ }));
+})();
+</script>
+
+<style id="space-mission-layout-fix">
+/* The mission console is a full-width chapter feature, never the narrow side column. */
+.chapter.future #future-lab{grid-column:1 / -1;grid-row:2;width:100%;max-width:100%;min-width:0}
+.chapter.future #space-mission-console{grid-column:1 / -1;grid-row:3;width:100%;max-width:1180px;min-width:0;justify-self:center;margin:0 0 24px;align-self:stretch}
+.chapter.future{grid-template-columns:minmax(0,1fr) 245px;align-content:start;row-gap:clamp(42px,6vh,76px);padding-bottom:100px}
+.chapter.future .content{grid-column:1;grid-row:1;align-self:center}
+.chapter.future .floating-card{grid-column:2;grid-row:1;align-self:center;justify-self:end;width:100%;max-width:245px}
+.chapter.future .chapter-scene{z-index:0;opacity:.42}
+.chapter.future .chapter-bg{background-image:linear-gradient(135deg,#07101d 0%,#101c2c 52%,#080d16 100%),url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=2200&q=90")!important;background-position:center;background-size:cover;opacity:.42}
+.chapter.future:before{background:linear-gradient(90deg,#070b12f2 0%,#070b12d9 55%,#070b1299 100%),linear-gradient(0deg,#080d14 0%,transparent 65%)}
+.chapter.future:after{opacity:.25}
+.space-mission-console{width:100%;max-width:1180px;box-sizing:border-box}
+.space-console-grid{grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr)}
+.space-orbit-stage{min-width:0;min-height:420px}
+.space-console-controls{min-width:0}
+@media(max-width:900px){
+ .chapter.future{grid-template-columns:minmax(0,1fr) 205px}
+ .chapter.future .floating-card{max-width:205px}
+ .space-console-grid{grid-template-columns:minmax(0,1fr)}
+ .space-orbit-stage{min-height:340px}
+}
+@media(max-width:700px){
+ .chapter.future{grid-template-columns:minmax(0,1fr);row-gap:34px;padding-bottom:120px}
+ .chapter.future .content{grid-column:1;grid-row:1}
+ .chapter.future .floating-card{grid-column:1;grid-row:2;width:min(100%,340px);max-width:340px;justify-self:start}
+ .chapter.future #future-lab{grid-column:1;grid-row:3}
+ .chapter.future #space-mission-console{grid-column:1;grid-row:4;margin:0}
+ .space-console-heading{align-items:flex-start}
+ .space-console-grid{grid-template-columns:minmax(0,1fr)}
+ .space-orbit-stage{min-height:290px}
+}
+</style>
+
+
+<style id="historical-atlas-premium">
+#voyage-interactif{background:linear-gradient(180deg,#090f17 0%,#0b1119 100%);position:relative;overflow:hidden}
+#voyage-interactif:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 14% 30%,#b37b3d12,transparent 40%),radial-gradient(ellipse at 80% 85%,#4e78901a,transparent 45%);pointer-events:none}
+#voyage-interactif .immersive-heading,#voyage-interactif .voyage-console{position:relative;z-index:1}
+#voyage-interactif .voyage-console{grid-template-columns:minmax(0,1.22fr) minmax(330px,.78fr);border:1px solid #c49b684f;background:#0b121b;box-shadow:0 35px 100px #0009}
+#voyage-interactif .voyage-map{min-height:610px;background:radial-gradient(ellipse at 49% 49%,#1c3548 0%,#102232 45%,#09121d 100%);isolation:isolate}
+#voyage-interactif .voyage-map:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#07111a22,transparent 30%,#07111a22);pointer-events:none}
+#voyage-interactif .voyage-map svg{min-height:610px;z-index:1}
+#voyage-interactif .map-stars{opacity:.16;background-size:34px 34px}
+.atlas-topline{position:absolute;z-index:3;left:25px;right:25px;top:22px;display:flex;justify-content:space-between;color:#d9b17d;font:8px 'DM Mono';letter-spacing:.18em}
+.atlas-graticule path{fill:none;stroke:#b7c7d5;stroke-opacity:.11;stroke-width:1;stroke-dasharray:2 8}
+.atlas-land path{fill:url(#atlasLand);stroke:#c9c2ae;stroke-opacity:.68;stroke-width:1.7;stroke-linejoin:round}
+.atlas-land .atlas-coast{fill:none;stroke:#e0c89e;stroke-opacity:.24;stroke-width:3}
+.atlas-land .atlas-sri{fill:#9eb1a2;fill-opacity:.18;stroke:#c9c2ae;stroke-opacity:.45}
+.atlas-map-label{fill:#d9b17d!important;font:9px 'DM Mono'!important;letter-spacing:2px!important}
+.atlas-ocean{fill:#90aab9!important;opacity:.55}
+.atlas-country-label{fill:#f1e6d2!important;font:italic 24px 'Playfair Display'!important;letter-spacing:3px!important;opacity:.5}
+.atlas-region-label{fill:#d2b48a!important;font:8px 'DM Mono'!important;letter-spacing:2px!important;opacity:.8}
+.atlas-route-halo{fill:none;stroke:#dba765;stroke-width:10;stroke-opacity:.07}
+#voyage-interactif .voyage-route{stroke-width:2.5;stroke-dasharray:5 10;filter:drop-shadow(0 0 5px #e2b67577)}
+#voyage-interactif .route-point{filter:drop-shadow(0 0 9px #e8bb7e)}
+.settlement-pin{cursor:pointer;outline:none}
+.settlement-pin .pin-halo{fill:#dcae70;fill-opacity:.08;stroke:#e9c18b;stroke-opacity:.65;stroke-width:1.3;transition:.25s}
+.settlement-pin .pin-core{fill:#f4c98f;filter:url(#atlasGlow)}
+.settlement-pin text{fill:#f1dfc2!important;font:8px 'DM Mono'!important;letter-spacing:1.2px!important;paint-order:stroke;stroke:#0a1420;stroke-width:4px;stroke-linejoin:round}
+.settlement-pin:hover .pin-halo,.settlement-pin.active .pin-halo{r:22;fill-opacity:.2;stroke:#ffe0ae;stroke-width:2}
+.settlement-pin.active .pin-core{fill:#fff0ce}
+.atlas-location-card{position:absolute;z-index:4;left:22px;bottom:78px;width:min(330px,calc(100% - 44px));padding:17px 19px 18px;background:linear-gradient(135deg,#0c1724ed,#111923e8);border:1px solid #d2a15f66;box-shadow:0 18px 50px #0008;backdrop-filter:blur(12px)}
+.atlas-card-top{display:flex;justify-content:space-between;gap:10px;color:#d8b27d;font:7px 'DM Mono';letter-spacing:.12em}
+.atlas-location-card h4{font:26px 'Playfair Display';color:#f3eadc;margin:9px 0 6px}
+.atlas-location-card p{font-size:10px;line-height:1.75;color:#c2cbd2;margin:0}
+.atlas-legend{position:absolute;z-index:3;right:20px;bottom:78px;display:flex;flex-direction:column;gap:9px;padding:12px 14px;background:#07111bd9;border:1px solid #ffffff20;color:#b8c4ce;font:7px 'DM Mono';letter-spacing:.1em}
+.atlas-legend span{display:flex;align-items:center;gap:8px}
+.legend-dot{width:7px;height:7px;border-radius:50%;background:#f0c58e;box-shadow:0 0 9px #f0c58e}
+.legend-line{width:19px;height:1px;background:repeating-linear-gradient(90deg,#d9a15d 0 4px,transparent 4px 7px)}
+#voyage-interactif .map-coord{z-index:4;bottom:18px;left:22px;font-size:7px;letter-spacing:.12em}
+#voyage-interactif .voyage-story{background:linear-gradient(155deg,#111c29,#0b121b);padding:clamp(26px,3.4vw,48px)}
+#voyage-interactif .voyage-year{font-size:clamp(60px,6vw,92px);letter-spacing:-.04em;text-shadow:0 8px 40px #d5a66d22}
+#voyage-interactif .voyage-story p{min-height:125px}
+#voyage-interactif .voyage-range input{cursor:pointer}
+#voyage-interactif .range-labels span{font-size:7px}
+#voyage-interactif .voyage-controls button{transition:background .2s,color .2s,border-color .2s}
+#voyage-interactif .voyage-controls button:hover{background:#d5a66d;color:#17110b;border-color:#e9c18b}
+#voyage-interactif .voyage-map[data-era="0"] .settlement-pin{opacity:.32}
+#voyage-interactif .voyage-map[data-era="1"] .settlement-pin{opacity:.52}
+#voyage-interactif .voyage-map[data-era="2"] .settlement-pin{opacity:.68}
+#voyage-interactif .voyage-map[data-era="3"] .settlement-pin,#voyage-interactif .voyage-map[data-era="4"] .settlement-pin{opacity:1}
+#voyage-interactif .voyage-map[data-era="1"] [data-settlement="pondichery"],#voyage-interactif .voyage-map[data-era="2"] [data-settlement="pondichery"]{opacity:1}
+@media(max-width:900px){#voyage-interactif .voyage-console{grid-template-columns:1fr}#voyage-interactif .voyage-map,#voyage-interactif .voyage-map svg{min-height:540px}}
+@media(max-width:600px){#voyage-interactif .voyage-map,#voyage-interactif .voyage-map svg{min-height:470px}.atlas-location-card{bottom:70px;left:12px;width:calc(100% - 24px);box-sizing:border-box}.atlas-legend{right:12px;bottom:205px;padding:9px}.atlas-topline{left:14px;right:14px;font-size:6px}.settlement-pin text{font-size:7px!important}.atlas-location-card h4{font-size:22px}}
+</style>
+
+
+<script id="historical-atlas-interactions">
+(()=>{
+ const locations={
+  pondichery:{type:"ÉTABLISSEMENT PRINCIPAL",period:"1674 — 1954",name:"Pondichéry",text:"Centre majeur de la présence française en Inde. Un établissement s’y organise à partir de 1674 ; la ville devient le principal centre administratif français du sous-continent."},
+  karaikal:{type:"ÉTABLISSEMENT CÔTIER",period:"XVIIIe SIÈCLE — 1954",name:"Karaikal",text:"Situé sur la côte du Coromandel, au sud de Pondichéry, Karaikal fait partie des établissements français transférés de facto à l’Inde le 1er novembre 1954."},
+  mahe:{type:"ÉTABLISSEMENT DE LA CÔTE OUEST",period:"XVIIIe SIÈCLE — 1954",name:"Mahé",text:"Enclave française sur la côte du Malabar, aujourd’hui entourée par le Kerala. Son histoire rappelle que les établissements français étaient dispersés sur plusieurs façades maritimes."},
+  yanam:{type:"ÉTABLISSEMENT DU DELTA GODAVARI",period:"XVIIIe SIÈCLE — 1954",name:"Yanaon",text:"Petit établissement situé dans le delta du Godavari, aujourd’hui dans l’Andhra Pradesh. Comme Pondichéry, Karaikal et Mahé, il passe sous administration indienne en 1954."},
+  chandernagore:{type:"ÉTABLISSEMENT DU BENGALE",period:"XVIIe SIÈCLE — 1952",name:"Chandernagor",text:"Établissement français au Bengale, près de Calcutta. Son parcours est distinct : rattachement de fait à l’Inde en 1949, puis transfert juridique en 1952."}
+ };
+ const root=document.querySelector('#voyage-interactif');if(!root)return;
+ const pins=[...root.querySelectorAll('[data-settlement]')];
+ const show=pin=>{
+  const d=locations[pin.dataset.settlement];if(!d)return;
+  pins.forEach(p=>p.classList.toggle('active',p===pin));
+  root.querySelector('#atlasLocationType').textContent=d.type;
+  root.querySelector('#atlasLocationPeriod').textContent=d.period;
+  root.querySelector('#atlasLocationName').textContent=d.name;
+  root.querySelector('#atlasLocationText').textContent=d.text;
+ };
+ pins.forEach(pin=>{
+  pin.addEventListener('click',()=>show(pin));
+  pin.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show(pin)}});
+ });
+})();
+</script>
+
+
+<style id="historical-atlas-art-direction-v2">
+#voyage-interactif{padding-top:clamp(86px,9vw,132px);padding-bottom:clamp(86px,9vw,132px);background:
+ radial-gradient(ellipse at 18% 45%,#1a3446 0%,transparent 46%),
+ linear-gradient(180deg,#080e16 0%,#0b121b 48%,#080e16 100%)}
+#voyage-interactif .immersive-heading{max-width:1450px;margin:0 auto clamp(30px,4vw,52px);align-items:end}
+#voyage-interactif .immersive-heading h2{font-size:clamp(42px,5.6vw,76px);letter-spacing:-.035em}
+#voyage-interactif .immersive-heading>p{max-width:390px;color:#aebac5;font-size:12px;line-height:1.9}
+#voyage-interactif .voyage-console{max-width:1450px;min-height:680px;grid-template-columns:minmax(0,1.58fr) minmax(370px,.82fr);border:1px solid #cba16a55;background:#0b131d;box-shadow:0 38px 110px #0009;position:relative}
+#voyage-interactif .voyage-map{min-height:680px;background:
+ radial-gradient(ellipse at 53% 48%,#25445a 0%,#142b3c 43%,#0b1723 76%,#09121c 100%)}
+#voyage-interactif .voyage-map:before{content:"";position:absolute;inset:0;z-index:0;background:
+ linear-gradient(90deg,transparent 49.9%,#d9c59b0b 50%,transparent 50.1%),
+ linear-gradient(0deg,transparent 49.9%,#d9c59b0b 50%,transparent 50.1%),
+ radial-gradient(#dbe7ee55 .65px,transparent .9px);background-size:100% 100%,100% 100%,31px 31px;opacity:.32;pointer-events:none}
+#voyage-interactif .voyage-map svg{min-height:680px;z-index:1;overflow:visible}
+#voyage-interactif .atlas-topline{left:32px;right:32px;top:28px;font-size:8px;letter-spacing:.2em}
+#voyage-interactif .atlas-land path{fill:url(#atlasLand);stroke:#e0d0b2;stroke-opacity:.7;stroke-width:1.7;stroke-linejoin:round}
+#voyage-interactif .atlas-land .atlas-coast{fill:none;stroke:#f0d8aa;stroke-opacity:.35;stroke-width:2.3}
+#voyage-interactif .atlas-land .atlas-sri{fill:#a6b8aa;fill-opacity:.22}
+#voyage-interactif .atlas-mainland{filter:drop-shadow(0 15px 24px #0008)}
+#voyage-interactif .atlas-gujarat{fill:#d5c6a8;fill-opacity:.15;stroke:#e0d0b2;stroke-opacity:.45}
+#voyage-interactif .atlas-graticule path{stroke:#c5d2d9;stroke-opacity:.12;stroke-dasharray:2 9}
+#voyage-interactif .atlas-country-label{font-size:29px!important;letter-spacing:5px!important;opacity:.7}
+#voyage-interactif .atlas-map-label{font-size:9px!important;letter-spacing:2.2px!important}
+#voyage-interactif .atlas-region-label{font-size:8px!important;letter-spacing:1.8px!important}
+#voyage-interactif .atlas-location-card{left:30px;bottom:92px;width:min(345px,calc(100% - 60px));padding:19px 22px;background:linear-gradient(145deg,#101e2cf2,#0b141feF);border:1px solid #d5aa7166;box-shadow:0 20px 60px #0009}
+#voyage-interactif .atlas-location-card h4{font-size:29px;letter-spacing:-.02em}
+#voyage-interactif .atlas-location-card p{font-size:10px;line-height:1.8}
+#voyage-interactif .atlas-card-top{font-size:7px;letter-spacing:.15em}
+#voyage-interactif .atlas-legend{right:28px;bottom:92px;padding:13px 16px;background:#09131de8;border-color:#ffffff24}
+#voyage-interactif .map-coord{left:30px;bottom:26px;font-size:7px;color:#9babb8;letter-spacing:.15em}
+#voyage-interactif .voyage-story{padding:clamp(32px,4vw,60px);background:
+ radial-gradient(ellipse at 100% 0%,#d5a66d0d,transparent 45%),
+ linear-gradient(155deg,#111d2a 0%,#0d151f 100%);border-left:1px solid #ffffff12}
+#voyage-interactif .voyage-year{font-size:clamp(76px,8vw,112px);line-height:.95;letter-spacing:-.065em;color:#e6b77e;text-shadow:0 8px 45px #d5a66d24}
+#voyage-interactif .voyage-period{margin-top:18px;color:#d1ad7e;font-size:8px;letter-spacing:.2em}
+#voyage-interactif .voyage-story h3{font-size:clamp(27px,2.8vw,39px);line-height:1.12;margin:25px 0 16px;max-width:420px}
+#voyage-interactif .voyage-story p{font-size:12px;line-height:2;min-height:145px;color:#c1cbd3;max-width:420px}
+#voyage-interactif .voyage-range{margin:30px 0 12px}
+#voyage-interactif .voyage-range input{accent-color:#e2b477;height:5px}
+#voyage-interactif .range-labels{font-size:8px;color:#9eabb6}
+#voyage-interactif .voyage-controls{margin-top:24px}
+#voyage-interactif .voyage-controls button{padding:13px 15px;border-color:#c79d6855;color:#e6c99e;font-size:8px;letter-spacing:.13em}
+#voyage-interactif .voyage-controls button:hover{background:#d5a66d;color:#17110b}
+#voyage-interactif .settlement-pin{transition:opacity .45s ease}
+#voyage-interactif .settlement-pin .pin-halo{fill:#e3b777;fill-opacity:.07;stroke:#e9c18b;stroke-opacity:.8;stroke-width:1.25}
+#voyage-interactif .settlement-pin .pin-core{fill:#ffdb9f}
+#voyage-interactif .settlement-pin text{font-size:8px!important;letter-spacing:1.2px!important;fill:#f4e6cf!important;stroke:#0b1723;stroke-width:4.5px}
+#voyage-interactif .settlement-pin.active .pin-halo{fill-opacity:.22;stroke:#ffe0ae;stroke-width:2}
+#voyage-interactif .voyage-route{stroke-width:2.2;stroke-dasharray:6 10;filter:drop-shadow(0 0 5px #e2b67577)}
+#voyage-interactif .route-ship{filter:drop-shadow(0 0 8px #fff0d7)}
+#voyage-interactif .voyage-destination-pulse{stroke:#f1c98e;stroke-width:1.5}
+@media(max-width:1050px){
+ #voyage-interactif .voyage-console{grid-template-columns:minmax(0,1fr) minmax(320px,.75fr)}
+ #voyage-interactif .voyage-map,#voyage-interactif .voyage-map svg{min-height:590px}
+}
+@media(max-width:820px){
+ #voyage-interactif .voyage-console{grid-template-columns:1fr}
+ #voyage-interactif .voyage-map,#voyage-interactif .voyage-map svg{min-height:590px}
+ #voyage-interactif .voyage-story{border-left:0;border-top:1px solid #ffffff18}
+ #voyage-interactif .voyage-story p{min-height:0}
+}
+@media(max-width:560px){
+ #voyage-interactif .voyage-map,#voyage-interactif .voyage-map svg{min-height:500px}
+ #voyage-interactif .atlas-topline{left:14px;right:14px;font-size:6px}
+ #voyage-interactif .atlas-location-card{left:12px;bottom:82px;width:calc(100% - 24px);padding:14px 16px}
+ #voyage-interactif .atlas-legend{right:12px;bottom:12px;left:auto;padding:9px 11px;font-size:6px}
+ #voyage-interactif .map-coord{left:12px;bottom:22px;max-width:48%;line-height:1.6}
+ #voyage-interactif .voyage-story{padding:26px 22px}
+}
+</style>
+
+
+<style id="archive-gallery-premium">
+.archive-gallery{position:relative;isolation:isolate;overflow:hidden;padding:clamp(78px,9vw,136px) max(5vw,calc((100vw - 1450px)/2));background:
+ radial-gradient(ellipse at 12% 30%,#293e4d66,transparent 42%),
+ linear-gradient(145deg,#0b121b 0%,#101a25 52%,#090f17 100%);border-top:1px solid #d6b27b30;border-bottom:1px solid #d6b27b30}
+.archive-gallery:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.14;background-image:radial-gradient(#d8c5a4 .65px,transparent .8px);background-size:22px 22px;mask-image:linear-gradient(90deg,#000,transparent 85%)}
+.archive-heading{display:flex;align-items:end;justify-content:space-between;gap:48px;margin-bottom:48px}
+.archive-kicker{font:700 9px/1.4 var(--mono,monospace);letter-spacing:.24em;color:#d7aa70}
+.archive-heading h2{margin:15px 0 0;font:500 clamp(42px,6vw,82px)/.98 var(--serif,Georgia,serif);letter-spacing:-.045em;color:#f0e7d9}
+.archive-heading h2 em{color:#e5b77e;font-weight:400}
+.archive-heading>p{max-width:390px;margin:0 0 5px;color:#b4c0ca;font-size:12px;line-height:1.9}
+.archive-feature{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(330px,.78fr);gap:18px;max-width:1450px;margin:auto}
+.archive-feature figure{margin:0;min-width:0;background:#0a111a;border:1px solid #d6b27b3a;box-shadow:0 24px 65px #0006}
+.archive-feature figure>a{position:relative;display:block;overflow:hidden;background:#182532}
+.archive-main>a{height:clamp(340px,40vw,550px)}
+.archive-side{display:grid;grid-template-rows:1fr 1fr;gap:18px;min-height:550px}
+.archive-card>a{height:clamp(150px,19vw,265px)}
+.archive-feature img{display:block;width:100%;height:100%;object-fit:cover;filter:sepia(.2) saturate(.78) brightness(.78);transition:transform .9s cubic-bezier(.2,.7,.2,1),filter .7s}
+.archive-feature figure:hover img{transform:scale(1.045);filter:sepia(.08) saturate(.95) brightness(.94)}
+.archive-main img{object-position:center 48%}
+.archive-card:nth-child(1) img{object-position:center 42%}
+.archive-card:nth-child(2) img{object-position:center 45%}
+.archive-open{position:absolute;right:16px;bottom:15px;padding:10px 12px;background:#09131de8;border:1px solid #d9b47a88;color:#f1d4a8;font:700 8px/1 var(--mono,monospace);letter-spacing:.14em;opacity:0;transform:translateY(7px);transition:.3s}
+.archive-feature figure:hover .archive-open,.archive-feature a:focus-visible .archive-open{opacity:1;transform:translateY(0)}
+.archive-feature figcaption{display:grid;gap:7px;padding:18px 21px 20px}
+.archive-feature figcaption span{font:700 7px/1.4 var(--mono,monospace);letter-spacing:.18em;color:#d7aa70}
+.archive-feature figcaption b{font:500 21px/1.15 var(--serif,Georgia,serif);color:#f0e7d9}
+.archive-feature figcaption small{font-size:9px;line-height:1.6;color:#9eabb6}
+.archive-side .archive-feature figcaption{padding:14px 17px}
+.archive-side .archive-feature figcaption b{font-size:18px}
+.archive-foot{display:grid;grid-template-columns:1fr 1.5fr auto;align-items:center;gap:25px;max-width:1450px;margin:28px auto 0;padding-top:20px;border-top:1px solid #ffffff20}
+.archive-foot>span,.archive-foot>a{font:700 8px/1.5 var(--mono,monospace);letter-spacing:.14em;color:#d8b17e}
+.archive-foot p{margin:0;font-size:10px;line-height:1.8;color:#9eabb6}
+.archive-foot>a{text-decoration:none;border-bottom:1px solid #d8b17e66;padding-bottom:5px}
+.archive-foot>a:hover{color:#fff0d6}
+@media(max-width:850px){.archive-heading{display:block}.archive-heading>p{margin-top:20px}.archive-feature{grid-template-columns:1fr}.archive-side{grid-template-columns:1fr 1fr;grid-template-rows:auto;min-height:0}.archive-card>a{height:clamp(180px,28vw,260px)}.archive-foot{grid-template-columns:1fr 1fr}.archive-foot p{grid-column:1/-1;grid-row:2}}
+@media(max-width:560px){.archive-gallery{padding:70px 18px}.archive-main>a{height:270px}.archive-side{grid-template-columns:1fr}.archive-card>a{height:220px}.archive-foot{grid-template-columns:1fr}.archive-foot p{grid-column:auto;grid-row:auto}}
+</style>
+
+
+<style id="defence-hangar-premium">
+.three-d-exhibit{position:relative;isolation:isolate;overflow:hidden;padding:clamp(76px,8vw,124px) max(4.5vw,calc((100vw - 1500px)/2));background:
+ radial-gradient(ellipse at 17% 42%,#29485a66,transparent 42%),
+ radial-gradient(ellipse at 88% 10%,#b8864a16,transparent 34%),
+ linear-gradient(145deg,#080e16 0%,#101a25 48%,#080e16 100%);border-top:1px solid #d4ae7b3a;border-bottom:1px solid #d4ae7b3a}
+.three-d-exhibit:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.16;background:repeating-linear-gradient(0deg,transparent 0 69px,#9db4c21c 70px),repeating-linear-gradient(90deg,transparent 0 69px,#9db4c21c 70px)}
+.three-d-heading{max-width:1500px;margin:0 auto 34px;display:grid;grid-template-columns:1fr auto;align-items:end;gap:20px 50px}
+.three-d-heading .defence-scene-kicker{grid-column:1/-1;color:#d9b17d;font:700 8px var(--mono,monospace);letter-spacing:.2em}
+.three-d-heading h2{font:500 clamp(42px,6vw,78px)/.98 var(--serif,Georgia,serif);letter-spacing:-.04em;color:#f1e8da;margin:0}
+.three-d-heading h2 em{color:#e5b77e;font-weight:400}
+.three-d-heading>p{max-width:380px;margin:0;color:#aebbc6;font-size:11px;line-height:1.9}
+.real3d-shell{max-width:1500px;margin:auto;display:grid;grid-template-columns:minmax(0,1.55fr) minmax(310px,.72fr);background:#0b141e;border:1px solid #d5ae7855;box-shadow:0 35px 100px #0009;min-width:0}
+.real3d-viewer{min-width:0;background:radial-gradient(ellipse at 50% 42%,#314657 0%,#172a39 45%,#09131e 100%);position:relative;border-right:1px solid #ffffff16}
+.real3d-viewer:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#07111a55,transparent 22%,transparent 72%,#07111ac9);z-index:1}
+.real3d-topline,.real3d-bottomline{position:relative;z-index:4;color:#d9b17d;font:700 8px var(--mono,monospace);letter-spacing:.17em}
+.real3d-topline{padding:20px 24px;display:flex;justify-content:space-between}
+.real3d-frame-wrap{position:relative;min-height:520px;overflow:hidden}
+.real3d-frame-wrap model-viewer{width:100%;height:520px;--poster-color:transparent;background:transparent;z-index:0}
+.carrier-deck-overlay{opacity:.42;pointer-events:none}
+.aircraft-inspection{position:absolute;inset:0;z-index:3;pointer-events:none}
+.inspection-caption{position:absolute;left:22px;top:18px;display:flex;gap:13px;align-items:center;color:#e4c18d;font:700 7px var(--mono,monospace);letter-spacing:.16em}
+.inspection-caption i{font-style:normal;color:#9babb7}
+.aircraft-hotspot{position:absolute;left:var(--x);top:var(--y);width:32px;height:32px;margin:-16px 0 0 -16px;border:1px solid #f0c78e;background:#0a1724d9;border-radius:50%;color:#f5d9ad;pointer-events:auto;cursor:pointer;display:grid;place-items:center;box-shadow:0 0 0 5px #d7ad6d20,0 0 24px #d7ad6d44;transition:transform .2s,background .2s}
+.aircraft-hotspot span{font:700 8px var(--mono,monospace)}
+.aircraft-hotspot:hover,.aircraft-hotspot.active{background:#e5b77e;color:#111923;transform:scale(1.12)}
+.aircraft-hotspot.active:after{content:"";position:absolute;inset:-8px;border:1px solid #f1c98e88;border-radius:50%;animation:inspectionPulse 2s ease-out infinite}
+@keyframes inspectionPulse{0%{transform:scale(.7);opacity:.9}100%{transform:scale(1.55);opacity:0}}
+.inspection-hint{position:absolute;left:22px;bottom:18px;color:#b9c5cf;font:7px var(--mono,monospace);letter-spacing:.14em}
+.real3d-viewer-tools{position:relative;z-index:4;background:#09131ddd;border-top:1px solid #ffffff20;padding:14px 18px}
+.real3d-camera-presets,.real3d-actions{display:flex;flex-wrap:wrap;gap:7px}
+.real3d-camera-presets button,.real3d-actions button{border:1px solid #c9a16a55;background:#101d29;color:#d8c4a4;padding:9px 11px;font:700 7px var(--mono,monospace);letter-spacing:.1em;cursor:pointer}
+.real3d-camera-presets button.active,.real3d-camera-presets button:hover,.real3d-actions button:hover{background:#d5a66d;color:#111923}
+.real3d-actions{margin-top:9px}
+.real3d-hint{display:block;margin-top:12px;color:#8e9eaa;font:7px var(--mono,monospace);letter-spacing:.13em}
+.real3d-bottomline{display:flex;justify-content:space-between;gap:12px;padding:15px 22px;border-top:1px solid #ffffff18;color:#9babb7;font-size:7px}
+.real3d-bottomline a{color:#dfb77e;text-decoration:none}
+.real3d-details{padding:clamp(26px,3.3vw,48px);display:flex;flex-direction:column;background:linear-gradient(155deg,#111e2b,#0b131d)}
+.real3d-kicker{color:#d9b17d;font:700 8px var(--mono,monospace);letter-spacing:.17em}
+.real3d-details h3{font:500 clamp(28px,3vw,40px)/1.05 var(--serif,Georgia,serif);color:#f0e7d9;margin:18px 0 14px}
+.real3d-details p{font-size:11px;line-height:1.9;color:#b8c4cd;min-height:108px}
+.real3d-facts span{display:inline-block;margin:4px 5px 4px 0;padding:7px 9px;border:1px solid #d0a66b55;color:#d9bd92;font:700 7px var(--mono,monospace);letter-spacing:.08em}
+.real3d-picker{display:grid;gap:8px;margin-top:auto;padding-top:28px}
+.real3d-choice{display:grid;grid-template-columns:27px 1fr 15px;gap:3px 9px;text-align:left;padding:13px;background:#ffffff08;border:1px solid #ffffff20;color:#e8e1d7;cursor:pointer}
+.real3d-choice>span{grid-row:span 2;color:#d7ad76;font:8px var(--mono,monospace)}
+.real3d-choice b{font-size:10px}
+.real3d-choice small{grid-column:2;color:#9eabb6;font-size:8px}
+.real3d-choice i{grid-column:3;grid-row:1/3;color:#d8b17e;font-style:normal}
+.real3d-choice.active{background:#d5a66d;color:#141b22;border-color:#f0c98e}
+.real3d-choice.active>span,.real3d-choice.active small,.real3d-choice.active i{color:#3c2b17}
+.real3d-credits{max-width:1500px;margin:15px auto 0;display:flex;flex-wrap:wrap;gap:12px 28px;color:#8796a2;font:7px/1.7 var(--mono,monospace);letter-spacing:.07em}
+.real3d-credits span:first-child{color:#d8b17e}
+@media(max-width:900px){.real3d-shell{grid-template-columns:1fr}.real3d-viewer{border-right:0;border-bottom:1px solid #ffffff20}.real3d-frame-wrap,.real3d-frame-wrap model-viewer{min-height:420px;height:420px}.real3d-details p{min-height:0}.real3d-picker{margin-top:22px}}
+@media(max-width:600px){.three-d-exhibit{padding:68px 16px}.three-d-heading{display:block}.three-d-heading h2{margin:12px 0 18px}.real3d-frame-wrap,.real3d-frame-wrap model-viewer{min-height:330px;height:330px}.real3d-topline{padding:15px}.aircraft-hotspot{width:28px;height:28px}.inspection-caption{left:14px;top:12px}.inspection-hint{left:14px;bottom:12px;font-size:6px}.real3d-bottomline{font-size:6px;padding:12px}.real3d-details{padding:24px 20px}}
+@media(prefers-reduced-motion:reduce){.aircraft-hotspot.active:after{animation:none}}
+</style>
+
+
+<script id="defence-hangar-inspection-script">
+(()=>{
+ const details={
+  cockpit:{index:"FICHE TECHNIQUE · 01 / 04",title:"Le cockpit",copy:"Le cockpit regroupe les commandes, les écrans et les systèmes qui permettent au pilote de gérer le vol et les missions. Sur un avion embarqué, l’ergonomie et la visibilité doivent aussi répondre aux contraintes des opérations depuis un porte-avions.",facts:["POSTE DE PILOTAGE","AVIONIQUE","INTERFACE PILOTE"]},
+  wings:{index:"FICHE TECHNIQUE · 02 / 04",title:"Les ailes delta",copy:"La configuration delta, associée aux plans canards à l’avant, contribue à la manœuvrabilité et aux performances du Rafale. Les ailes portent aussi une partie des charges externes adaptées à la mission.",facts:["CONFIGURATION DELTA","PLANS CANARDS","MULTIRÔLE"]},
+  engines:{index:"FICHE TECHNIQUE · 03 / 04",title:"La propulsion",copy:"Le Rafale est propulsé par deux turboréacteurs Snecma M88. La double motorisation fournit la poussée nécessaire aux performances de l’appareil et à ses profils de mission.",facts:["2 MOTEURS M88","DOUBLE MOTORISATION","PROPULSION"]},
+  naval:{index:"FICHE TECHNIQUE · 04 / 04",title:"Les contraintes navales",copy:"La version Rafale M est conçue pour les opérations aéronavales : train d’atterrissage renforcé, dispositif de catapultage et crosse d’appontage. Ces adaptations la distinguent des versions terrestres.",facts:["RAFALE M","APPONTAGE","PORTE-AVIONS"]}
+ };
+ const root=document.querySelector('.three-d-exhibit');if(!root)return;
+ const kick=root.querySelector('#real3d-kicker'),title=root.querySelector('#real3d-title'),copy=root.querySelector('#real3d-copy'),facts=root.querySelector('#real3d-facts');
+ const pins=[...root.querySelectorAll('.aircraft-hotspot')];
+ pins.forEach(pin=>pin.addEventListener('click',()=>{
+  const d=details[pin.dataset.part];if(!d)return;
+  pins.forEach(p=>p.classList.toggle('active',p===pin));
+  kick.textContent=d.index;title.textContent=d.title;copy.textContent=d.copy;
+  facts.innerHTML=d.facts.map(x=>'<span>'+x+'</span>').join('');
+ }));
+})();
+</script>
+
 </body></html>
+<style id="remove-quote-roadmap-and-tighten-transition">
+#quote-scroll-track{height:100svh!important;margin-bottom:0!important}
+@media(max-height:700px){#quote-scroll-track{height:100svh!important}}
+</style>
